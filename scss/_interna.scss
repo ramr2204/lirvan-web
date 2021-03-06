@@ -1,0 +1,34 @@
+.banner{
+	background-size: cover;
+	background-position: center;
+	height: 35vw;
+	overflow-y: auto;
+	margin-top: 6vw;
+	.container{
+		margin-left:5%;
+		margin-top: 20%;
+		width: 40%;
+	}
+}
+
+.linea{
+	.texto{
+		width: 55%;
+	}
+	.item{
+		width: 25vw;
+		margin: 0.5vw;
+		.box{
+			border-radius: 0.3vw;
+			.img-show{
+				display: block;
+			}
+			.img-hover{
+				display: none;
+			}
+		}
+		.card-info{
+			display: none;
+		}
+	}
+}

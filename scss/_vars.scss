@@ -1,0 +1,45 @@
+//Colores 
+
+$azul: #10195A;
+$blanco: white;
+$negro: black;
+$gris: rgb(102, 102, 102);
+$gris-claro: #F0F0F0;
+
+//Color de fuentes
+.color-azul{
+	color: $azul;
+}
+.color-blanco{
+	color: $blanco;
+}
+.color-negro{
+	color: black;
+}
+.color-gris{
+	color: $gris;
+}
+
+//Background Color
+.bg-azul{
+	background-color: $azul;
+}
+.bg-negro{
+	background-color: $negro;
+}
+.bg-gris{
+	background-color: $gris;
+}
+.bg-claro{
+	background-color: $gris-claro;
+}
+//Color de bordes
+.border-azul{
+	border: 1px solid $azul;
+}
+.border-gris{
+	border: 1px solid $gris;
+}
+.border-negro{
+	border: 1px solid $negro;
+}

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Monserrat-Bold';
+  src: url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monserrat-Medium';
+  src: url("../fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monserrat-Light';
+  src: url("../fonts/Montserrat-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.color-azul {
+  color: #10195A;
+}
+
+.color-blanco {
+  color: white;
+}
+
+.color-negro {
+  color: black;
+}
+
+.color-gris {
+  color: #666666;
+}
+
+.bg-azul {
+  background-color: #10195A;
+}
+
+.bg-negro {
+  background-color: black;
+}
+
+.bg-gris {
+  background-color: #666666;
+}
+
+.bg-claro {
+  background-color: #F0F0F0;
+}
+
+.border-azul {
+  border: 1px solid #10195A;
+}
+
+.border-gris {
+  border: 1px solid #666666;
+}
+
+.border-negro {
+  border: 1px solid black;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 35vw;
+  overflow-y: auto;
+  margin-top: 6vw;
+}
+
+.banner .container {
+  margin-left: 5%;
+  margin-top: 20%;
+  width: 40%;
+}
+
+.linea .texto {
+  width: 55%;
+}
+
+.linea .item {
+  width: 25vw;
+  margin: 0.5vw;
+}
+
+.linea .item .box {
+  border-radius: 0.3vw;
+}
+
+.linea .item .box .img-show {
+  display: block;
+}
+
+.linea .item .box .img-hover {
+  display: none;
+}
+
+.linea .item .card-info {
+  display: none;
+}
+
+h2 {
+  font-size: 2vw;
+  font-family: "Monserrat-Bold";
+}
+
+h3 {
+  font-size: 1.8vw;
+  font-family: "Monserrat-Medium";
+}
+
+h5 {
+  font-size: 1.5;
+  font-family: "Monserrat-Bold";
+}
+
+h6 {
+  font-family: "Monserrat-Light";
+  font-size: 1.3vw;
+}
+
+p {
+  font-size: 1vw;
+  font-family: "Monserrat-Light";
+}
+
+a {
+  font-size: 1vw;
+  font-family: "Monserrat-Light";
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

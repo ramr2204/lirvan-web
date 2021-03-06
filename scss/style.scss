@@ -1,0 +1,35 @@
+@import './font';
+@import './vars';
+
+//Interna
+@import './interna';
+
+
+//Fuentes
+
+
+h2{
+	font-size: 2vw;
+	font-family: $titulo;
+}
+h3{
+	font-size: 1.8vw;
+	font-family: $subtitulo;
+}
+h5{
+	font-size: 1.5;
+	font-family: $titulo;
+}
+h6{
+	font-family: $texto;
+	font-size: 1.3vw;
+}
+p{
+	font-size: 1vw;
+	font-family: $texto;
+}
+a{
+	font-size: 1vw;
+	font-family: $texto;
+	text-decoration: none;
+}
