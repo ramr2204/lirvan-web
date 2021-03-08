@@ -1,0 +1,26 @@
+nav{
+	padding: 1vw;
+	.nav{
+		img{
+			width: 12vw;
+		}
+		ul{
+			position: relative;
+			float: right;
+		}
+	}
+	.elemento{
+		display: none;
+		transition: .5s;
+		.it{
+			margin: 3vw auto;
+			text-align: center;
+			&.item-3{
+				margin-top: 5%;
+				img{
+					margin-bottom: 3vw;
+				}
+			}
+		}
+	}
+}

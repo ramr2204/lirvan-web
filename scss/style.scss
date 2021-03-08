@@ -1,6 +1,9 @@
 @import './font';
 @import './vars';
-
+@import './nav';
+@import './footer';
+//Home
+@import './home';
 //Interna
 @import './interna';
 
@@ -32,4 +35,7 @@ a{
 	font-size: 1vw;
 	font-family: $texto;
 	text-decoration: none;
+}
+li{
+	list-style: none;
 }
