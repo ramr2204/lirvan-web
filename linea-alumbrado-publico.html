@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Lirvan</title>
+</head>
+<body>
+	<section>
+		<div class="banner" style="background-image: url('/assets/banner-2.jpg');">
+			<div class="container">
+				<h2 class="color-blanco">Luminaria Alumbrado Publico</h2>
+				<h6 class="color-blanco">Luminarias publicas LED diseñadas de manera práctica para proyectos profesionales 
+                                        cumpliendo todas las normas, la potencia debe ser ajustada según solicitud para cada 
+                                        entrega, la eficiencia En Lm/w puede tener una pequeña variación según la misma. 
+				</h6>
+			</div>
+		</div>
+	</section>
+	<section class="linea">
+		<div class="container pt-5">
+			<div class="row">
+				<h3 class="color-negro">Luminaria Pública LED Vialux</h3>
+				<p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
+			</div>
+			<div class="row d-flex">
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="vialux50()">
+						<img class="img-show w-100" src="/assets/polux60.jpg" alt="">
+						<img class="img-hover w-100" src="/assets/prueba.png" alt="">
+						<h6 class="color-girs">Luminaria Pública LED Vialux</h6>
+						<h5 class="color-azul">Vialux 50</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="vialux-50">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
+							<h6 class="color-azul">LV3004 / WC 30W-50W </h6>
+							<p class="color-gris">
+                                Potencia ajustable 30W-50W Ajustable 
+								Eficiencia lumínica 170 Lm/w <br>
+								Flujo luminoso 5100 - 8500 Lm ±  <br>
+								Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
+                                <br>
+								Vida Útil 100.000 Horas 70% F.M <br>
+								Garantía 5años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="vialux90()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Pública LED Vialux</h6>
+						<h5 class="color-azul">Vialux 90</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="vialux-90">
+						<div class="card card-body">
+							<h5 class="color-azul">Luminaria Pública LED Vialux</h5>
+							<h6 class="color-azul">LV3005 / WC 70W-90W </h6>
+							<p class="color-gris"> 
+								Potencia ajustable 70W-90W  Ajustable 
+								Eficiencia lumínica 170 Lm/w <br>
+								Flujo luminoso 11900 - 15300 Lm ±  <br>
+								Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
+                                <br>
+								Vida Útil 100.000 Horas 70% F.M <br>
+								Garantía 5años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="vialux140()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Pública LED Vialux</h6>
+						<h5 class="color-azul">Vialux 140</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="vialux-140">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
+							<h6 class="color-azul"> LV3006 / WC 110W-140W </h6>
+							<p class="color-gris">
+								Potencia ajustable 110W-140W Ajustable
+								Eficiencia lumínica 170 Lm/w <br>
+								Flujo luminoso 110W-140W Ajustable  <br>
+								Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
+                                <br>
+								Vida Útil 100.000 Horas 70% F.M <br>
+								Garantía 5años
+							</p>
+						</div>
+					</div>
+				</div>
+				
+	</section>
+</body>
+<script>
+    function vialux50(){
+		var bar = document.getElementById("vialux-50");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function vialux90(){
+		var bar = document.getElementById("vialux-90");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function vialux140(){
+		var bar = document.getElementById("vialux-140");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</html>
