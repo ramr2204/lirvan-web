@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Lirvan</title>
+</head>
+<body>
+	<section>
+		<div class="banner" style="background-image: url('/assets/banner-2.jpg');">
+			<div class="container">
+				<h2 class="color-blanco">Luminaria Industrial</h2>
+				<h6 class="color-blanco">Luminaria 	Industrial vanguardista de alta eficiencia diseñada para proyectos de alumbrado
+					público moderno en vías principales o secundarias con o sin acceso a red eléctrica
+					convencional
+				</h6>
+			</div>
+		</div>
+	</section>
+	<section class="linea">
+		<div class="container pt-5">
+			<div class="row">
+				<h3 class="color-negro">Luminaria Reflector LED Sirius</h3>
+				<p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
+			</div>
+			<div class="row d-flex">
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="sirius60()">
+						<img class="img-show w-100" src="/assets/sirius60.jpg" alt="">
+						<img class="img-hover w-100" src="/assets/prueba.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED Sirius</h6>
+						<h5 class="color-azul">Sirius 60</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="sirius-60">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2011 / 60W</h6>
+							<p class="color-gris">
+								Potencia ajustable 60W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="sirius100()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED Sirius</h6>
+						<h5 class="color-azul">Sirius 100</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="sirius-100">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2001 / 100W</h6>
+							<p class="color-gris">
+								Potencia ajustable 100W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="sirius160()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED Sirius</h6>
+						<h5 class="color-azul">Sirius 160</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="sirius-160">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2002 / 160W</h6>
+							<p class="color-gris">
+								Potencia ajustable 160W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="sirius200()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED Sirius</h6>
+						<h5 class="color-azul">Sirius 200</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="sirius-200">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2010 / 200W</h6>
+							<p class="color-gris">
+								Potencia ajustable 200W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+					</div>
+					<div class="item">
+						<div class="box w-100 bg-claro" style="text-align: center;" onclick="sirius240()">
+							<img class="w-100" src="/assets/polux20-04.png" alt="">
+							<h6 class="color-girs">Luminaria Industrial LED Sirius</h6>
+							<h5 class="color-azul">Sirius 240</h5>
+							<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+						</div>
+						<div class="card-info" id="sirius-240">
+							<div class="card card-body">
+								<h5 class="color-azul">Profesional 185 Lm/w</h5>
+								<h6 class="color-azul">LV2025 / 240W</h6>
+								<p class="color-gris">
+									Potencia ajustable 240W Dimerizable
+									Dimerizable 1-10V <br>
+									Vida Útil 100.000 Horas LM80 <br>
+									Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+									Control Dimerizable 1-10V Dimer <br>
+									Voltaje AC 100-305V / 50-60 Hz
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="box w-100 bg-claro" style="text-align: center;" onclick="sirius300()">
+							<img class="w-100" src="/assets/polux20-04.png" alt="">
+							<h6 class="color-girs">Luminaria Industrial LED Sirius</h6>
+							<h5 class="color-azul">Sirius 300</h5>
+							<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+						</div>
+						<div class="card-info" id="sirius-300">
+							<div class="card card-body">
+								<h5 class="color-azul">Profesional 185 Lm/w</h5>
+								<h6 class="color-azul">LV2026 / 300W</h6>
+								<p class="color-gris">
+									Potencia ajustable 300W Dimerizable
+									Dimerizable 1-10V <br>
+									Vida Útil 100.000 Horas LM80 <br>
+									Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+									Control Dimerizable 1-10V Dimer <br>
+									Voltaje AC 100-305V / 50-60 Hz
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+	<section class="linea">
+		<div class="container pt-5">
+			<div class="row">
+				<h3 class="color-negro">Luminaria Reflector LED SiriusB</h3>
+				<p class="texto color-gris pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
+			</div>
+			<div class="row d-flex">
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="siriusB60()">
+						<img class="img-show w-100" src="/assets/polux20-04.png" alt="">
+						<img class="img-hover w-100" src="/assets/prueba.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED SiriusB</h6>
+						<h5 class="color-azul">Sirius B60</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="siriusB-60">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2012 / 60W / IP65</h6>
+							<p class="color-gris">
+								Potencia ajustable 60W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="siriusB100()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED SiriusB</h6>
+						<h5 class="color-azul">Sirius B100</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="siriusB-100">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2013 / 100W / IP65</h6>
+							<p class="color-gris">
+								Potencia ajustable 100W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="siriusB160()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED SiriusB</h6>
+						<h5 class="color-azul">Sirius B160</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="siriusB-160">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2014 / 160W / IP65</h6>
+							<p class="color-gris">
+								Potencia ajustable 160W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="siriusB200()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED SiriusB</h6>
+						<h5 class="color-azul">Sirius B200</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="siriusB-200">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+							<h6 class="color-azul">LV2015 / 200W / IP65</h6>
+							<p class="color-gris">
+								Potencia ajustable 200W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="siriusB240()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED SiriusB</h6>
+						<h5 class="color-azul">Sirius B240</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="siriusB-240">
+						<div class="card card-body">
+							<h5 class="color-azul">Profesional 185 Lm/w</h5>
+							<h6 class="color-azul">LV2027 / 240W / IP65</h6>
+							<p class="color-gris">
+								Potencia ajustable 240W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="siriusB300()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Luminaria Industrial LED SiriusB</h6>
+						<h5 class="color-azul">Sirius B300</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="siriusB-300">
+						<div class="card card-body">
+							<h5 class="color-azul">Profesional 185 Lm/w</h5>
+							<h6 class="color-azul">LV2028 / 300W / IP65</h6>
+							<p class="color-gris">
+								Potencia ajustable 300W Dimerizable
+								Dimerizable 1-10V <br>
+								Vida Útil 100.000 Horas LM80 <br>
+								Distribución Lumínica 60° estándar (90°, 120° opcional) <br>
+								Control Dimerizable 1-10V Dimer <br>
+								Voltaje AC 100-305V / 50-60 Hz
+							</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<section class="linea">
+		<div class="container pt-5">
+			<div class="row">
+				<h3 class="color-negro">Luminaria Tubos LED</h3>
+				<p class="texto color-gris pt-3">Tubo Led diseñados con materiales de calidad para brindar solución efectiva y 
+					estable al reemplazo del T5 fluorescente de 54w superando su flujo luminico cuando 
+					se requiera mejores resultaods generando ahorros del 73% y 59.5% con una eficiencia 
+					de 200Lm/w entrega 3200 Lm y 4800 Lm de flujo Lumínico en un ángulo de salida de 
+					120°. 100.000 Horas base de vida Útil y 7 años de garantía.</p>
+			</div>
+			<div class="row d-flex">
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="optimus24()">
+						<img class="img-show w-100" src="/assets/polux20-04.png" alt="">
+						<img class="img-hover w-100" src="/assets/prueba.png" alt="">
+						<h6 class="color-girs">Tubo T5 LED</h6>
+						<h5 class="color-azul">Optimum24</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="optimus-24">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 200Lm/w 2ª G</h5>
+							<h6 class="color-azul">LV1011 / 16W - 24W</h6>
+							<p class="color-gris">
+								Potencia ajustable 16-24W Dimerizable
+								Eficiencia lumínica 200 Lm/w <br>
+								Flujo luminoso 3200Lm - 4800Lm  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 100.000 Horas LM79 -LM80 <br>
+								Garantía 7años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="profecional18()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T5 LED</h6>
+						<h5 class="color-azul">Professional 18</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="profecional-18">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
+							<h6 class="color-azul">LV1001 / 18W</h6>
+							<p class="color-gris">
+								Potencia ajustable 18W 
+								Eficiencia lumínica 170 Lm/w <br>
+								Flujo luminoso 3600Lm  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 50.000 Horas LM79 -LM80 <br>
+								Garantía 5años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="profecional25()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T5 LED</h6>
+						<h5 class="color-azul">Professional 25</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="profecional-25">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 170Lm/w</h5>
+							<h6 class="color-azul">LV1002 / 25W</h6>
+							<p class="color-gris">
+								Potencia ajustable 25W 
+								Eficiencia lumínica 170 Lm/w <br>
+								Flujo luminoso 4250Lm <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 50.000 Horas LM79 -LM80 <br>
+								Garantía 5años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="profecional60()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T5 LED</h6>
+						<h5 class="color-azul">Professional 60°</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="profecional-60">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
+							<h6 class="color-azul">LV1012 / 25W</h6>
+							<p class="color-gris">
+								Potencia ajustable 25W
+								Eficiencia lumínica 170 Lm/w <br>
+								Flujo luminoso 4200Lm  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 50.000 Horas LM79 -LM80 <br>
+								Garantía 5años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="basico14()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T8 LED</h6>
+						<h5 class="color-azul">Básico 14</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="basico-14">
+						<div class="card card-body">
+							<h5 class="color-azul">Eficiente 140 Lm/w</h5>
+							<h6 class="color-azul">LV1013 / 14W</h6>
+							<p class="color-gris">
+								Potencia ajustable 14W
+								Eficiencia lumínica 140 Lm/w <br>
+								Flujo luminoso 1980Lm  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 50.000 Horas <br>
+								Garantía 3años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="basico22()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T8 LED</h6>
+						<h5 class="color-azul">Básico 22</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="basico-22">
+						<div class="card card-body">
+							<h5 class="color-azul">Eficiente 140 Lm/w</h5>
+							<h6 class="color-azul">Eficiente 140 Lm/w</h6>
+							<p class="color-gris">
+								Potencia ajustable 22W
+								Eficiencia lumínica 140 Lm/w <br>
+								Flujo luminoso 3080 Lm  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 50.000 Horas  <br>
+								Garantía 3años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="radar14()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T8 LED</h6>
+						<h5 class="color-azul"> Radar 14</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="radar-14">
+						<div class="card card-body">
+							<h5 class="color-azul">Ultra Eficiente 160Lm/w</h5>
+							<h6 class="color-azul">LV1005 / 14W</h6>
+							<p class="color-gris">
+								Potencia ajustable 14W -3W
+								Eficiencia lumínica 160 Lm/w <br>
+								Flujo luminoso 2240 Lm ± / 480 Lm ±  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 100.000 Horas  <br>
+								Garantía 5años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="nanoled14()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T8 LED</h6>
+						<h5 class="color-azul"> Nanoled 14</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+					<div class="card-info" id="nanoled-14">
+						<div class="card card-body">
+							<h5 class="color-azul">Eficiente 140 Lm/w</h5>
+							<h6 class="color-azul">LV1009 / 14W</h6>
+							<p class="color-gris">
+								Potencia ajustable 14W 
+								Eficiencia lumínica 200 Lm/w <br>
+								Flujo luminoso 1980Lm  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 30.000 Horas  <br>
+								Garantía 2años
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="box w-100 bg-claro" style="text-align: center;" onclick="nanoled22()">
+						<img class="w-100" src="/assets/polux20-04.png" alt="">
+						<h6 class="color-girs">Tubo T8 LED</h6>
+						<h5 class="color-azul">Nanoled 22</h5>
+						<a href="./fichas/polux-20.pdf" target="blank">Ver ficha técnica</a>
+					</div>
+				<div class="card-info" id="nanoled-22">
+						<div class="card card-body">
+							<h5 class="color-azul">Eficiente 140 Lm/w</h5>
+							<h6 class="color-azul">LV1010 / 22W</h6>
+							<p class="color-gris">
+								Potencia ajustable 22W 
+								Eficiencia lumínica 140 Lm/w <br>
+								Flujo luminoso 3080Lm  <br>
+								Distribución Lumínica 120°<br>
+								Vida Útil 30.000 Horas  <br>
+								Garantía 2años
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+	<script>		
+	function sirius60(){
+		var bar = document.getElementById("sirius-60");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function sirius100(){
+		var bar = document.getElementById("sirius-100");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function sirius160(){
+		var bar = document.getElementById("sirius-160");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function sirius200(){
+		var bar = document.getElementById("sirius-200");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function sirius240(){
+		var bar = document.getElementById("sirius-240");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function sirius300(){
+		var bar = document.getElementById("sirius-300");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function siriusB60(){
+		var bar = document.getElementById("siriusB-60");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function siriusB100(){
+		var bar = document.getElementById("siriusB-100");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function siriusB160(){
+		var bar = document.getElementById("siriusB-160");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function siriusB200(){
+		var bar = document.getElementById("siriusB-200");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function siriusB240(){
+		var bar = document.getElementById("siriusB-240");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function siriusB300(){
+		var bar = document.getElementById("siriusB-300");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function optimus24(){
+		var bar = document.getElementById("optimus-24");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function profecional18(){
+		var bar = document.getElementById("profecional-18");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function profecional25(){
+		var bar = document.getElementById("profecional-25");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function profecional60(){
+		var bar = document.getElementById("profecional-60");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function basico14(){
+		var bar = document.getElementById("basico-14");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function basico22(){
+		var bar = document.getElementById("basico-22");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function nanoled14(){
+			var bar = document.getElementById("nanoled-14");
+			if (bar.style.display === "none") {
+				bar.style.display = "block";
+			} else {
+				bar.style.display = "none";
+			}
+		}
+		function nanoled22(){
+			var bar = document.getElementById("nanoled-22");
+			if (bar.style.display === "none") {
+				bar.style.display = "block";
+			} else {
+				bar.style.display = "none";
+			
+		
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</html>
