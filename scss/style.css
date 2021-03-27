@@ -203,17 +203,28 @@ footer .row .col-sm-4 ul {
   width: 40%;
 }
 
+/* .main{
+	background-image: url('/assets/bg.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+} */
 .linea .texto {
   width: 55%;
 }
 
 .linea .item {
-  width: 25vw;
+  width: 15vw;
   margin: 0.5vw;
 }
 
 .linea .item .box {
   border-radius: 0.3vw;
+}
+
+.linea .item .box img {
+  width: 30vw;
+  margin: 0 auto;
 }
 
 .linea .item .box .img-show {

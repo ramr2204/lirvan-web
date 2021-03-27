@@ -10,15 +10,25 @@
 	}
 }
 
+/* .main{
+	background-image: url('/assets/bg.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+} */
 .linea{
 	.texto{
 		width: 55%;
 	}
 	.item{
-		width: 25vw;
+		width:15vw;
 		margin: 0.5vw;
 		.box{
 			border-radius: 0.3vw;
+			img{
+				width: 30vw;
+				margin:0 auto;
+			}
 			.img-show{
 				display: block;
 			}
