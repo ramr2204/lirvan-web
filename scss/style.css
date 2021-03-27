@@ -102,6 +102,12 @@ nav .ele .elemento {
 nav .ele .elemento .it {
   margin: 3vw auto;
   text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav .ele .elemento .it .img-on {
+  display: none;
 }
 
 nav .ele .elemento .it.item-3 {
@@ -110,6 +116,18 @@ nav .ele .elemento .it.item-3 {
 
 nav .ele .elemento .it.item-3 img {
   margin-bottom: 3vw;
+}
+
+nav .ele .elemento .it:hover .img-on {
+  display: block;
+}
+
+nav .ele .elemento .it:hover .img-on.pe {
+  width: 18vw;
+}
+
+nav .ele .elemento .it:hover .img-off {
+  display: none;
 }
 
 footer .row {

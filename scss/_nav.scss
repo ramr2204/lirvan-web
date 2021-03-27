@@ -23,10 +23,18 @@ nav{
 			.it{
 				margin: 3vw auto;
 				text-align: center;
+				transition: 0.5s;
+				.img-on{display: none;}
 				&.item-3{
 					margin-top: 5%;
-					img{
-						margin-bottom: 3vw;
+					img{margin-bottom: 3vw;}
+				}
+				&:hover{
+					.img-on{ display: block;
+						&.pe{
+							width: 18vw;
+						}}
+					.img-off{ display: none;
 					}
 				}
 			}
