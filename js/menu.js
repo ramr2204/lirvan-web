@@ -1,4 +1,4 @@
-function menu(){
+/* function menu(){
     var bar = document.getElementById("lineas");
     var ele = document.getElementById("item");
     if (bar.style.display === "none") {
@@ -6,4 +6,8 @@ function menu(){
     } else {
         bar.style.display = "none";
     }
-}
+} */
+
+$('#toggle-menu').click(function(){
+    $('#lineas').slideToggle();
+})

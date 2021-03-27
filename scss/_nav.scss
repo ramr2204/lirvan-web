@@ -1,5 +1,8 @@
 nav{
 	padding: 1vw;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
 	.nav{
 		img{
 			width: 12vw;
@@ -7,18 +10,24 @@ nav{
 		ul{
 			position: relative;
 			float: right;
+			.nav-link{
+				cursor: pointer;
+			}
 		}
 	}
-	.elemento{
+	.ele{
 		display: none;
-		transition: .5s;
-		.it{
-			margin: 3vw auto;
-			text-align: center;
-			&.item-3{
-				margin-top: 5%;
-				img{
-					margin-bottom: 3vw;
+		.elemento{
+			display: flex;
+			transition: .5s;
+			.it{
+				margin: 3vw auto;
+				text-align: center;
+				&.item-3{
+					margin-top: 5%;
+					img{
+						margin-bottom: 3vw;
+					}
 				}
 			}
 		}
