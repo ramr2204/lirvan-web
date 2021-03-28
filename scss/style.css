@@ -50,7 +50,9 @@
 .bg-claro {
   background-color: #F0F0F0;
 }
-
+.bg-oscuro {
+  background-color: #363432;
+}
 .bg-blanco {
   background-color: white;
 }
