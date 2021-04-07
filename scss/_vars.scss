@@ -1,5 +1,5 @@
 //Colores 
-
+$negro-1: #363432;
 $azul: #10195A;
 $blanco: white;
 $negro: black;
@@ -32,6 +32,9 @@ $gris-claro: #F0F0F0;
 }
 .bg-claro{
 	background-color: $gris-claro;
+}
+.bg-oscuro{
+	background-color: $negro-1;
 }
 .bg-blanco{
 	background-color: white;
