@@ -29,11 +29,19 @@
 				width: 30vw;
 				margin:0 auto;
 			}
-			.img-show{
+			.img-off{
 				display: block;
 			}
-			.img-hover{
+			.img-on{
 				display: none;
+			}
+			&:hover{
+				.img-on{
+					display: block;
+				}
+				.img-off{
+					display: none;
+				}
 			}
 		}
 		.card-info{

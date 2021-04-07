@@ -245,11 +245,19 @@ footer .row .col-sm-4 ul {
   margin: 0 auto;
 }
 
-.linea .item .box .img-show {
+.linea .item .box .img-off {
   display: block;
 }
 
-.linea .item .box .img-hover {
+.linea .item .box .img-on {
+  display: none;
+}
+
+.linea .item .box:hover .img-on {
+  display: block;
+}
+
+.linea .item .box:hover .img-off {
   display: none;
 }
 
