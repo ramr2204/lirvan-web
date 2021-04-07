@@ -8,6 +8,17 @@
     }
 } */
 
-$('#toggle-menu').click(function(){
-    $('#lineas').slideToggle();
+$('#toggle-menu').hover(function(){
+    document.getElementById("lineas").style.display="block";
+})
+
+
+$('#solar-ancla').hover(function(){
+    document.getElementById("solar").style.display="block";
+    document.getElementById("industrial").style.display="none";
+})
+
+$('#industrial-ancla').hover(function(){
+    document.getElementById("solar").style.display="none";
+    document.getElementById("industrial").style.display="block";
 })

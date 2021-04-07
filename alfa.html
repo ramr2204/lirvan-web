@@ -10,7 +10,7 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100">
+    <nav class="w-100">
 		<div class="nav d-flex justify-content-between align-items-center">
 			<img class="logo" src="/assets/SVG/logo-blanco.svg" alt="">
 			<ul class="d-flex">
@@ -20,22 +20,74 @@
 				<li class="nav-link"><a href="#" class="color-blanco">Contacto</a></li>
 			</ul>	
 		</div>
-		<div class="ele" id="lineas">
-			<div class="elemento bg-gris justify-content-center">
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice-off.svg" alt="">
-					<img class="img-on" src="/assets/SVG/indice-on.svg" alt="">
-					 <br>
-					<a href="/linea-solar.html" class="color-blanco">Luminaria Solar</a>
+		<div class="ele bg-oscuro" id="lineas">
+			<div class="row w-100">
+				<ul class="subtitle d-flex justify-content-center color-blanco">
+					<li id="solar-ancla">Línea Solar</li>
+					<li id="industrial-ancla">Línea Industrial</li>
+					<li><a href="/linea-alumbrado-publico.html">Alumbrado público</a></li>
+					<li>Tubos Led</li>
+				</ul>
+			</div>
+			<div class="row lineas-internas solar" id="solar">
+				<div class="elemento justify-content-center">
+					<div class="it">
+						<a href="/polux.html">
+							<img class="img-on" src="/assets/polux20Recurso 1.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt=""><br>
+							<a href="/polux.html" class="color-blanco">Polúx</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/alfa.html">
+							<img class="img-off" src="/assets/alfa-20Recurso 17.svg" alt="">
+							<img class="img-on" src="/assets/alfa-20.1Recurso 18.svg" alt="">
+							 <br>
+							<a href="/alfa.html" class="color-blanco">Alfa</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/centauri.html">
+							<img class="img-off" src="/assets/centauri20.svg" alt="">
+							<img class="img-on" src="/assets/centauri20.1.svg" alt="">
+						 <br>
+							<a href="/centauri.html" class="color-blanco">Centauri</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/titan.html">
+							<img class="img-off" src="/assets/titan-20Recurso 31.svg" alt="">
+							<img class="img-on" src="/assets/titan-20.1Recurso 30.svg" alt="">
+							 <br>
+							<a href="/centauri.html" class="color-blanco">Titán</a>
+						</a>
+					</div>
 				</div>
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice2-off.svg" alt=""> 	
-					<img class="img-on pe" src="/assets/SVG/indice2-on.svg" alt=""><br>
-					<a href="/linea-industrial.htm" class="color-blanco">Luminaria Industrial</a>
-				</div>
-				<div class="it item-3" id="item">
-					<img src="/assets/SVG/item-4.svg" alt=""> <br>
-					<a href="/linea-alumbrado-publico.html" class="color-blanco">Alumbrado público</a>
+			</div>
+			<div class="row" id="industrial">
+				<div class="elemento justify-content-center">
+					<div class="it" id="item">
+						<a href="/sirius.html">
+							<img class="img-off" src="/assets/SVG/sirius60-off.svg" alt="">
+							<img class="img-on" src="/assets/SVG/sirius60-on.svg" alt="">
+							 <br>
+							<a href="/sirius.html" class="color-blanco">Sirius</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/siriusb.html">
+							<img class="img-off" src="/assets/SVG/siriusb-off.svg" alt=""> 	
+							<img class="img-on pe" src="/assets/SVG/siriusb-on.svg" alt=""><br>
+							<a href="/siriusb.html" class="color-blanco">Sirius B</a>
+						</a>
+					</div>
+					<div class="it item-3" id="item">
+                        <a href="/siriusx.html">
+                            <img class="img-off" src="/assets/SVG/siriusx-off.svg" alt=""> 	
+                            <img class="img-on pe" src="/assets/SVG/siriusx-on.svg" alt=""><br>
+                            <a href="/siriusx.html" class="color-blanco">Sirius X</a>
+                        </a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -59,12 +111,12 @@
         </div>
         <div class="row d-flex">
             <div class="item">
-                <div class="box w-100 bg-claro" style="text-align: center;" >
+                <div class="box w-100 bg-oscuro" style="text-align: center;" >
                     <img class="img-on" src="/assets/alfa-20.1Recurso 18.svg" alt="">
                     <img class="img-off" src="/assets/alfa-20Recurso 17.svg" alt="">
-                    <h6 class="color-girs">Luminaria solar</h6>
-                    <h5 class="color-azul"> ALFA 20</h5>
-                    <a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa20()">Ver más</button>
+                    <h6 class="color-blanco">Luminaria solar</h6>
+                    <h5 class="color-blanco"> ALFA 20</h5>
+                    <a href="./fichas/AlFA20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa20()">Ver más</button>
                 </div>
                 <div class="card-info" id="alfa-20">
                     <div class="card card-body">
@@ -82,12 +134,12 @@
                 </div>
             </div>
             <div class="item">
-                <div class="box w-100 bg-claro" style="text-align: center;" >
+                <div class="box w-100 bg-oscuro" style="text-align: center;" >
                     <img class="img-on" src="/assets/alfa-20.1Recurso 18.svg" alt="">
                     <img class="img-off" src="/assets/alfa-20Recurso 17.svg" alt="">
-                    <h6 class="color-girs">Luminaria solar</h6>
-                    <h5 class="color-azul">ALFA 30</h5>
-                    <a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa30()">Ver más</button>
+                    <h6 class="color-blanco">Luminaria solar</h6>
+                    <h5 class="color-blanco">ALFA 30</h5>
+                    <a href="./fichas/AlFA30.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa30()">Ver más</button>
                 </div>
                 <div class="card-info" id="alfa-30">
                     <div class="card card-body">
@@ -106,12 +158,12 @@
                 </div>
             </div>
             <div class="item">
-                <div class="box w-100 bg-claro" style="text-align: center;" >
+                <div class="box w-100 bg-oscuro" style="text-align: center;" >
                     <img class="img-on" src="/assets/alfa-40.1Recurso 19.svg" alt="">
                     <img class="img-off" src="/assets/alfa-40Recurso 20.svg" alt="">
-                    <h6 class="color-girs">Luminaria solar</h6>
-                    <h5 class="color-azul">ALFA 40</h5>
-                    <a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa40()">Ver más</button>
+                    <h6 class="color-blanco">Luminaria solar</h6>
+                    <h5 class="color-blanco">ALFA 40</h5>
+                    <a href="./fichas/AlFA40.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa40()">Ver más</button>
                 </div>
                 <div class="card-info" id="alfa-40">
                     <div class="card card-body">
@@ -130,12 +182,12 @@
                 </div>
             </div>
             <div class="item">
-                <div class="box w-100 bg-claro" style="text-align: center;" >
+                <div class="box w-100 bg-oscuro" style="text-align: center;" >
                     <img class="img-off" src="/assets/alfa-60Recurso 22.svg" alt="">
                     <img class="img-on" src="/assets/alfa-60.1Recurso 21.svg" alt="">
-                    <h6 class="color-girs">Luminaria solar</h6>
-                    <h5 class="color-azul">ALFA 50</h5>
-                    <a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa50()">Ver más</button>
+                    <h6 class="color-blanco">Luminaria solar</h6>
+                    <h5 class="color-blanco">ALFA 50</h5>
+                    <a href="./fichas/ALFA50.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa50()">Ver más</button>
                 </div>
                 <div class="card-info" id="alfa-50">
                     <div class="card card-body">
@@ -154,12 +206,12 @@
                 </div>
             </div>
             <div class="item">
-                <div class="box w-100 bg-claro" style="text-align: center;" >
+                <div class="box w-100 bg-oscuro" style="text-align: center;" >
                     <img class="img-off" src="/assets/alfa-60Recurso 22.svg" alt="">
                     <img class="img-on" src="/assets/alfa-60.1Recurso 21.svg" alt="">
-                    <h6 class="color-girs">Luminaria solar</h6>
-                    <h5 class="color-azul">ALFA 60</h5>
-                    <a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa60()">Ver más</button>
+                    <h6 class="color-blanco">Luminaria solar</h6>
+                    <h5 class="color-blanco">ALFA 60</h5>
+                    <a href="./fichas/ALFA60.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa60()">Ver más</button>
                 </div>
                 <div class="card-info" id="alfa-60">
                     <div class="card card-body">
@@ -179,12 +231,12 @@
                 </div>
             </div>
             <div class="item">
-                <div class="box w-100 bg-claro" style="text-align: center;" >
+                <div class="box w-100 bg-oscuro" style="text-align: center;" >
                     <img class="img-off" src="/assets/alfa-80Recurso 24.svg" alt="">
                     <img class="img-on" src="/assets/alfa-80.1Recurso 23.svg" alt="">
-                    <h6 class="color-girs">Luminaria solar</h6>
-                    <h5 class="color-azul">ALFA 80</h5>
-                    <a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa80()">Ver más</button>
+                    <h6 class="color-blanco">Luminaria solar</h6>
+                    <h5 class="color-blanco">ALFA 80</h5>
+                    <a href="./fichas/ALFA80.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa80()">Ver más</button>
                 </div>
                 <div class="card-info" id="alfa-80">
                     <div class="card card-body">
@@ -204,12 +256,12 @@
                 </div>
             </div>
             <div class="item">
-                <div class="box w-100 bg-claro" style="text-align: center;">
+                <div class="box w-100 bg-oscuro" style="text-align: center;">
                     <img class="img-off" src="/assets/alfa-100Recurso 26.svg" alt="">
                     <img class="img-on" src="/assets/alfa-100.1Recurso 25.svg" alt="">
-                    <h6 class="color-girs">Luminaria solar</h6>
-                    <h5 class="color-azul">ALFA 100</h5>
-                    <a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa100()">Ver más</button>
+                    <h6 class="color-blanco">Luminaria solar</h6>
+                    <h5 class="color-blanco">ALFA 100</h5>
+                    <a href="./fichas/ALFA100.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="alfa100()">Ver más</button>
                 </div>
                 <div class="card-info" id="alfa-100">
                     <div class="card card-body">

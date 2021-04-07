@@ -20,22 +20,74 @@
 				<li class="nav-link"><a href="#" class="color-blanco">Contacto</a></li>
 			</ul>	
 		</div>
-		<div class="ele" id="lineas">
-			<div class="elemento bg-gris justify-content-center">
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice-off.svg" alt="">
-					<img class="img-on" src="/assets/SVG/indice-on.svg" alt="">
-					 <br>
-					<a href="/linea-solar.html" class="color-blanco">Luminaria Solar</a>
+		<div class="ele bg-oscuro" id="lineas">
+			<div class="row w-100">
+				<ul class="subtitle d-flex justify-content-center color-blanco">
+					<li id="solar-ancla">Línea Solar</li>
+					<li id="industrial-ancla">Línea Industrial</li>
+					<li><a href="/linea-alumbrado-publico.html">Alumbrado público</a></li>
+					<li>Tubos Led</li>
+				</ul>
+			</div>
+			<div class="row lineas-internas solar" id="solar">
+				<div class="elemento justify-content-center">
+					<div class="it">
+						<a href="/polux.html">
+							<img class="img-on" src="/assets/polux20Recurso 1.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt=""><br>
+							<a href="/polux.html" class="color-blanco">Polúx</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/alfa.html">
+							<img class="img-off" src="/assets/alfa-20Recurso 17.svg" alt="">
+							<img class="img-on" src="/assets/alfa-20.1Recurso 18.svg" alt="">
+							 <br>
+							<a href="/alfa.html" class="color-blanco">Alfa</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/centauri.html">
+							<img class="img-off" src="/assets/centauri20.svg" alt="">
+							<img class="img-on" src="/assets/centauri20.1.svg" alt="">
+						 <br>
+							<a href="/centauri.html" class="color-blanco">Centauri</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/titan.html">
+							<img class="img-off" src="/assets/titan-20Recurso 31.svg" alt="">
+							<img class="img-on" src="/assets/titan-20.1Recurso 30.svg" alt="">
+							 <br>
+							<a href="/centauri.html" class="color-blanco">Titán</a>
+						</a>
+					</div>
 				</div>
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice2-off.svg" alt=""> 	
-					<img class="img-on pe" src="/assets/SVG/indice2-on.svg" alt=""><br>
-					<a href="/linea-industrial.htm" class="color-blanco">Luminaria Industrial</a>
-				</div>
-				<div class="it item-3" id="item">
-					<img src="/assets/SVG/item-4.svg" alt=""> <br>
-					<a href="/linea-alumbrado-publico.html" class="color-blanco">Alumbrado público</a>
+			</div>
+			<div class="row" id="industrial">
+				<div class="elemento justify-content-center">
+					<div class="it" id="item">
+						<a href="/sirius.html">
+							<img class="img-off" src="/assets/SVG/sirius60-off.svg" alt="">
+							<img class="img-on" src="/assets/SVG/sirius60-on.svg" alt="">
+							 <br>
+							<a href="/sirius.html" class="color-blanco">Sirius</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/siriusb.html">
+							<img class="img-off" src="/assets/SVG/siriusb-off.svg" alt=""> 	
+							<img class="img-on pe" src="/assets/SVG/siriusb-on.svg" alt=""><br>
+							<a href="/siriusb.html" class="color-blanco">Sirius B</a>
+						</a>
+					</div>
+					<div class="it item-3" id="item">
+						<a href="/siriusx.html">
+							<img class="img-off" src="/assets/SVG/siriusx-off.svg" alt=""> 	
+							<img class="img-on pe" src="/assets/SVG/siriusx-on.svg" alt=""><br>
+							<a href="/siriusx.html" class="color-blanco">Sirius X</a>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -61,8 +113,12 @@
 				<div class="row d-flex">
 					<div class="item">
 						<div class="box w-100 bg-oscuro" style="text-align: center;">
-							<img class="card-img-top"  src="/assets/polux20Recurso 1.svg" alt="">
-							<img class="img-hover" src="/assets/prueba.png" alt="">
+
+							
+
+							<img class="img-on" src="/assets/polux20Recurso 1.svg" alt="">
+							<img class="img-off" src="/assets/polux20.1Recurso 1.svg" alt="">
+
 							<h6 class="color-blanco">Luminaria solar</h6>
 							<h5 class="color-blanco">Polúx 20</h5>
 							<a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux20()">Ver más</button>
@@ -84,10 +140,11 @@
 					</div>
 					<div class="item">
 						<div class="box w-100 bg-oscuro" style="text-align: center;" >
-							<img src="/assets/polux20Recurso 1.svg" alt="">
+							<img class="img-on" src="/assets/polux20Recurso 1.svg" alt="">
+							<img class="img-off" src="/assets/polux20.1Recurso 1.svg" alt="">
 							<h6 class="color-blanco">Luminaria solar</h6>
 							<h5 class="color-blanco">Polúx 30</h5>
-							<a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux30()">Ver más</button>
+							<a href="./fichas/PÓLUX30.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux30()">Ver más</button>
 						</div>
 						<div class="card-info" id="polux-30">
 							<div class="card card-body">
@@ -107,10 +164,11 @@
 					</div>
 					<div class="item">
 						<div class="box w-100 bg-oscuro" style="text-align: center;" >
-							<img src="/assets/polux40Recurso 3.svg" alt="">
+							<img class="img-on" src="/assets/polux60.1Recurso 11.svg" alt="">
+							<img class="img-off" src="/assets/polux40Recurso 3.svg" alt="">
 							<h6 class="color-blanco">Luminaria solar</h6>
 							<h5 class="color-blanco">Polúx 40</h5>
-							<a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux40()">Ver más</button>
+							<a href="./fichas/PÓLUX40.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux40()">Ver más</button>
 						</div>
 						<div class="card-info" id="polux-40">
 							<div class="card card-body">
@@ -130,10 +188,14 @@
 					</div>
 					<div class="item">
 						<div class="box  bg-oscuro" style="text-align: center;" >
-							<img src="/assets/polux40Recurso 3.svg" alt="">
+							<img class="img-on" src="/assets/polux60.1Recurso 11.svg" alt="">
+							<img class="img-off" src="/assets/polux40Recurso 3.svg" alt="">
 							<h6 class="color-blanco">Luminaria solar</h6>
-							<h5 class="color-blancogit">Polúx 50</h5>
-							<a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux50()">Ver más</button>
+
+						
+							<h5 class="color-blanco">Polúx 50</h5>
+							<a href="./fichas/PÓLUX50.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux50()">Ver más</button>
+
 						</div>
 						<div class="card-info" id="polux-50">
 							<div class="card card-body">
@@ -153,10 +215,11 @@
 					</div>
 					<div class="item">
 						<div class="box w-100 bg-oscuro" style="text-align: center;" >
-							<img src="/assets/polux60Recurso 4.svg" alt="">
+							<img class="img-on" src="/assets/polux60.1Recurso 11.svg" alt="">
+							<img class="img-off" src="/assets/polux40Recurso 3.svg" alt="">
 							<h6 class="color-blanco">Luminaria solar</h6>
-							<h5 class="color-azul">Polúx 60</h5>
-							<a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux60()">Ver más</button>
+							<h5 class="color-blanco">Polúx 60</h5>
+							<a href="./fichas/PÓLUX60.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux60()">Ver más</button>
 						</div>
 						<div class="card-info" id="polux-60">
 							<div class="card card-body">
@@ -176,10 +239,11 @@
 					</div>
 					<div class="item">
 						<div class="box w-100 bg-oscuro"style="text-align: center;" >
-							<img src="/assets/polux80Recurso 5.svg" alt="">
+							<img class="img-on" src="/assets/polux80.1Recurso 10.svg" alt="">
+							<img class="img-off" src="/assets/polux80Recurso 5.svg" alt="">
 							<h6 class="color-blanco">Luminaria solar</h6>
-							<h5 class="color-azul">Polúx 80</h5>
-							<a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux80()">Ver más</button>
+							<h5 class="color-blanco">Polúx 80</h5>
+							<a href="./fichas/PÓLUX80.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux80()">Ver más</button>
 						</div>
 						<div class="card-info" id="polux-80">
 							<div class="card card-body">
@@ -199,10 +263,35 @@
 					</div>
 					<div class="item">
 						<div class="box w-100 bg-oscuro" style="text-align: center;" >
-							<img src="/assets/polux100Recurso 6.svg" alt="">
+							<img class="img-on" src="/assets/polux100-1Recurso 2.svg" alt="">
+							<img class="img-off" src="/assets/polux100-4Recurso 4.svg" alt="">
 							<h6 class="color-blanco">Luminaria solar</h6>
-							<h5 class="color-azul">Polúx 100</h5>
-							<a href="./fichas/polux-20.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux100()">Ver más</button>
+							<h5 class="color-blanco">Polúx 100</h5>
+							<a href="./fichas/PÓLUX100.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux100()">Ver más</button>
+						</div>
+						<div class="card-info" id="polux-100">
+							<div class="card card-body">
+								<h5 class="color-azul">Ultra Eficiente 3.600 Lumens</h5>
+								<h6 class="color-azul">LV9008 / 180Lm/w</h6>
+								<p class="color-gris">
+									
+									Módulo LED 100W<br>
+									Módulo Solar 120Wp<br>
+									Batería Litio 60Ah<br>
+									Desempeño hasta 2.8 Noches<br>
+									Altura recomendada 6-12 Mts
+									
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="box w-100 bg-oscuro" style="text-align: center;" >
+							<img class="img-on" src="/assets/polux100-1Recurso 2.svg" alt="">
+							<img class="img-off" src="/assets/polux100-4Recurso 4.svg" alt="">
+							<h6 class="color-blanco">Luminaria solar</h6>
+							<h5 class="color-blanco">Polúx 120</h5>
+							<a href="./fichas/PÓLUX100.pdf" class="btn btn-primary btn-sm m-3" target="blank">Ver ficha técnica</a><button type="button" class="btn btn-secondary btn-sm" onclick="polux100()">Ver más</button>
 						</div>
 						<div class="card-info" id="polux-100">
 							<div class="card card-body">

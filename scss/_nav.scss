@@ -17,25 +17,34 @@ nav{
 	}
 	.ele{
 		display: none;
+		ul{
+			li{
+				margin:2vw;
+				cursor: pointer;
+				a{
+					color: inherit;
+					text-decoration: none;
+				}
+				&:hover{ 
+					text-decoration: underline;
+				}
+			}
+		}
+		#industrial{ display: none;}
 		.elemento{
 			display: flex;
 			transition: .5s;
+			width: 100%;
 			.it{
-				margin: 3vw auto;
+				display: inline-block;
+				margin:2vw;
 				text-align: center;
-				transition: 0.5s;
+				width: 10vw;
+				img{ width: 22vw;}
 				.img-on{display: none;}
-				&.item-3{
-					margin-top: 5%;
-					img{margin-bottom: 3vw;}
-				}
 				&:hover{
-					.img-on{ display: block;
-						&.pe{
-							width: 18vw;
-						}}
-					.img-off{ display: none;
-					}
+					.img-on{ display: block; }
+					.img-off{ display: none;}
 				}
 			}
 		}
