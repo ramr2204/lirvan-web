@@ -1,22 +1,22 @@
 @font-face {
-	font-family: 'Monserrat-Bold';
-	src: url('../fonts/Montserrat-Bold.woff') format('woff');
+	font-family: 'Roboto-Bold';
+	src: url('../fonts/Roboto-BoldCondensed.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Monserrat-Medium';
-	src: url('../fonts/Montserrat-Medium.woff') format('woff');
+	font-family: 'Roboto-Medium';
+	src: url('../fonts/Roboto-Medium_1.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Monserrat-Light';
-	src: url('../fonts/Montserrat-Light.woff') format('woff');
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto-Light_1.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
-$titulo: 'Monserrat-Bold';
-$subtitulo:'Monserrat-Medium';
-$texto: 'Monserrat-Light';
+$titulo: 'Roboto-Bold';
+$subtitulo:'Roboto-Medium';
+$texto: 'Roboto-Light';

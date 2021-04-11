@@ -16,11 +16,11 @@ $n2 = $_POST["n2"];
 $respuesta1 = $n1+$n2;
 
 if ($email == null || $nombre == null || $messageuser == null || $desc == null || $respuesta == null) {	
-	die("Error, todos los campos deben estar rellenos");
+	die("Error, todos los campos son requeridos");
 }
 
 if ($respuesta != $respuesta1) {	
-	die("Error, la comprobación Anti-spam a fallado.");
+	die("Error, la comprobación Anti-spam ha fallado.");
 }
 if (mail($emailuser, $messageuser, "<b>Nombre</b>: ".$nombre."<br><b>Correo</b>: ".$email."<br><b>Problema</b>: ".$desc, $cabecera)) {	
 	die($nombre.", El email se ha enviado correctamente.");

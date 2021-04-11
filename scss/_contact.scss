@@ -1,0 +1,41 @@
+.formulario{
+  padding: 1vw;
+  background: white;
+  form{
+    width: 50%;
+    margin: 0 auto;
+    .group{
+      margin:1vw 0;
+      label{
+        color: $azul;
+        text-align: left;
+        margin-bottom: 0.5vw;
+      }
+      input, textarea{
+        border: 1px solid $azul;
+        border-radius: 3vw;
+        padding: 0.5vw;
+        outline:  none;
+        background: white;
+        color: $gris;
+        width: 100%;
+      }
+      textarea{ border-radius:1vw;}
+      span{ color: $gris;}
+    }
+    .comprobacion{ opacity: 0;}
+    .btn-enviar{
+      width: 15vw;
+      border-radius: 3vw;
+      margin: 1vw auto;
+      font-family: $subtitulo;
+      background: $azul;
+      color: white;
+      &:hover{
+        background:none;
+        color: $azul;
+        border:1px solid $azul;
+      }
+    }
+  }
+}

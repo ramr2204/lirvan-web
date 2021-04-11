@@ -2,15 +2,25 @@
 @import './vars';
 @import './nav';
 @import './footer';
+@import './responsive';
 //Home
 @import './home';
 //Interna
 @import './interna';
 
+//Contacto
+@import './contact';
+
 body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	background: url('../assets/bg.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	&.home{
+		background: white;
+	}
 }
 
 //Fuentes
@@ -32,6 +42,14 @@ h6{
 	font-family: $texto;
 	font-size: 1.3vw;
 }
+label{
+	font-family: $texto;
+	font-size: 1.2vw;
+}
+span{
+	font-family: $texto;
+	font-size: 1vw;
+}
 p{
 	font-size: 1vw;
 	font-family: $texto;
@@ -43,4 +61,24 @@ a{
 }
 li{
 	list-style: none;
+}
+
+
+.btn-dark{
+	font-size: 1.2vw;
+	padding: 0.5vw;
+	border-radius: 0.5vw;
+	margin: 0.3vw !important;
+	&:hover{
+		background: #292d31;
+		border: 1px solid #292d31;
+	}
+}
+.btn-secondary{ 
+	border-radius: 0.5vw;
+	margin-bottom: 1vw;
+	background: #494f54;
+	border: #494f54;
+	font-size: 1.2vw;
+	padding: 0.5vw;
 }

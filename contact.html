@@ -17,25 +17,77 @@
 				<li class="nav-link"><a href="/" class="color-blanco">Inicio</a></li>
 				<li class="nav-link"><a class="color-blanco" id="toggle-menu">Luminarias</a>	
 				</li>
-				<li class="nav-link"><a href="#" class="color-blanco">Contacto</a></li>
+				<li class="nav-link"><a href="/contact.html" class="color-blanco">Contacto</a></li>
 			</ul>	
 		</div>
-		<div class="ele" id="lineas">
-			<div class="elemento bg-gris justify-content-center">
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice-off.svg" alt="">
-					<img class="img-on" src="/assets/SVG/indice-on.svg" alt="">
-					 <br>
-					<a href="/linea-solar.html" class="color-blanco">Luminaria Solar</a>
+		<div class="ele bg-oscuro" id="lineas">
+			<div class="row w-100">
+				<ul class="subtitle d-flex justify-content-center color-blanco">
+					<li id="solar-ancla">Línea Solar</li>
+					<li id="industrial-ancla">Línea Industrial</li>
+					<li><a href="/linea-alumbrado-publico.html">Alumbrado público</a></li>
+					<li><a href="/tubos.html">Tubos Led</a></li>
+				</ul>
+			</div>
+			<div class="row lineas-internas solar" id="solar">
+				<div class="elemento justify-content-center">
+					<div class="it">
+						<a href="/polux.html">
+							<img class="img-on" src="/assets/polux20Recurso 1.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt=""><br>
+							<a href="/polux.html" class="color-blanco">Polúx</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/alfa.html">
+							<img class="img-off" src="/assets/alfa-20Recurso 17.svg" alt="">
+							<img class="img-on" src="/assets/alfa-20.1Recurso 18.svg" alt="">
+							 <br>
+							<a href="/alfa.html" class="color-blanco">Alfa</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/centauri.html">
+							<img class="img-on" src="/assets/centauri20.svg" alt="">
+							<img class="img-off" src="/assets/centauri20.1.svg" alt="">
+						 <br>
+							<a href="/centauri.html" class="color-blanco">Centauri</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/titan.html">
+							<img class="img-off" src="/assets/titan-20Recurso 31.svg" alt="">
+							<img class="img-on" src="/assets/titan-20.1Recurso 30.svg" alt="">
+							 <br>
+							<a href="/centauri.html" class="color-blanco">Titán</a>
+						</a>
+					</div>
 				</div>
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice2-off.svg" alt=""> 	
-					<img class="img-on pe" src="/assets/SVG/indice2-on.svg" alt=""><br>
-					<a href="/linea-industrial.htm" class="color-blanco">Luminaria Industrial</a>
-				</div>
-				<div class="it item-3" id="item">
-					<img src="/assets/SVG/item-4.svg" alt=""> <br>
-					<a href="/linea-alumbrado-publico.html" class="color-blanco">Alumbrado público</a>
+			</div>
+			<div class="row" id="industrial">
+				<div class="elemento justify-content-center">
+					<div class="it" id="item">
+						<a href="/sirius.html">
+							<img class="img-off" src="/assets/SVG/sirius60-off.svg" alt="">
+							<img class="img-on" src="/assets/SVG/sirius60-on.svg" alt="">
+							 <br>
+							<a href="/sirius.html" class="color-blanco">Sirius</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/siriusb.html">
+							<img class="img-off" src="/assets/SVG/siriusb-off.svg" alt=""> 	
+							<img class="img-on pe" src="/assets/SVG/siriusb-on.svg" alt=""><br>
+							<a href="/siriusb.html" class="color-blanco">Sirius B</a>
+						</a>
+					</div>
+					<div class="it item-3" id="item">
+						<a href="/siriusx.html">
+							<img class="img-off" src="/assets/SVG/siriusx-off.svg" alt=""> 	
+							<img class="img-on pe" src="/assets/SVG/siriusx-on.svg" alt=""><br>
+							<a href="/siriusx.html" class="color-blanco">Sirius X</a>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -49,33 +101,44 @@
 			</div>
 		</div>
         
-        <div id="wrap">
-            <br><br>
-                <form id="contactForm">
-                            <label for="email">Rellene este formulario para ponerse en contacto con nosotros.</label>
-                            <br><br>
-                    <label for="email">Tu Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Ingrese su correo.">
-                    <label for="nombre">Tu Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
-                    <label for="asunto">Asunto:</label>
-                    <input type="text" id="asunto" name="asunto" placeholder="Breve descripción del mensaje">
-                    <label for="descripcion">Descripción del mensaje:</label>
-                    <span class="caracteres">Tamaño máximo 500 letras</span>
-                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escriba el mensaje detalladamente. 
-            Le responderemos al email de contacto lo antes posible."></textarea>
-                    <div id="comprueba">
-                        <p>Comprobación Anti Spam: </p>
-                        <input type="text" id="n1" name="n1" readonly> + <input type="text" id="n2" name="n2" readonly>
-                        =
-                        <input type="text" id="res" name="res" maxlength="2">
-                    </div>
-                    <input type="submit" id="enviar" value="Enviar">
-                    <div style="clear:both"></div>
-                    <div id="respuesta"></div>
-                </form>
-            </div>        
-                <br>
+		<section class="formulario pt-5">
+			<div id="wrap" class="container">
+				<h3 class="color-azul d-flex justify-content-center">Diligencie este formulario para ponerse en contacto con nosotros.</h3>
+				<form class="pt-4" id="contactForm">
+						<div class="group">
+							<label for="email">Correo electrónico:</label>
+							<input type="email" id="email" name="email" placeholder="Ingrese su correo.">
+						</div>
+						<div class="group">
+							<label for="nombre">Nombre completo:</label>
+							<input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
+						</div>
+					 <div class="group">
+							<label for="asunto">Asunto del mensaje:</label>
+							<input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje">
+					 </div>
+						<div class="group">
+							<label for="descripcion">Descripción del mensaje:</label>
+							<span class="caracteres">Máximo 500 caracteres</span>
+							<textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escriba su mensaje."></textarea>
+						</div>
+						
+						<div id="comprueba" class="comprobacion">
+								<p>Comprobación Anti Spam: </p>
+								<input type="text" id="n1" name="n1" readonly> + <input type="text" id="n2" name="n2" readonly>
+								=
+								<input type="text" id="res" name="res" maxlength="2">
+						</div>
+						<div class="w-100" style="text-align: center;">
+							<input class="btn btn-enviar" type="submit" id="enviar" value="Enviar">
+							<div style="clear:both"></div>
+							<div id="respuesta"></div>
+						</div>
+						
+				</form>
+			</div>        	
+		</section>
+     
 	<footer class="w-100 bg-claro pt-5">
 		<div class="container">
 			<div class="row">
