@@ -1,5 +1,5 @@
 <?php
-// el proceso que envia el email.
+/* // el proceso que envia el email.
 error_reporting(0);
 $emailuser = "Info@lirvan.com";
 
@@ -25,4 +25,27 @@ if ($respuesta != $respuesta1) {
 if (mail($emailuser, $messageuser, "<b>Nombre</b>: ".$nombre."<br><b>Correo</b>: ".$email."<br><b>Problema</b>: ".$desc, $cabecera)) {	
 	die($nombre.", El email se ha enviado correctamente.");
 }
-echo "Error, no se ha podido enviar el correo, inténtelo más tarde.";
+echo "Error, no se ha podido enviar el correo, inténtelo más tarde."; */
+
+$email_destino = 'valenrobledo31@gmail.com'
+$email = $_POST['email'];
+$name = $_POST['name'];
+$asunto = $_POST['asunto'];
+$descripcion = $_POST['descripcion'];
+
+
+$header = 'De: ' . $email . "\r\n";
+$header .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+$header .= "Mime-Version 1.0 \r\n"
+$neader .= "Content-type: text/plain";
+
+$message .= "Correo: " . $email . "\r\n";
+$message = "Nombre: " . $name . "\r\n";
+$message .= "Teléfono: " . $descripcion . "\r\n";
+
+mail($email_destino, $asunto, utf8_decode($message), $header);
+
+header("Location:contact.html");
+
+
+?>
