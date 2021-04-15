@@ -370,12 +370,12 @@ h3 {
 }
 
 h5 {
-  font-size: 1.5;
-  font-family: "Roboto-Bold";
+  font-size: 1.2vw;
+  font-family: "Roboto-Light";
 }
 
 h6 {
-  font-family: "Roboto-Light";
+  font-family: "Roboto-medium";
   font-size: 1.3vw;
 }
 
