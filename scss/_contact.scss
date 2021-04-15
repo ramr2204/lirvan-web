@@ -1,6 +1,18 @@
 .formulario{
   padding: 1vw;
   background: white;
+  .item{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    h6{ 
+      text-transform: uppercase;
+      font-family: $subtitulo;
+    }
+    .aviso{
+      font-family: $subtitulo;
+    }
+  }
   form{
     width: 50%;
     margin: 0 auto;

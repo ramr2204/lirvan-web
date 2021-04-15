@@ -7,23 +7,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="scss/style.css">
     <title>Lirvan</title>
 </head>
 <body class="home">
 	<nav class="w-100">
-		<div class="nav d-flex justify-content-between align-items-center">
-			<img class="logo" src="/assets/SVG/logo-blanco.svg" alt="">
-			<ul class="d-flex">
-				<li class="nav-link"><a href="/" class="color-blanco">Inicio</a></li>
-				<li class="nav-link"><a class="color-blanco" id="toggle-menu">Productos</a>	
+		<div class="nav d-flex justify-content-between align-items-center" id="nav">
+			<img class="logo" src="/assets/logo.png" alt="">
+			<ul class="d-flex" id="nav-link">
+				<li class="nav-link"><a href="/">Inicio</a></li>
+				<li class="nav-link"><a id="toggle-menu">Productos</a>	
 				</li>
-				<li class="nav-link"><a href="/contact.html" class="color-blanco">Contacto</a></li>
+				<li class="nav-link"><a href="/contact.html">Contacto</a></li>
 			</ul>	
 		</div>
-		<div class="ele bg-oscuro" id="lineas">
+		<div class="ele" id="lineas">
 			<div class="row w-100">
-				<ul class="subtitle d-flex justify-content-center color-blanco">
+				<div class="cerrar" id="close-menu">
+					<img src="/assets/cancel.png" alt="">
+				</div>
+				<ul class="subtitle d-flex justify-content-center color-azul">
 					<li id="solar-ancla">Línea Solar</li>
 					<li id="industrial-ancla">Línea Industrial</li>
 					<li><a href="/linea-alumbrado-publico.html">Alumbrado público</a></li>
@@ -36,7 +42,7 @@
 						<a href="/polux.html">
 							<img class="img-on" src="/assets/polux20Recurso 1.svg" alt="">
 							<img class="img-off" src="/assets/polux20.1Recurso 1.svg" alt=""><br>
-							<a href="/polux.html" class="color-blanco">Polúx</a>
+							<a href="/polux.html" class="name color-blanco">Polúx</a>
 						</a>
 					</div>
 					<div class="it" id="item">
@@ -44,23 +50,23 @@
 							<img class="img-on" src="/assets/Alfa20-1-1.svg" alt="">
 							<img class="img-off" src="/assets/Alfa20-1.svg" alt="">
 							 <br>
-							<a href="/alfa.html" class="color-blanco">Alfa</a>
+							<a href="/alfa.html" class="name color-blanco">Alfa</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/centauri.html">
 							<img class="img-on" src="/assets/centauri20-1-1.svg" alt="">
-                            <img class="img-off" src="/assets/centauri20-1.svg" alt="">
+							<img class="img-off" src="/assets/centauri20-1.svg" alt="">
 						 <br>
-							<a href="/centauri.html" class="color-blanco">Centauri</a>
+							<a href="/centauri.html" class="name color-blanco">Centauri</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/titan.html">
 							<img class="img-on" src="/assets/titan50-1-1.svg" alt="">
-                        	<img class="img-off" src="/assets/titan50-1.svg" alt="">
+							<img class="img-off" src="/assets/titan50-1.svg" alt="">
 							 <br>
-							<a href="/centauri.html" class="color-blanco">Titán</a>
+							<a href="/centauri.html" class="name color-blanco">Titán</a>
 						</a>
 					</div>
 				</div>
@@ -72,28 +78,28 @@
 							<img class="img-off" src="/assets/SVG/sirius-1.svg" alt="">
 							<img class="img-on" src="/assets/SVG/sirius-1-1.svg" alt="">
 							 <br>
-							<a href="/sirius.html" class="color-blanco">Sirius</a>
+							<a href="/sirius.html" class="name color-blanco">Sirius</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/siriusb.html">
 							<img class="img-off" src="/assets/SVG/siriusb-1.svg" alt=""> 	
 							<img class="img-on" src="/assets/SVG/siriusb-1-1.svg" alt=""><br>
-							<a href="/siriusb.html" class="color-blanco">Sirius B</a>
+							<a href="/siriusb.html" class="name color-blanco">Sirius B</a>
 						</a>
 					</div>
 					<div class="it item-3" id="item">
 						<a href="/siriusx.html">
 							<img class="img-on" src="/assets/SVG/siriusx-1-1.svg" alt="">
                     		<img class="img-off" src="/assets/SVG/siriusx-1.svg" alt=""><br>
-							<a href="/siriusx.html" class="color-blanco">Sirius X</a>
+							<a href="/siriusx.html" class="name color-blanco">Sirius X</a>
 						</a>
 					</div>
 					<div class="it item-3" id="item">
-						<a href="/siriusx.html">
+						<a href="/siriusxp.html">
 							<img class="img-on" src="/assets/SVG/siriusx-1-1.svg" alt="">
-                    		<img class="img-off" src="/assets/SVG/siriusx-1.svg" alt=""><br>
-							<a href="/siriusx.html" class="color-blanco">Sirius XP</a>
+              <img class="img-off" src="/assets/SVG/siriusx-1.svg" alt=""><br>
+							<a href="/siriusxp.html" class="name color-blanco">Sirius XP</a>
 						</a>
 					</div>
 				</div>
@@ -215,7 +221,7 @@
 	<section>
 		<h2 class="color-azul d-flex justify-content-center pt-5">Ellos confían en nosotros</h2>
 		<div class="container clientes-container">
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-sm-3"><div class="img-cliente"><img src="/assets/cliente-1.png" alt=""></div></div>
 				<div class="col-sm-3"><div class="img-cliente"><img src="/assets/cliente-2.png" alt=""></div></div>
 				<div class="col-sm-3"><div class="img-cliente"><img src="/assets/cliente-3.png" alt=""></div></div>
@@ -226,7 +232,23 @@
 				<div class="col-sm-3"><div class="img-cliente"><img src="/assets/cliente-6.png" alt=""></div></div>
 				<div class="col-sm-3"><div class="img-cliente"><img src="/assets/cliente-7.png" alt=""></div></div>
 				<div class="col-sm-3"><div class="img-cliente"><img src="/assets/cliente-8.png" alt=""></div></div>
+			</div> -->
+
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="/assets/cliente-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="/assets/cliente-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="/assets/cliente-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="/assets/cliente-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="/assets/cliente-5.png" alt=""></div>
+					<div class="swiper-slide"><img src="/assets/cliente-6.png" alt=""></div>
+					<div class="swiper-slide"><img src="/assets/cliente-7.png" alt=""></div>
+					<div class="swiper-slide"><img src="/assets/cliente-8.png" alt=""></div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
 			</div>
+		
 		</div>
 	</section>
 	<section>
@@ -331,13 +353,14 @@
 			</div>
 		</div>
 	</section>
+
 	<footer class="w-100 bg-claro pt-5">
 		<div class="container">
-			<div class="row">
-				<img src="/assets/SVG/logo-azul.svg" alt="">
-			</div>
-			<div class="row pt-5">
-				<div class="col-sm-4">
+			<div class="row w-100 pt-5">
+				<div class="col-sm-3">
+					<img src="/assets/logo.png" alt="">
+				</div>
+				<div class="col-sm-3">
 					<h6 class="color-azul">Empresa</h6>
 					<ul>
 						<li>Carrera 54 # 72a-272</li>
@@ -346,7 +369,7 @@
 						<li>info@lirvan.com</li>
 					</ul>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<h6 class="color-azul">Legal</h6>
 					<ul>
 						<li>Términos de Uso</li>
@@ -354,8 +377,11 @@
 						<li>Política de Datos</li>
 					</ul>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3">
 					<h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
+					<i class="icon-facebook"></i>
+					<i class="icon-instagram"></i>
+					<i class="icon-wpp"></i>
 				</div>
 			</div>
 		</div>
@@ -366,7 +392,45 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
     AOS.init();
   </script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+				slidesPerView: 4,
+				spaceBetween: 10,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				breakpoints: {
+      300:{
+        slidesPerView:1,
+        spaceBetween:40,
+      },
+      400:{
+        slidesPerView:1,
+        spaceBetween:10,
+      },
+      640: {
+        slidesPerView:2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView:3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+    	}
+			});
+		</script>
 </html>

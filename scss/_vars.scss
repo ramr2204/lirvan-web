@@ -1,10 +1,13 @@
 //Colores 
 $negro-1: #312f2e;
 $azul: #10195A;
+$azul-claro: #2534a3;
 $blanco: white;
 $negro: black;
-$gris: rgb(102, 102, 102);
+$gris: #666666;
 $gris-claro: #F0F0F0;
+$rojo: #ff3945;
+
 
 //Color de fuentes
 .color-azul{
@@ -16,8 +19,14 @@ $gris-claro: #F0F0F0;
 .color-negro{
 	color: black;
 }
+.color-negro-1{
+	color: $negro-1;
+}
 .color-gris{
 	color: $gris;
+}
+.color-rojo{
+	color:$rojo;
 }
 
 //Background Color
@@ -39,6 +48,7 @@ $gris-claro: #F0F0F0;
 .bg-blanco{
 	background-color: white;
 }
+
 //Color de bordes
 .border-azul{
 	border: 1px solid $azul;
