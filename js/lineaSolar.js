@@ -166,3 +166,79 @@ function alfa100(){
             bar.style.display = "none";
         }
     }
+    /*funciones liena Industrial*/
+    function sirius60(){
+        var bar = document.getElementById("sirius-60");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }function sirius100(){
+        var bar = document.getElementById("sirius-100");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }function sirius200(){
+        var bar = document.getElementById("sirius-200");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function sirius240(){
+        var bar = document.getElementById("sirius-240");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function sirius160(){
+        var bar = document.getElementById("sirius-160");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+
+
+    function siriusB60(){
+        var bar = document.getElementById("siriusB-60");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }function siriusB100(){
+        var bar = document.getElementById("siriusB-100");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function siriusB160(){
+        var bar = document.getElementById("siriusB-160");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    
+    }function siriusB200(){
+        var bar = document.getElementById("siriusB-200");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function siriusB240(){
+        var bar = document.getElementById("siriusB-240");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
