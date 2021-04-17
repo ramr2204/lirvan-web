@@ -130,6 +130,7 @@ nav {
   top: 0;
   z-index: 1000;
   width: 100%;
+ 
 }
 
 nav .nav {
@@ -157,7 +158,7 @@ nav .nav ul .nav-link a {
 
 nav .ele {
   display: none;
-  background: white;
+  background: #312f2e;
 }
 
 nav .ele .cerrar {
@@ -498,13 +499,13 @@ h3 {
 }
 
 h5 {
-  font-size: 1.5;
-  font-family: "Roboto-Bold";
+  font-size: 1.3vw;
+  font-family: "Roboto-Light";
 }
 
 h6 {
-  font-family: "Roboto-Light";
-  font-size: 1.3vw;
+  font-family: "Roboto-Bold";
+  font-size: 1.5vw;
 }
 
 label {

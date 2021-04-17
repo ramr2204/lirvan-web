@@ -10,8 +10,8 @@
 
 $('#toggle-menu').hover(function(){
     document.getElementById("lineas").style.display="block";
-    document.getElementById("nav").style.backgroundColor="#FFFFFF";
-    document.getElementById("nav-link").style.color="#10195A";
+    document.getElementById("nav").style.backgroundColor="#312f2e";
+    document.getElementById("nav-link").style.color="#FFFFFF";
 })
 $('#close-menu').click(function(){
     document.getElementById("lineas").style.display="none";
