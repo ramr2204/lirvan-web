@@ -204,7 +204,7 @@ function alfa100(){
         }
     }
 
-
+/* funciones siriusB*/
     function siriusB60(){
         var bar = document.getElementById("siriusB-60");
         if (bar.style.display === "none") {
@@ -236,6 +236,148 @@ function alfa100(){
         }
     } function siriusB240(){
         var bar = document.getElementById("siriusB-240");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function siriusB300(){
+        var bar = document.getElementById("siriusB-300");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function siriusB320(){
+        var bar = document.getElementById("siriusB-320");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+
+    /* funciones siriusX  Y XB  */
+    function siriusX60(){
+        var bar = document.getElementById("siriusX-60");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }function siriusX100(){
+        var bar = document.getElementById("siriusX-100");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function SiriusX150(){
+        var bar = document.getElementById("SiriusX-150");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    
+    }function SiriusX200(){
+        var bar = document.getElementById("SiriusX-200");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function SiriusXB60(){
+        var bar = document.getElementById("SiriusXB-60");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function SiriusXB100(){
+        var bar = document.getElementById("SiriusXB-100");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function SiriusXB160(){
+        var bar = document.getElementById("SiriusXB-160");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function SiriusXB200(){
+        var bar = document.getElementById("SiriusXB-200");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+
+/* funciones siriusXP  Y XBP  */
+    function SiriusXP60(){
+        var bar = document.getElementById("SiriusXP-60");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }function SiriusXP100(){
+        var bar = document.getElementById("SiriusXP-100");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function SiriusXP150(){
+        var bar = document.getElementById("SiriusXP-150");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    
+    }function SiriusXP200(){
+        var bar = document.getElementById("SiriusXP-200");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function SiriusXBP60(){
+        var bar = document.getElementById("SiriusXBP-60");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function SiriusXBP100(){
+        var bar = document.getElementById("SiriusXBP-100");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function SiriusXBP160(){
+        var bar = document.getElementById("SiriusXBP-160");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function SiriusXBP200(){
+        var bar = document.getElementById("SiriusXBP-200");
         if (bar.style.display === "none") {
             bar.style.display = "block";
         } else {
