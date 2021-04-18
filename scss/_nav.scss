@@ -11,7 +11,7 @@ nav{
 		}
 		ul{
 			position: relative;
-			color: #312f2e;
+			color: white;
 			float: right;
 			.nav-link{
 				a{
@@ -30,7 +30,7 @@ nav{
 		ul{
 			margin-bottom: 0;
 			li{
-				margin:0.5vw;
+				margin:0.5vw 2vw;
 				cursor: pointer;
 				font-size: 1.2vw;
 				font-family: $texto;

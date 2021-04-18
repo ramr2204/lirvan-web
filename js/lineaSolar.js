@@ -54,6 +54,14 @@ function polux100(){
         bar.style.display = "none";
     }
 }
+function polux120(){
+    var bar = document.getElementById("polux-120");
+    if (bar.style.display === "none") {
+        bar.style.display = "block";
+    } else {
+        bar.style.display = "none";
+    }
+}
 function centauri20(){
     var bar = document.getElementById("centauri-20");
     if (bar.style.display === "none") {
@@ -143,7 +151,15 @@ function alfa100(){
         } else {
             bar.style.display = "none";
         }
+}
+function alfa120(){
+    var bar = document.getElementById("alfa-120");
+    if (bar.style.display === "none") {
+        bar.style.display = "block";
+    } else {
+        bar.style.display = "none";
     }
+}
     function titan20(){
         var bar = document.getElementById("titan-20");
         if (bar.style.display === "none") {
@@ -378,6 +394,14 @@ function alfa100(){
     }
     function SiriusXBP200(){
         var bar = document.getElementById("SiriusXBP-200");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function optimus24(){
+        var bar = document.getElementById("optimus-24");
         if (bar.style.display === "none") {
             bar.style.display = "block";
         } else {

@@ -50,6 +50,27 @@
 		}
 		.card-info{
 			display: none;
+			.ficha{
+				font-family: $titulo;
+				display: flex;
+				justify-content: center;
+				color: $gris;
+				transition: all .5s ease-in-out;
+				i{
+					margin-top: 0.3vw;
+					margin-left: 0.2vw;
+				}
+				.icon-right-arrow{ display: none;}
+				&:hover{
+					color: $azul;
+					.icon-right-arrow{ 
+						display: block;
+				
+					}
+					.icon-next{ 
+						display: none; }
+				}
+			}
 		}
 	}
 }

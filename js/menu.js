@@ -11,12 +11,10 @@
 $('#toggle-menu').hover(function(){
     document.getElementById("lineas").style.display="block";
     document.getElementById("nav").style.backgroundColor="#312f2e";
-    document.getElementById("nav-link").style.color="#FFFFFF";
 })
 $('#close-menu').click(function(){
     document.getElementById("lineas").style.display="none";
     document.getElementById("nav").style.backgroundColor="#FFFFFF00";
-    document.getElementById("nav-link").style.color="#FFFFFF";
 })
 
 $('#solar-ancla').hover(function(){
