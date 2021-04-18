@@ -18,8 +18,12 @@ iframe{
     }
   }
   form{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
+    iframe{
+      width: 60vw;
+      height: 220vh;
+    }
     .group{
       margin:1vw 0;
       label{
@@ -56,10 +60,27 @@ iframe{
   }
 }
 
+@media (max-width: 1100px) {
+  .formulario{
+    form{
+      iframe{
+        height: 110vh;
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   iframe{
     width: 55vw;
     height: 56vw;
+  }
+  .formulario{
+    form{
+      iframe{
+        height: 150vh;
+      }
+    }
   }
 }
 @media (max-width: 576px) {
@@ -75,7 +96,11 @@ iframe{
       width: 100%;
     }
     form{
-      width: 80%;
+      width: 100%;
+      iframe{
+        height: 250vh;
+        width: 92vw;
+      }
     }
   }
 }
