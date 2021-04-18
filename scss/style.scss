@@ -30,7 +30,7 @@ h3{
 	font-family: $subtitulo;
 }
 h5{
-	font-size: 1.5;
+	font-size: 1.5vw;
 	font-family: $texto;
 }
 h6{
@@ -59,20 +59,10 @@ li{
 }
 
 
-.btn-dark{
-	font-size: 1.2vw;
-	padding: 0.5vw;
-	border-radius: 0.5vw;
-	margin: 0.3vw !important;
-	&:hover{
-		background: #292d31;
-		border: 1px solid #292d31;
-	}
-}
 .btn-secondary{ 
 	border-radius: 0.5vw;
 	background: #494f54;
 	border: #494f54;
 	font-size: 1.2vw;
-	padding: 0.5vw;
+	padding:0 1vw;
 }

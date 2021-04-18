@@ -82,3 +82,48 @@ nav{
 		}
 	}
 }
+
+
+
+// Medium devices (tablets, 768px and up)
+//@media (min-width: 768px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+	nav{
+
+		.nav{
+			padding: 0.5vw;
+			img{
+				width: 20vw;
+				margin-left: 6vw;
+			}
+		}
+		.ele{
+			padding-bottom: 3vw;
+			ul{
+				margin-top: 5vw;
+				li{
+					font-size: 3vw;
+					a{
+						font-size: 3vw;
+					}
+				
+				}
+			}
+			.elemento{
+				display: flex;
+				flex-wrap: wrap;
+				.it{
+					display: inline-block;
+					margin:1vw;
+					width: 32vw;
+						img{ 
+							width: 70vw;
+						}
+				}
+			}
+		}
+	}
+	
+ }

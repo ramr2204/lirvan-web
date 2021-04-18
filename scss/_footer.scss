@@ -23,6 +23,36 @@ footer{
 			ul{
 				margin-left: 0;
 				padding-left: 0;
+				li{
+					font-size: 2vw;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 567px) {
+	footer{
+		margin-top: 0;
+		padding-bottom: 10vw;
+		.row{
+			.col-sm-3{
+				h6{
+					font-size: 4vw !important;
+					margin-top: 3vw;
+				}
+				i{
+					margin: 1.5vw;
+					font-size: 4vw;
+				}
+				img{
+					width: 30vw;
+				}
+				ul{
+					li{
+						font-size: 3.2vw;
+					}
+				}
 			}
 		}
 	}

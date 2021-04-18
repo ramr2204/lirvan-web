@@ -59,3 +59,101 @@
 		}
 	}
 }
+
+.proyectos{
+	 overflow-x: hidden;
+}
+
+@media (max-width: 768px) { 
+	.info-ppal{
+		.row{
+			display: block;
+			.col-sm-4{
+				width: 100%;
+				margin: 2vw 0;
+				.contenedor{
+					img{
+						height: 66vw;
+					}
+					.info{
+						padding: 5vw;
+					}
+				}
+			}
+		}
+	}
+	
+.clientes-container{
+	.swiper-container{
+		.swiper-wrapper{
+			.swiper-slide{
+				img{
+					width: 32vw;
+				}
+			}
+		}
+	}
+}
+	.proyectos{
+		.contenedor{
+			img{
+				height: 40vw;
+			}
+			.info{
+				padding: 2vw;
+			}
+		}
+	}
+ }
+
+@media (max-width: 576px) {
+	.item-info{
+		flex-wrap: wrap;
+	}
+	
+	.info-ppal{
+		.row{
+			.col-sm-4{
+				margin: 4vw 0;
+				.contenedor{
+					img{
+						height: 80vw;
+					}
+				}
+			}
+		}
+	}
+
+	.clientes-container{
+		.swiper-container{
+			.swiper-wrapper{
+				.swiper-slide{
+					img{
+						width: 90vw;
+					}
+				}
+			}
+		}
+	}
+
+	.proyectos{
+		.contenedor{
+			img{
+				height: 70vw;
+				margin: 3vw 0;
+			}
+			.info{
+				padding: 5vw;
+			}
+		}
+	}
+	
+.item-repr{
+	.enlaces{
+		a{
+			img{ width: 5vw;}
+		}
+	}
+}
+}
+

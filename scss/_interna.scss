@@ -13,12 +13,6 @@
 	}
 }
 
-/* .main{
-	background-image: url('/assets/bg.jpg');
-	background-size: cover;
-	background-repeat: repeat;
-	background-position: center;
-} */
 .linea{
 	.texto{
 		width: 55%;
@@ -27,7 +21,6 @@
 		width:18vw;
 		margin:1vw 0vw;
 		.box{
-			border-radius: 0.3vw;
 			padding-bottom: 0.8vw;
 			img{
 				width: 36vw;
@@ -74,3 +67,62 @@
 		}
 	}
 }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 1024px) { 
+	.linea{
+		.item{
+			width:16vw;
+			.box{
+				img{
+					width: 30vw;
+				}
+			}
+		}
+	}
+ }
+
+ // Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+	.linea{
+		.item{
+			width: 24vw;
+			.box{
+				padding-bottom: 3vw;
+				img{
+					width: 48vw;
+				}
+			}
+		}
+	}
+ }
+ 
+
+ // Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+
+	.banner{
+		height: 70vw;
+		.container{
+			margin-left:5%;
+			margin-top: 15%;
+			width: 45%;
+			&.container-right{
+				margin-left: 50%;
+			}
+		}
+	}
+
+	.linea{
+		.item{
+			width:26vw;
+			margin: 3vw 0;
+			.box{
+				img{
+					width: 43vw;
+				}
+			}
+		}
+	}
+
+ }  
