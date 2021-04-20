@@ -179,14 +179,14 @@ nav .ele ul {
 nav .ele ul li {
   margin: 0.5vw 2vw;
   cursor: pointer;
-  font-size: 1.2vw;
+  font-size: 1vw;
   font-family: "Roboto-Light";
 }
 
 nav .ele ul li a {
   color: inherit;
   text-decoration: none;
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
 
 nav .ele ul li:hover {
@@ -807,7 +807,7 @@ h3 {
 }
 
 h5 {
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-family: "Roboto-Light";
 }
 
