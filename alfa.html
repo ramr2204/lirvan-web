@@ -10,7 +10,7 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100">
+	<nav class="w-100" id="navbar">
 		<div class="nav d-flex justify-content-between align-items-center" id="nav">
 			<img class="logo" src="/assets/LOGOF.svg" alt="">
 			<ul class="d-flex" id="nav-link">
@@ -102,259 +102,262 @@
 			</div>
 		</div>
 	</nav>
-	<section>
-		<div class="banner" style="background-image: url('/assets/banerTitan.png');">
-			<div class="container">
-				<h2 class="color-blanco">Luminaria Solar</h2>
-				<h6 class="color-blanco">Luminaria solar vanguardista de alta eficiencia diseñada para proyectos de alumbrado
-					público moderno en vías principales o secundarias con o sin acceso a red eléctrica
-					convencional
-				</h6>
-			</div>
-		</div>
-	</section>
-<section class="linea">
-    <div class="container pt-5">
-        <div class="row">
-            <h3 class="color-negro-1">ALFA</h3>
-            <p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
-        </div>
-        <div class="row d-flex">
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                    <img class="img-on" src="/assets/AlfaP20-1-1.svg" alt="">
-                    <img class="img-off" src="/assets/AlfaP20-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA20</h6>
-                    <h5 class="color-blanco">3.600 Lumens</h5>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="alfa20()">Ver más</button>
+    <div id="main">
+        <section>
+            <div class="banner" style="background-image: url('/assets/banerTitan.png');">
+                <div class="container">
+                    <h2 class="color-blanco">Luminaria Solar</h2>
+                    <h6 class="color-blanco">Luminaria solar vanguardista de alta eficiencia diseñada para proyectos de alumbrado
+                        público moderno en vías principales o secundarias con o sin acceso a red eléctrica
+                        convencional
+                    </h6>
                 </div>
-                <div class="card-info" id="alfa-20">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 3.600 Lumens</h5>
-                        <h6 class="color-azul">LV9009 / 180Lm/w</h6>
-                        <p class="color-gris">
-                            Módulo LED 20W<br>
-                            Módulo Solar 40Wp<br>
-                            Batería Litio 15Ah<br>
-                            Desempeño hasta 3.5 Noches<br>
-                            Altura recomendada 3-5 Mts
-                        </p>
-                        <a href="./fichas/AlFA20.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+            </div>
+        </section>
+        <section class="linea">
+            <div class="container pt-5">
+                <div class="row">
+                    <h3 class="color-negro-1">ALFA</h3>
+                    <p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
+                </div>
+                <div class="row d-flex">
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                            <img class="img-on" src="/assets/AlfaP20-1-1.svg" alt="">
+                            <img class="img-off" src="/assets/AlfaP20-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA20</h6>
+                            <h5 class="color-blanco">3.600 Lumens</h5>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa20()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-20">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 3.600 Lumens</h5>
+                                <h6 class="color-azul">LV9009 / 180Lm/w</h6>
+                                <p class="color-gris">
+                                    Módulo LED 20W<br>
+                                    Módulo Solar 40Wp<br>
+                                    Batería Litio 15Ah<br>
+                                    Desempeño hasta 3.5 Noches<br>
+                                    Altura recomendada 3-5 Mts
+                                </p>
+                                <a href="./fichas/AlFA20.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                            <img class="img-on" src="/assets/AlfaP20-1-1.svg" alt="">
+                            <img class="img-off" src="/assets/AlfaP20-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA30</h6>
+                            <h5 class="color-blanco">5.400 Lumens</h5>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa30()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-30">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 5.400 Lumens</h5>
+                                <h6 class="color-azul">LV9010 / 180Lm/w</h6>
+                                <p class="color-gris">
+                                    
+                                    Módulo LED 30W<br>
+                                    Módulo Solar 40Wp<br>
+                                    Batería Litio 20Ah<br>
+                                    Desempeño hasta 3.1 Noches<br>
+                                    Altura recomendada 4-6 Mts
+                                    
+                                </p>
+                                <a href="./fichas/AlFA30.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                            <img class="img-on" src="/assets/AlfaP40-1-1.svg" alt="">
+                            <img class="img-off" src="/assets/AlfaP40-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA40</h6>
+                            <h5 class="color-blanco">7.200 Lumens</h5>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="alfa40()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-40">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 7.200 Lumens</h5>
+                                <h6 class="color-azul">LV9012 / 180Lm/w</h6>
+                                <p class="color-gris">
+                                    
+                                    Módulo LED 40W<br>
+                                    Módulo Solar 60Wp<br>
+                                    Batería Litio 30Ah<br>
+                                    Desempeño hasta 3.4 Noches<br>
+                                    Altura recomendada 6-8 Mts
+                                    
+                                </p>
+                                <a href="./fichas/AlFA40.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                            <img class="img-off" src="/assets/AlfaP50-1.svg" alt="">
+                            <img class="img-on" src="/assets/AlfaP50-1-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA50</h6>
+                            <h5 class="color-blanco">9.000 Lumens</h5>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa50()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-50">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 9.000 Lumens</h5>
+                                <h6 class="color-azul">LV9013 / 180Lm/w</h6>
+                                <p class="color-gris">
+                                    
+                                    Módulo LED 50W<br>
+                                    Módulo Solar 90Wp<br>
+                                    Batería Litio 30Ah<br>
+                                    Desempeño hasta 2.8 Noches<br>
+                                    Altura recomendada 6-10 Mts
+                                    
+                                </p>
+                                <a href="./fichas/ALFA50.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                            <img class="img-off" src="/assets/AlfaP50-1.svg" alt="">
+                            <img class="img-on" src="/assets/AlfaP50-1-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA60</h6>
+                            <h5 class="color-blanco">10.800 Lumens</h5>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="alfa60()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-60">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 10.800 Lumens</h5>
+                                <h6 class="color-azul">LV9014 / 180Lm/w</h6>
+                                <p class="color-gris">
+    
+                                    
+                                    Módulo LED 60W<br>
+                                    Módulo Solar 90Wp<br>
+                                    Batería Litio 40Ah<br>
+                                    Desempeño hasta 3.1 Noches<br>
+                                    Altura recomendada 6-12 Mts
+                                    
+                                </p>
+                                <a href="./fichas/ALFA60.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                            <img class="img-off" src="/assets/AlfaP80-1.svg" alt="">
+                            <img class="img-on" src="/assets/AlfaP80-1-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA80</h6>
+                            <h5 class="color-blanco">14.400 Lumens</h5>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa80()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-80">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 14.400 Lumens</h5>
+                                <h6 class="color-azul">LV9015 / 180Lm/w</h6>
+                                <p class="color-gris">
+    
+                                    
+                                    Módulo LED 80W<br>
+                                    Módulo Solar 120Wp<br>
+                                    Batería Litio 50Ah<br>
+                                    Desempeño hasta 2.9 Noches<br>
+                                    Altura recomendada 6-12 Mts
+                                    
+                                </p>
+                                <a href="./fichas/ALFA80.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;">
+                            <img class="img-off" src="/assets/AlfaP100-1.svg" alt="">
+                            <img class="img-on" src="/assets/AlfaP100-1-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA100</h6>
+                            <h5 class="color-blanco">18.000 Lumens</h5>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa100()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-100">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 18.000 Lumens</h5>
+                                <h6 class="color-azul">LV9007 / 180Lm/w</h6>
+                                <p class="color-gris">
+                                    
+                                    Módulo LED 100W<br>
+                                    Módulo Solar 120Wp<br>
+                                    Batería Litio 60Ah<br>
+                                    Desempeño hasta 2.8 Noches<br>
+                                    Altura recomendada 6-12 Mts
+                                    
+                                </p>
+                                <a href="./fichas/ALFA100.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box w-100 bg-oscuro" style="text-align: center;">
+                            <img class="img-off" src="/assets/AlfaP120-1.svg" alt="">
+                            <img class="img-on" src="/assets/AlfaP120-1-1.svg" alt="">
+                            <h6 class="color-blanco">ALFA120</h6>
+                            <h5 class="color-blanco">21.600 Lumens</h5>
+                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa120()">Ver más</button>
+                        </div>
+                        <div class="card-info" id="alfa-120">
+                            <div class="card card-body">
+                                <h5 class="color-azul">Ultra Eficiente 18.000 Lumens</h5>
+                                <h6 class="color-azul">LV9007 / 180Lm/w</h6>
+                                <p class="color-gris">
+                                    
+                                    Módulo LED 120W<br>
+                                    Módulo Solar 120Wp<br>
+                                    Batería Litio 60Ah<br>
+                                    Desempeño hasta 2.8 Noches<br>
+                                    Altura recomendada 6-12 Mts
+                                    
+                                </p>
+                                <a href="./fichas/ALFA100.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                    <img class="img-on" src="/assets/AlfaP20-1-1.svg" alt="">
-                    <img class="img-off" src="/assets/AlfaP20-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA30</h6>
-                    <h5 class="color-blanco">5.400 Lumens</h5>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="alfa30()">Ver más</button>
-                </div>
-                <div class="card-info" id="alfa-30">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 5.400 Lumens</h5>
-                        <h6 class="color-azul">LV9010 / 180Lm/w</h6>
-                        <p class="color-gris">
-                            
-                            Módulo LED 30W<br>
-                            Módulo Solar 40Wp<br>
-                            Batería Litio 20Ah<br>
-                            Desempeño hasta 3.1 Noches<br>
-                            Altura recomendada 4-6 Mts
-                            
-                        </p>
-                        <a href="./fichas/AlFA30.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+        </section>
+        <footer class="w-100 bg-claro pt-5">
+            <div class="container">
+                <div class="row w-100 pt-5">
+                    <div class="col-sm-3">
+                        <img src="/assets/logo.png" alt="">
+                    </div>
+                    <div class="col-sm-3">
+                        <h6 class="color-azul">Empresa</h6>
+                        <ul>
+                            <li>Carrera 54 # 72a-272</li>
+                            <li>Itaguí, Antioquia, Colombia</li>
+                            <li>302 3309417</li>
+                            <li>info@lirvan.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6 class="color-azul">Legal</h6>
+                        <ul>
+                            <li>Términos de Uso</li>
+                            <li>Políticas de Privacidad</li>
+                            <li>Política de Datos</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
+                        <i class="icon-facebook"></i>
+                        <i class="icon-instagram"></i>
+                        <i class="icon-wpp"></i>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                    <img class="img-on" src="/assets/AlfaP40-1-1.svg" alt="">
-                    <img class="img-off" src="/assets/AlfaP40-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA40</h6>
-                    <h5 class="color-blanco">7.200 Lumens</h5>
-                   <button type="button" class="btn btn-secondary btn-sm" onclick="alfa40()">Ver más</button>
-                </div>
-                <div class="card-info" id="alfa-40">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 7.200 Lumens</h5>
-                        <h6 class="color-azul">LV9012 / 180Lm/w</h6>
-                        <p class="color-gris">
-                            
-                            Módulo LED 40W<br>
-                            Módulo Solar 60Wp<br>
-                            Batería Litio 30Ah<br>
-                            Desempeño hasta 3.4 Noches<br>
-                            Altura recomendada 6-8 Mts
-                            
-                        </p>
-                        <a href="./fichas/AlFA40.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                    <img class="img-off" src="/assets/AlfaP50-1.svg" alt="">
-                    <img class="img-on" src="/assets/AlfaP50-1-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA50</h6>
-                    <h5 class="color-blanco">9.000 Lumens</h5>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="alfa50()">Ver más</button>
-                </div>
-                <div class="card-info" id="alfa-50">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 9.000 Lumens</h5>
-                        <h6 class="color-azul">LV9013 / 180Lm/w</h6>
-                        <p class="color-gris">
-                            
-                            Módulo LED 50W<br>
-                            Módulo Solar 90Wp<br>
-                            Batería Litio 30Ah<br>
-                            Desempeño hasta 2.8 Noches<br>
-                            Altura recomendada 6-10 Mts
-                            
-                        </p>
-                        <a href="./fichas/ALFA50.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                    <img class="img-off" src="/assets/AlfaP50-1.svg" alt="">
-                    <img class="img-on" src="/assets/AlfaP50-1-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA60</h6>
-                    <h5 class="color-blanco">10.800 Lumens</h5>
-                   <button type="button" class="btn btn-secondary btn-sm" onclick="alfa60()">Ver más</button>
-                </div>
-                <div class="card-info" id="alfa-60">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 10.800 Lumens</h5>
-                        <h6 class="color-azul">LV9014 / 180Lm/w</h6>
-                        <p class="color-gris">
-
-                            
-                            Módulo LED 60W<br>
-                            Módulo Solar 90Wp<br>
-                            Batería Litio 40Ah<br>
-                            Desempeño hasta 3.1 Noches<br>
-                            Altura recomendada 6-12 Mts
-                            
-                        </p>
-                        <a href="./fichas/ALFA60.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                    <img class="img-off" src="/assets/AlfaP80-1.svg" alt="">
-                    <img class="img-on" src="/assets/AlfaP80-1-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA80</h6>
-                    <h5 class="color-blanco">14.400 Lumens</h5>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="alfa80()">Ver más</button>
-                </div>
-                <div class="card-info" id="alfa-80">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 14.400 Lumens</h5>
-                        <h6 class="color-azul">LV9015 / 180Lm/w</h6>
-                        <p class="color-gris">
-
-                            
-                            Módulo LED 80W<br>
-                            Módulo Solar 120Wp<br>
-                            Batería Litio 50Ah<br>
-                            Desempeño hasta 2.9 Noches<br>
-                            Altura recomendada 6-12 Mts
-                            
-                        </p>
-                        <a href="./fichas/ALFA80.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;">
-                    <img class="img-off" src="/assets/AlfaP100-1.svg" alt="">
-                    <img class="img-on" src="/assets/AlfaP100-1-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA100</h6>
-                    <h5 class="color-blanco">18.000 Lumens</h5>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="alfa100()">Ver más</button>
-                </div>
-                <div class="card-info" id="alfa-100">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 18.000 Lumens</h5>
-                        <h6 class="color-azul">LV9007 / 180Lm/w</h6>
-                        <p class="color-gris">
-                            
-                            Módulo LED 100W<br>
-                            Módulo Solar 120Wp<br>
-                            Batería Litio 60Ah<br>
-                            Desempeño hasta 2.8 Noches<br>
-                            Altura recomendada 6-12 Mts
-                            
-                        </p>
-                        <a href="./fichas/ALFA100.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;">
-                    <img class="img-off" src="/assets/AlfaP120-1.svg" alt="">
-                    <img class="img-on" src="/assets/AlfaP120-1-1.svg" alt="">
-                    <h6 class="color-blanco">ALFA120</h6>
-                    <h5 class="color-blanco">21.600 Lumens</h5>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="alfa120()">Ver más</button>
-                </div>
-                <div class="card-info" id="alfa-120">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 18.000 Lumens</h5>
-                        <h6 class="color-azul">LV9007 / 180Lm/w</h6>
-                        <p class="color-gris">
-                            
-                            Módulo LED 120W<br>
-                            Módulo Solar 120Wp<br>
-                            Batería Litio 60Ah<br>
-                            Desempeño hasta 2.8 Noches<br>
-                            Altura recomendada 6-12 Mts
-                            
-                        </p>
-                        <a href="./fichas/ALFA100.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </footer>
     </div>
-</section>
-<footer class="w-100 bg-claro pt-5">
-    <div class="container">
-        <div class="row w-100 pt-5">
-            <div class="col-sm-3">
-                <img src="/assets/logo.png" alt="">
-            </div>
-            <div class="col-sm-3">
-                <h6 class="color-azul">Empresa</h6>
-                <ul>
-                    <li>Carrera 54 # 72a-272</li>
-                    <li>Itaguí, Antioquia, Colombia</li>
-                    <li>302 3309417</li>
-                    <li>info@lirvan.com</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6 class="color-azul">Legal</h6>
-                <ul>
-                    <li>Términos de Uso</li>
-                    <li>Políticas de Privacidad</li>
-                    <li>Política de Datos</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
-                <i class="icon-facebook"></i>
-                <i class="icon-instagram"></i>
-                <i class="icon-wpp"></i>
-            </div>
-        </div>
-    </div>
-</footer>
+
 </body>
 <script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/js/menu.js"></script>

@@ -10,7 +10,7 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100">
+	<nav class="w-100" id="navbar">
 		<div class="nav d-flex justify-content-between align-items-center" id="nav">
 			<img class="logo" src="/assets/LOGOF.svg" alt="">
 			<ul class="d-flex" id="nav-link">
@@ -102,132 +102,135 @@
 			</div>
 		</div>
 	</nav>
-	<section>
-		<div class="banner" style="background-image: url('/assets/alumbrado-publicojpg.jpg');">
+	<div id="main">
+		<section>
+			<div class="banner" style="background-image: url('/assets/alumbrado-publicojpg.jpg');">
+				<div class="container">
+					<h2 class="color-blanco">Luminaria Alumbrado Publico</h2>
+					<h6 class="color-blanco">Luminarias publicas LED diseñadas de manera práctica para proyectos profesionales 
+																					cumpliendo todas las normas, la potencia debe ser ajustada según solicitud para cada 
+																					entrega, la eficiencia En Lm/w puede tener una pequeña variación según la misma. 
+					</h6>
+				</div>
+			</div>
+		</section>
+		<section class="linea">
+			<div class="container pt-5">
+				<div class="row">
+					<h3 class="color-negro-1">Vialux</h3>
+					<p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
+				</div>
+				<div class="row d-flex">
+					<div class="item">
+						<div class="box w-100 bg-oscuro" style="text-align: center;" >
+							<img class="img-on" src="/assets/VIALUX50-1-1.svg" alt="">
+							<img class="img-off" src="/assets/VIALUX50-1.svg" alt="">
+							<h6 class="color-blanco">Vialux50</h6>
+							<h5 class="color-blanco">5100-8500 Lumens ±</h5>
+						<button type="button" class="btn btn-secondary btn-sm" onclick="vialux50()">Ver más</button>
+						</div>
+						<div class="card-info" id="vialux-50">
+							<div class="card card-body">
+								<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
+								<h6 class="color-azul">LV3004 / WC 30W-50W </h6>
+								<p class="color-gris">
+																	Potencia ajustable 30W-50W Ajustable 
+									Eficiencia lumínica 170 Lm/w <br>
+									Flujo luminoso 5100-8500 Lm ±  <br>
+									Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
+																	<br>
+									Vida Útil 100.000 Horas 70% F.M <br>
+									Garantía 5años
+								</p>
+								<a href="./fichas/VIALUX 30W-50W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="box w-100 bg-oscuro" style="text-align: center;" >
+							<img class="img-on" src="/assets/VIALUX90-1-1.svg" alt="">
+							<img class="img-off" src="/assets/VIALUX90-1.svg" alt="">
+							<h6 class="color-blanco">Vialux90</h6>
+							<h5 class="color-blanco">11.900-15.300 Lumens ±</h5>
+						<button type="button" class="btn btn-secondary btn-sm" onclick="vialux90()">Ver más</button>
+						</div>
+						<div class="card-info" id="vialux-90">
+							<div class="card card-body">
+								<h5 class="color-azul">Luminaria Pública LED Vialux</h5>
+								<h6 class="color-azul">LV3005 / WC 70W-90W </h6>
+								<p class="color-gris"> 
+									Potencia ajustable 70W-90W  Ajustable 
+									Eficiencia lumínica 170 Lm/w <br>
+									Flujo luminoso 11900-15300 Lm ±  <br>
+									Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
+																	<br>
+									Vida Útil 100.000 Horas 70% F.M <br>
+									Garantía 5años
+								</p>
+								<a href="./fichas/VIALUX 70W-90W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="box w-100 bg-oscuro" style="text-align: center;">
+							<img class="img-on" src="/assets/VIALUX90-1-1.svg" alt="">
+							<img class="img-off" src="/assets/VIALUX90-1.svg" alt="">
+							<h6 class="color-blanco">Vialux140</h6>
+							<h5 class="color-blanco">18.700-23.800 Lumens ±</h5>
+							<button type="button" class="btn btn-secondary btn-sm" onclick="vialux140()">Ver más</button>
+						</div>
+						<div class="card-info" id="vialux-140">
+							<div class="card card-body">
+								<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
+								<h6 class="color-azul"> LV3006 / WC 110W-140W </h6>
+								<p class="color-gris">
+									Potencia ajustable 110W-140W Ajustable
+									Eficiencia lumínica 170 Lm/w <br>
+									Flujo luminoso 18.700-23.800 Lm ±  <br>
+									Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
+																	<br>
+									Vida Útil 100.000 Horas 70% F.M <br>
+									Garantía 5años
+								</p>
+								<a href="./fichas/VIALUX 110W-140W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>			
+		</section>
+		<footer class="w-100 bg-claro pt-5">
 			<div class="container">
-				<h2 class="color-blanco">Luminaria Alumbrado Publico</h2>
-				<h6 class="color-blanco">Luminarias publicas LED diseñadas de manera práctica para proyectos profesionales 
-                                        cumpliendo todas las normas, la potencia debe ser ajustada según solicitud para cada 
-                                        entrega, la eficiencia En Lm/w puede tener una pequeña variación según la misma. 
-				</h6>
-			</div>
-		</div>
-	</section>
-	<section class="linea">
-		<div class="container pt-5">
-			<div class="row">
-				<h3 class="color-negro-1">Vialux</h3>
-				<p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
-			</div>
-			<div class="row d-flex">
-				<div class="item">
-					<div class="box w-100 bg-oscuro" style="text-align: center;" >
-						<img class="img-on" src="/assets/VIALUX50-1-1.svg" alt="">
-						<img class="img-off" src="/assets/VIALUX50-1.svg" alt="">
-						<h6 class="color-blanco">Vialux50</h6>
-						<h5 class="color-blanco">5100-8500 Lumens ±</h5>
-					<button type="button" class="btn btn-secondary btn-sm" onclick="vialux50()">Ver más</button>
+				<div class="row w-100 pt-5">
+					<div class="col-sm-3">
+						<img src="/assets/logo.png" alt="">
 					</div>
-					<div class="card-info" id="vialux-50">
-						<div class="card card-body">
-							<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
-							<h6 class="color-azul">LV3004 / WC 30W-50W </h6>
-							<p class="color-gris">
-                                Potencia ajustable 30W-50W Ajustable 
-								Eficiencia lumínica 170 Lm/w <br>
-								Flujo luminoso 5100-8500 Lm ±  <br>
-								Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
-                                <br>
-								Vida Útil 100.000 Horas 70% F.M <br>
-								Garantía 5años
-							</p>
-							<a href="./fichas/VIALUX 30W-50W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-						</div>
+					<div class="col-sm-3">
+						<h6 class="color-azul">Empresa</h6>
+						<ul>
+							<li>Carrera 54 # 72a-272</li>
+							<li>Itaguí, Antioquia, Colombia</li>
+							<li>302 3309417</li>
+							<li>info@lirvan.com</li>
+						</ul>
 					</div>
-				</div>
-				<div class="item">
-					<div class="box w-100 bg-oscuro" style="text-align: center;" >
-						<img class="img-on" src="/assets/VIALUX90-1-1.svg" alt="">
-						<img class="img-off" src="/assets/VIALUX90-1.svg" alt="">
-						<h6 class="color-blanco">Vialux90</h6>
-						<h5 class="color-blanco">11.900-15.300 Lumens ±</h5>
-					<button type="button" class="btn btn-secondary btn-sm" onclick="vialux90()">Ver más</button>
+					<div class="col-sm-3">
+						<h6 class="color-azul">Legal</h6>
+						<ul>
+							<li>Términos de Uso</li>
+							<li>Políticas de Privacidad</li>
+							<li>Política de Datos</li>
+						</ul>
 					</div>
-					<div class="card-info" id="vialux-90">
-						<div class="card card-body">
-							<h5 class="color-azul">Luminaria Pública LED Vialux</h5>
-							<h6 class="color-azul">LV3005 / WC 70W-90W </h6>
-							<p class="color-gris"> 
-								Potencia ajustable 70W-90W  Ajustable 
-								Eficiencia lumínica 170 Lm/w <br>
-								Flujo luminoso 11900-15300 Lm ±  <br>
-								Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
-                                <br>
-								Vida Útil 100.000 Horas 70% F.M <br>
-								Garantía 5años
-							</p>
-							<a href="./fichas/VIALUX 70W-90W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-						</div>
+					<div class="col-sm-3">
+						<h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
+						<i class="icon-facebook"></i>
+						<i class="icon-instagram"></i>
+						<i class="icon-wpp"></i>
 					</div>
-				</div>
-				<div class="item">
-					<div class="box w-100 bg-oscuro" style="text-align: center;">
-						<img class="img-on" src="/assets/VIALUX90-1-1.svg" alt="">
-						<img class="img-off" src="/assets/VIALUX90-1.svg" alt="">
-						<h6 class="color-blanco">Vialux140</h6>
-						<h5 class="color-blanco">18.700-23.800 Lumens ±</h5>
-						<button type="button" class="btn btn-secondary btn-sm" onclick="vialux140()">Ver más</button>
-					</div>
-					<div class="card-info" id="vialux-140">
-						<div class="card card-body">
-							<h5 class="color-azul">Ultra Eficiente 170 Lm/w</h5>
-							<h6 class="color-azul"> LV3006 / WC 110W-140W </h6>
-							<p class="color-gris">
-								Potencia ajustable 110W-140W Ajustable
-								Eficiencia lumínica 170 Lm/w <br>
-								Flujo luminoso 18.700-23.800 Lm ±  <br>
-								Distribución Lumínica Tipo 2 estándar (1,3,4,5 opcional)
-                                <br>
-								Vida Útil 100.000 Horas 70% F.M <br>
-								Garantía 5años
-							</p>
-							<a href="./fichas/VIALUX 110W-140W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-						</div>
-					</div>
-				</div>			
-	</section>
-	<footer class="w-100 bg-claro pt-5">
-		<div class="container">
-			<div class="row w-100 pt-5">
-				<div class="col-sm-3">
-					<img src="/assets/logo.png" alt="">
-				</div>
-				<div class="col-sm-3">
-					<h6 class="color-azul">Empresa</h6>
-					<ul>
-						<li>Carrera 54 # 72a-272</li>
-						<li>Itaguí, Antioquia, Colombia</li>
-						<li>302 3309417</li>
-						<li>info@lirvan.com</li>
-					</ul>
-				</div>
-				<div class="col-sm-3">
-					<h6 class="color-azul">Legal</h6>
-					<ul>
-						<li>Términos de Uso</li>
-						<li>Políticas de Privacidad</li>
-						<li>Política de Datos</li>
-					</ul>
-				</div>
-				<div class="col-sm-3">
-					<h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
-					<i class="icon-facebook"></i>
-					<i class="icon-instagram"></i>
-					<i class="icon-wpp"></i>
 				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
+	</div>
+
 </body>
 <script>
     function vialux50(){

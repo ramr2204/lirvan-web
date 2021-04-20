@@ -11,10 +11,13 @@
 $('#toggle-menu').hover(function(){
     document.getElementById("lineas").style.display="block";
     document.getElementById("nav").style.backgroundColor="#312f2e";
+    document.getElementById("main").style.opacity = "0.4"; 
 })
 $('#close-menu').click(function(){
     document.getElementById("lineas").style.display="none";
     document.getElementById("nav").style.backgroundColor="#FFFFFF00";
+    document.body.style.backgroundColor = "#FFFFFF";
+    document.getElementById("main").style.opacity = "1"; 
 })
 
 $('#solar-ancla').hover(function(){
@@ -26,3 +29,18 @@ $('#industrial-ancla').hover(function(){
     document.getElementById("solar").style.display="none";
     document.getElementById("industrial").style.display="block";
 })
+
+$(document).ready(function(){
+    var $cabecera = $('#navbar');
+    var previousScroll = 0;
+    $(window).scroll(function(event){
+       var scroll = $(this).scrollTop();
+       if (scroll > previousScroll && scroll > 100){
+           $cabecera.addClass('nav-scroll');
+   
+       } else {
+           $cabecera.removeClass('nav-scroll');
+       }
+       previousScroll = scroll;    });
+ 
+  });

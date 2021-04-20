@@ -10,7 +10,7 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100">
+	<nav class="w-100" id="navbar">
 		<div class="nav d-flex justify-content-between align-items-center" id="nav">
 			<img class="logo" src="/assets/LOGOF.svg" alt="">
 			<ul class="d-flex" id="nav-link">
@@ -102,224 +102,227 @@
 			</div>
 		</div>
 	</nav>
-	<section>
-		<div class="banner" style="background-image: url('/assets/banner-siriusb.png');">
-			<div class="container container-right">
-				<h2 class="color-blanco">Luminaria Industrial</h2>
-				<h6 class="color-blanco">Luminaria Highbay vanguardista diseñada para proyectos con espacios abiertos y cerrados de gran altura. Alta eficiencia, alcanza importantes resultados energéticos y lumínicos con bajas potencias logrando una estabilidad en el tiempo.
-				</h6>
-			</div>
-		</div>
-	</section>
-<section class="linea">
-    <div class="container pt-5">
-        <div class="row">
-            <h3 class="color-negro-1"> SiriusB </h3>
-            <p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
-        </div>
-        <div class="row d-flex">
-            <div class="item">
-                <div class="box w-100 bg-oscuro" style="text-align: center;" >
+    <div id="main">
+        <section>
+            <div class="banner" style="background-image: url('/assets/banner-siriusb.png');">
+                <div class="container container-right">
+                    <h2 class="color-blanco">Luminaria Industrial</h2>
+                    <h6 class="color-blanco">Luminaria Highbay vanguardista diseñada para proyectos con espacios abiertos y cerrados de gran altura. Alta eficiencia, alcanza importantes resultados energéticos y lumínicos con bajas potencias logrando una estabilidad en el tiempo.
+                    </h6>
+                </div>
+            </div>
+        </section>
+    <section class="linea">
+        <div class="container pt-5">
+            <div class="row">
+                <h3 class="color-negro-1"> SiriusB </h3>
+                <p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
+            </div>
+            <div class="row d-flex">
+                <div class="item">
+                    <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                        <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
+                        <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
+                        <h6 class="color-blanco">SiriusB60</h6>
+                        <h5 class="color-blanco"> 11.400 Lumens</h5>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB60()">Ver más</button>
+                    </div>
+                    <div class="card-info" id="siriusB-60">
+                        <div class="card card-body">
+                            <h5 class="color-azul">Ultra Eficiente 190Lm/w </h5>
+                            <h6 class="color-azul"> LV2012 / 60W / IP65</h6>
+                            <p class="color-gris">
+                                Potencia ajustable 60W Dimerizable<br>
+                                Eficiencia lumínica 190 Lm/w ±<br>
+                                Flujo luminoso 11.400 Lm ±<br>
+                                Vida Útil 100.000 Horas LM80<br>
+                                Garantia 5 Años                            
+                            </p>
+                            <a href="./fichas/SIRIUS B60W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="box w-100 bg-oscuro" style="text-align: center;" >
                     <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
                     <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
-                    <h6 class="color-blanco">SiriusB60</h6>
-                    <h5 class="color-blanco"> 11.400 Lumens</h5>
-                    <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB60()">Ver más</button>
-                </div>
-                <div class="card-info" id="siriusB-60">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 190Lm/w </h5>
-                        <h6 class="color-azul"> LV2012 / 60W / IP65</h6>
-                        <p class="color-gris">
-                            Potencia ajustable 60W Dimerizable<br>
-                            Eficiencia lumínica 190 Lm/w ±<br>
-                            Flujo luminoso 11.400 Lm ±<br>
-                            Vida Útil 100.000 Horas LM80<br>
-                            Garantia 5 Años                            
-                        </p>
-                        <a href="./fichas/SIRIUS B60W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                    <h6 class="color-blanco">SiriusB100</h6>
+                    <h5 class="color-blanco"> 19.000 Lumens</h5>
+                    <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB100()">Ver más</button>
+                  </div>
+                    <div class="card-info" id="siriusB-100">
+                        <div class="card card-body">
+                            <h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+                            <h6 class="color-azul"> LV2013 / 100W / IP65</h6>
+                            <p class="color-gris">
+                                
+                                Potencia ajustable 100W Dimerizable<br>
+                                Eficiencia lumínica 190 Lm/w ±<br>
+                                Flujo luminoso 19.000 Lm ±<br>
+                                Vida Útil 100.000 Horas LM80<br>
+                                Garantia 5 Años
+                                
+                            </p>
+                            <a href="./fichas/SIRIUS B100W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-              <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
-				<img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
-                <h6 class="color-blanco">SiriusB100</h6>
-                <h5 class="color-blanco"> 19.000 Lumens</h5>
-                <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB100()">Ver más</button>
-              </div>
-                <div class="card-info" id="siriusB-100">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
-                        <h6 class="color-azul"> LV2013 / 100W / IP65</h6>
-                        <p class="color-gris">
-                            
-                            Potencia ajustable 100W Dimerizable<br>
-                            Eficiencia lumínica 190 Lm/w ±<br>
-                            Flujo luminoso 19.000 Lm ±<br>
-                            Vida Útil 100.000 Horas LM80<br>
-                            Garantia 5 Años
-                            
-                        </p>
-                        <a href="./fichas/SIRIUS B100W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                <div class="item">
+                                <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                                    <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
+                                    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
+                    <h6 class="color-blanco">SiriusB160</h6>
+                    <h5 class="color-blanco"> 30.400 Lumens</h5>
+                   <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB160()">Ver más</button>
+                </div>
+                    <div class="card-info" id="siriusB-160">
+                        <div class="card card-body">
+                            <h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
+                            <h6 class="color-azul"> LV2014 / 160W / IP65</h6>
+                            <p class="color-gris">
+                                
+                                Potencia ajustable 160W Dimerizable<br>
+                                Eficiencia lumínica 190 Lm/w ±<br>
+                                Flujo luminoso 30.400 Lm ±<br>
+                                Vida Útil 100.000 Horas LM80<br>
+                                Garantia 5 Años
+                                
+                            </p>
+                            <a href="./fichas/SIRIUS B160W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-							<div class="box w-100 bg-oscuro" style="text-align: center;" >
-                                <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
-							    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
-                <h6 class="color-blanco">SiriusB160</h6>
-                <h5 class="color-blanco"> 30.400 Lumens</h5>
-               <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB160()">Ver más</button>
-            </div>
-                <div class="card-info" id="siriusB-160">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente 190Lm/w</h5>
-                        <h6 class="color-azul"> LV2014 / 160W / IP65</h6>
-                        <p class="color-gris">
-                            
-                            Potencia ajustable 160W Dimerizable<br>
-                            Eficiencia lumínica 190 Lm/w ±<br>
-                            Flujo luminoso 30.400 Lm ±<br>
-                            Vida Útil 100.000 Horas LM80<br>
-                            Garantia 5 Años
-                            
-                        </p>
-                        <a href="./fichas/SIRIUS B160W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                <div class="item">
+                    <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                        <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
+                        <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
+                    <h6 class="color-blanco">SiriusB200</h6>
+                    <h5 class="color-blanco"> 38.000 Lumens</h5>
+                   <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB200()">Ver más</button>
+                </div>
+                    <div class="card-info" id="siriusB-200">
+                        <div class="card card-body">
+                            <h5 class="color-azul">Ultra Eficiente190Lm/w</h5>
+                            <h6 class="color-azul"> LV2015 / 200W / IP65</h6>
+                            <p class="color-gris">
+                                
+                                Potencia ajustable 200W Dimerizable<br>
+                                Eficiencia lumínica 190 Lm/w ±<br>
+                                Flujo luminoso 38.000 Lm ±<br>
+                                Vida Útil 100.000 Horas LM80<br>
+                                Garantia 5 Años
+                                
+                            </p>
+                            <a href="./fichas/SIRIUS B200W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-				<div class="box w-100 bg-oscuro" style="text-align: center;" >
-                    <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
-					<img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
-                <h6 class="color-blanco">SiriusB200</h6>
-                <h5 class="color-blanco"> 38.000 Lumens</h5>
-               <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB200()">Ver más</button>
-            </div>
-                <div class="card-info" id="siriusB-200">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Ultra Eficiente190Lm/w</h5>
-                        <h6 class="color-azul"> LV2015 / 200W / IP65</h6>
-                        <p class="color-gris">
-                            
-                            Potencia ajustable 200W Dimerizable<br>
-                            Eficiencia lumínica 190 Lm/w ±<br>
-                            Flujo luminoso 38.000 Lm ±<br>
-                            Vida Útil 100.000 Horas LM80<br>
-                            Garantia 5 Años
-                            
-                        </p>
-                        <a href="./fichas/SIRIUS B200W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                <div class="item">
+                                <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                                    <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
+                                    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
+                    <h6 class="color-blanco">SiriusB240</h6>
+                    <h5 class="color-blanco"> 44.400 Lumens</h5>
+                    <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB240()">Ver más</button>
+                  </div>
+                    <div class="card-info" id="siriusB-240">
+                        <div class="card card-body">
+                            <h5 class="color-azul">Profesional 185 Lm/w</h5>
+                            <h6 class="color-azul"> LV2027 / 240W / IP65</h6>
+                            <p class="color-gris">
+                                Potencia ajustable 240W Dimerizable<br>
+                                Eficiencia lumínica 185 Lm/w ±<br>
+                                Flujo luminoso 44.400 Lm ±<br>
+                                Vida Útil 100.000 Horas LM80<br>
+                                Garantia 5 Años                
+                            </p>
+                            <a href="./fichas/SIRIUS B240W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-							<div class="box w-100 bg-oscuro" style="text-align: center;" >
-                                <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
-							    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
-                <h6 class="color-blanco">SiriusB240</h6>
-                <h5 class="color-blanco"> 44.400 Lumens</h5>
-                <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB240()">Ver más</button>
-              </div>
-                <div class="card-info" id="siriusB-240">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Profesional 185 Lm/w</h5>
-                        <h6 class="color-azul"> LV2027 / 240W / IP65</h6>
-                        <p class="color-gris">
-                            Potencia ajustable 240W Dimerizable<br>
-                            Eficiencia lumínica 185 Lm/w ±<br>
-                            Flujo luminoso 44.400 Lm ±<br>
-                            Vida Útil 100.000 Horas LM80<br>
-                            Garantia 5 Años                
-                        </p>
-                        <a href="./fichas/SIRIUS B240W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                <div class="item">
+                                <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                                    <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
+                                    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
+                    <h6 class="color-blanco">SiriusB300</h6>
+                    <h5 class="color-blanco"> 55.500 Lumens</h5>
+                   <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB300()">Ver más</button>
+                  </div>
+                    <div class="card-info" id="siriusB-300">
+                        <div class="card card-body">
+                            <h5 class="color-azul">Profesional 185 Lm/w</h5>
+                            <h6 class="color-azul"> LV2028 / 300W / IP65</h6>
+                            <p class="color-gris">
+                                Potencia ajustable 300W Dimerizable<br>
+                                Eficiencia lumínica 185 Lm/w ±<br>
+                                Flujo luminoso 55.500 Lm ±<br>
+                                Vida Útil 100.000 Horas LM80<br>
+                                Garantia 5 Años                 
+                            </p>
+                            <a href="./fichas/SIRIUS B300W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-							<div class="box w-100 bg-oscuro" style="text-align: center;" >
-                                <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
-							    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
-                <h6 class="color-blanco">SiriusB300</h6>
-                <h5 class="color-blanco"> 55.500 Lumens</h5>
-               <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB300()">Ver más</button>
-              </div>
-                <div class="card-info" id="siriusB-300">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Profesional 185 Lm/w</h5>
-                        <h6 class="color-azul"> LV2028 / 300W / IP65</h6>
-                        <p class="color-gris">
-                            Potencia ajustable 300W Dimerizable<br>
-                            Eficiencia lumínica 185 Lm/w ±<br>
-                            Flujo luminoso 55.500 Lm ±<br>
-                            Vida Útil 100.000 Horas LM80<br>
-                            Garantia 5 Años                 
-                        </p>
-                        <a href="./fichas/SIRIUS B300W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-							<div class="box w-100 bg-oscuro" style="text-align: center;" >
-                                <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
-							    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
-                <h6 class="color-blanco">SiriusB320</h6>
-                <h5 class="color-blanco"> 60.800 Lumens</h5>
-                <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB320()">Ver más</button>
-              </div>
-                <div class="card-info" id="siriusB-320">
-                    <div class="card card-body">
-                        <h5 class="color-azul">Profesional 185 Lm/w</h5>
-                        <h6 class="color-azul"> LV2029 / 320W / IP65</h6>
-                        <p class="color-gris">
-                            Potencia ajustable 320W Dimerizable<br>
-                            Eficiencia lumínica 185 Lm/w ±<br>
-                            Flujo luminoso 60.800 Lm ±<br>
-                            Vida Útil 100.000 Horas LM80<br>
-                            Garantia 5 Años                   
-                        </p>
-                        <a href="./fichas/SIRIUS B300W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                <div class="item">
+                                <div class="box w-100 bg-oscuro" style="text-align: center;" >
+                                    <img class="img-off" src="/assets/siriusB1.svg" alt=""> 	
+                                    <img class="img-on pe" src="/assets/siriusB1-1.svg" alt="">
+                    <h6 class="color-blanco">SiriusB320</h6>
+                    <h5 class="color-blanco"> 60.800 Lumens</h5>
+                    <button type="button" class="btn btn-secondary btn-sm" onclick="siriusB320()">Ver más</button>
+                  </div>
+                    <div class="card-info" id="siriusB-320">
+                        <div class="card card-body">
+                            <h5 class="color-azul">Profesional 185 Lm/w</h5>
+                            <h6 class="color-azul"> LV2029 / 320W / IP65</h6>
+                            <p class="color-gris">
+                                Potencia ajustable 320W Dimerizable<br>
+                                Eficiencia lumínica 185 Lm/w ±<br>
+                                Flujo luminoso 60.800 Lm ±<br>
+                                Vida Útil 100.000 Horas LM80<br>
+                                Garantia 5 Años                   
+                            </p>
+                            <a href="./fichas/SIRIUS B300W.pdf" class="ficha btn-sm m-2" target="blank">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<footer class="w-100 bg-claro pt-5">
-    <div class="container">
-        <div class="row w-100 pt-5">
-            <div class="col-sm-3">
-                <img src="/assets/logo.png" alt="">
-            </div>
-            <div class="col-sm-3">
-                <h6 class="color-azul">Empresa</h6>
-                <ul>
-                    <li>Carrera 54 # 72a-272</li>
-                    <li>Itaguí, Antioquia, Colombia</li>
-                    <li>302 3309417</li>
-                    <li>info@lirvan.com</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6 class="color-azul">Legal</h6>
-                <ul>
-                    <li>Términos de Uso</li>
-                    <li>Políticas de Privacidad</li>
-                    <li>Política de Datos</li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
-                <i class="icon-facebook"></i>
-                <i class="icon-instagram"></i>
-                <i class="icon-wpp"></i>
+    </section>
+    <footer class="w-100 bg-claro pt-5">
+        <div class="container">
+            <div class="row w-100 pt-5">
+                <div class="col-sm-3">
+                    <img src="/assets/logo.png" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="color-azul">Empresa</h6>
+                    <ul>
+                        <li>Carrera 54 # 72a-272</li>
+                        <li>Itaguí, Antioquia, Colombia</li>
+                        <li>302 3309417</li>
+                        <li>info@lirvan.com</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="color-azul">Legal</h6>
+                    <ul>
+                        <li>Términos de Uso</li>
+                        <li>Políticas de Privacidad</li>
+                        <li>Política de Datos</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
+                    <i class="icon-facebook"></i>
+                    <i class="icon-instagram"></i>
+                    <i class="icon-wpp"></i>
+                </div>
             </div>
         </div>
+    </footer>
     </div>
-</footer>
+
 </body>
 <script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/js/menu.js"></script>

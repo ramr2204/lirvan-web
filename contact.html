@@ -10,7 +10,7 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100">
+	<nav class="w-100" id="navbar">
 		<div class="nav d-flex justify-content-between align-items-center" id="nav">
 			<img class="logo" src="/assets/LOGOF.svg" alt="">
 			<ul class="d-flex" id="nav-link">
@@ -102,118 +102,123 @@
 			</div>
 		</div>
 	</nav>
-	<section>
-		<div class="banner" style="background-image: url('/assets/banner-2.jpg');">
-			<div class="container">
-				<h2 class="color-blanco">Contactanos</h2>
-				<h6 class="color-blanco info-contacto">No dudes en escribirnos, para solicitar informacion de tu pedido o salicitar ayuda con tu proyecto
-				</h6>
-			</div>
-		</div>
-   </section>     
-		<section class="formulario">
 
-			<div class="container">
-				<h3 class="color-azul d-flex justify-content-center pt-5">Donde comprar</h3>
-				<div class="row pt-4">
-					<div class="col-sm-6">
-						<h3 class="color-azul d-flex justify-content-center pt-5">Ubicación</h3>
-						<iframe class="map pt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126930.30353126011!2d-75.66866324179688!3d6.18798720000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46824e3e4db4d5%3A0xdfa51035eb933f18!2sCompa%C3%B1%C3%ADa%20Lirvan%20S.A.S.!5e0!3m2!1ses-419!2sco!4v1618497457902!5m2!1ses-419!2sco" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-					</div>
-					<div class="col-sm-6">
-						<h3 class="color-azul d-flex justify-content-center pt-5">Contáctanos</h3>
-						<div class="container pt-3">				
-							<div class="item">
-								<h6 class="color-azul">Dirección</h6>
-								<p>Carrera 54 # 72a-272</p>
-							</div>
-							<div class="item">
-								<h6 class="color-azul">Ciudad</h6>
-								<p class="color-gris">Itaguí, Antioquia, Colombia</p>
-							</div>
-							<div class="item">
-								<h6 class="color-azul">Teléfono</h6>
-								<p class="color-gris">302 3309417</p>
-							</div>
-							<div class="item">
-								<h6 class="color-azul">Correo electrónico</h6>
-								<p class="color-gris">info@lirvan.com</p>
-							</div>
-							<div class="item">
-								<h6 class="color-azul">Horario de atencióno</h6>
-								<p class="color-gris">7:00 - 17:00</p>
-							</div>
-							<div class="item">
-								<div class="aviso color-rojo" id="openAlert">Abierto Ahora</div>
+	<div id="main">
+		<section>
+			<div class="banner" style="background-image: url('/assets/banner-2.jpg');">
+				<div class="container">
+					<h2 class="color-blanco">Contactanos</h2>
+					<h6 class="color-blanco info-contacto">No dudes en escribirnos, para solicitar informacion de tu pedido o salicitar ayuda con tu proyecto
+					</h6>
+				</div>
+			</div>
+		 </section>     
+			<section class="formulario">
+	
+				<div class="container">
+					<h3 class="color-azul d-flex justify-content-center pt-5">Donde comprar</h3>
+					<div class="row pt-4">
+						<div class="col-sm-6">
+							<h3 class="color-azul d-flex justify-content-center pt-5">Ubicación</h3>
+							<iframe class="map pt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126930.30353126011!2d-75.66866324179688!3d6.18798720000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46824e3e4db4d5%3A0xdfa51035eb933f18!2sCompa%C3%B1%C3%ADa%20Lirvan%20S.A.S.!5e0!3m2!1ses-419!2sco!4v1618497457902!5m2!1ses-419!2sco" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+						<div class="col-sm-6">
+							<h3 class="color-azul d-flex justify-content-center pt-5">Contáctanos</h3>
+							<div class="container pt-3">				
+								<div class="item">
+									<h6 class="color-azul">Dirección</h6>
+									<p>Carrera 54 # 72a-272</p>
+								</div>
+								<div class="item">
+									<h6 class="color-azul">Ciudad</h6>
+									<p class="color-gris">Itaguí, Antioquia, Colombia</p>
+								</div>
+								<div class="item">
+									<h6 class="color-azul">Teléfono</h6>
+									<p class="color-gris">302 3309417</p>
+								</div>
+								<div class="item">
+									<h6 class="color-azul">Correo electrónico</h6>
+									<p class="color-gris">info@lirvan.com</p>
+								</div>
+								<div class="item">
+									<h6 class="color-azul">Horario de atencióno</h6>
+									<p class="color-gris">7:00 - 17:00</p>
+								</div>
+								<div class="item">
+									<div class="aviso color-rojo" id="openAlert">Abierto Ahora</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="formulario pt-5">
-			<div id="wrap" class="container">
-			<!-- 	<h3 class="color-azul d-flex justify-content-center">Diligencie este formulario para ponerse en contacto con nosotros.</h3> -->
-				 <form class="pt-4" id="contactForm" action="mailto:valenrobledo31@gmail.com" method="POST" enctype=”text/plain”>
-						<!-- <div class="group">
-							<label for="email">Correo electrónico:</label>
-							<input type="email" id="email" name="email" placeholder="Ingrese su correo.">
+			</section>
+			<section class="formulario pt-5">
+				<div id="wrap" class="container">
+				<!-- 	<h3 class="color-azul d-flex justify-content-center">Diligencie este formulario para ponerse en contacto con nosotros.</h3> -->
+					 <form class="pt-4" id="contactForm" action="mailto:valenrobledo31@gmail.com" method="POST" enctype=”text/plain”>
+							<!-- <div class="group">
+								<label for="email">Correo electrónico:</label>
+								<input type="email" id="email" name="email" placeholder="Ingrese su correo.">
+							</div>
+							<div class="group">
+								<label for="nombre">Nombre completo:</label>
+								<input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
+							</div>
+						 <div class="group">
+								<label for="asunto">Asunto del mensaje:</label>
+								<input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje">
+						 </div>
+							<div class="group">
+								<label for="descripcion">Descripción del mensaje:</label>
+								<span class="caracteres">Máximo 500 caracteres</span>
+								<textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escriba su mensaje."></textarea>
+							</div>
+							
+				
+							<div class="w-100" style="text-align: center;">
+								<button class="btn btn-enviar" type="submit" id="enviar">Enviar</button>
+							</div> -->
+							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZrLR1mZ4xEjEIvQ1B-qNc_2rnb77uG87w7kk0R9Atz5x3Rw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+					</form>	
+				</div>        	
+			</section>
+			 
+			<footer class="formulario w-100 bg-claro pt-5">
+				<div class="container">
+					<div class="row w-100 pt-5">
+						<div class="col-sm-3">
+							<img src="/assets/logo.png" alt="">
 						</div>
-						<div class="group">
-							<label for="nombre">Nombre completo:</label>
-							<input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
+						<div class="col-sm-3">
+							<h6 class="color-azul">Empresa</h6>
+							<ul>
+								<li>Carrera 54 # 72a-272</li>
+								<li>Itaguí, Antioquia, Colombia</li>
+								<li>302 3309417</li>
+								<li>info@lirvan.com</li>
+							</ul>
 						</div>
-					 <div class="group">
-							<label for="asunto">Asunto del mensaje:</label>
-							<input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje">
-					 </div>
-						<div class="group">
-							<label for="descripcion">Descripción del mensaje:</label>
-							<span class="caracteres">Máximo 500 caracteres</span>
-							<textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escriba su mensaje."></textarea>
+						<div class="col-sm-3">
+							<h6 class="color-azul">Legal</h6>
+							<ul>
+								<li>Términos de Uso</li>
+								<li>Políticas de Privacidad</li>
+								<li>Política de Datos</li>
+							</ul>
 						</div>
-						
-			
-						<div class="w-100" style="text-align: center;">
-							<button class="btn btn-enviar" type="submit" id="enviar">Enviar</button>
-						</div> -->
-						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZrLR1mZ4xEjEIvQ1B-qNc_2rnb77uG87w7kk0R9Atz5x3Rw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-				</form>	
-			</div>        	
-		</section>
-     
-		<footer class="formulario w-100 bg-claro pt-5">
-			<div class="container">
-				<div class="row w-100 pt-5">
-					<div class="col-sm-3">
-						<img src="/assets/logo.png" alt="">
-					</div>
-					<div class="col-sm-3">
-						<h6 class="color-azul">Empresa</h6>
-						<ul>
-							<li>Carrera 54 # 72a-272</li>
-							<li>Itaguí, Antioquia, Colombia</li>
-							<li>302 3309417</li>
-							<li>info@lirvan.com</li>
-						</ul>
-					</div>
-					<div class="col-sm-3">
-						<h6 class="color-azul">Legal</h6>
-						<ul>
-							<li>Términos de Uso</li>
-							<li>Políticas de Privacidad</li>
-							<li>Política de Datos</li>
-						</ul>
-					</div>
-					<div class="col-sm-3">
-						<h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
-						<i class="icon-facebook"></i>
-						<i class="icon-instagram"></i>
-						<i class="icon-wpp"></i>
+						<div class="col-sm-3">
+							<h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
+							<i class="icon-facebook"></i>
+							<i class="icon-instagram"></i>
+							<i class="icon-wpp"></i>
+						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+	</div>
+
+
 </body>
 	<script src="/js/jquery-3.5.1.min.js"></script>
 	<script src="/js/menu.js"></script>
