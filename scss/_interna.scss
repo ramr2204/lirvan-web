@@ -40,6 +40,27 @@
 					display: none;
 				}
 			}
+			.v{
+				cursor: pointer;
+				font-family: $titulo;
+				display: flex;
+				justify-content: center;
+				color: white;
+				transition: all .5s ease-in-out;
+				i{
+					margin-top: 0.3vw;
+					margin-left: 0.2vw;
+				}
+				.icon-right-arrow{ display: none;}
+				&:hover{
+					.icon-right-arrow{ 
+						display: block;
+				
+					}
+					.icon-next{ 
+						display: none; }
+				}
+			}
 		}
 		.card-info{
 			display: none;
