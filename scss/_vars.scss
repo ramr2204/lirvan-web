@@ -7,6 +7,7 @@ $negro: black;
 $gris: #666666;
 $gris-claro: #F0F0F0;
 $rojo: #ff3945;
+$oscuro: #2c2a2f;
 
 
 //Color de fuentes
@@ -28,6 +29,9 @@ $rojo: #ff3945;
 .color-rojo{
 	color:$rojo;
 }
+.color-oscuro{
+	color:$oscuro;
+}
 
 //Background Color
 .bg-azul{
@@ -43,8 +47,9 @@ $rojo: #ff3945;
 	background-color: $gris-claro;
 }
 .bg-oscuro{
-	background-color: $negro-1;
+	background-color: $oscuro;
 }
+
 .bg-blanco{
 	background-color: white;
 }
