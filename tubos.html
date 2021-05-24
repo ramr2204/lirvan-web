@@ -11,56 +11,61 @@
 </head>
 <body>
 	<nav class="w-100" id="navbar">
-		<div class="nav d-flex justify-content-between align-items-center" id="nav">
+		<div class="nav d-flex justify-content-between align-items-center" id="nav"style="background-image: url('/assets/BACKGROUND.png');">
 			<img class="logo" src="/assets/LOGOF.svg" alt="">
 			<ul class="d-flex" id="nav-link">
 				<li class="nav-link"><a href="/">Inicio</a></li>
 				<li class="nav-link"><a id="toggle-menu">Productos</a>	
 				</li>
+				<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	
+				</li>
 				<li class="nav-link"><a href="/contact.html">Donde Comprar</a></li>
+				<li class="nav-link"><a id="toggle-menu">Idioma >></a>	
+				</li>
 			</ul>	
 		</div>
-		<div class="ele" id="lineas">
+		<div class="ele" id="lineas" style="background-image: url('/assets/BACKGROUND.png');">
 			<div class="row w-100">
 				<div class="cerrar" id="close-menu">
 					<img src="/assets/cancel.png" alt="">
 				</div>
 				<ul class="subtitle d-flex justify-content-center color-blanco">
-					<li id="solar-ancla">Línea Solar</li>
-					<li id="industrial-ancla">Línea Industrial</li>
-					<li><a href="/linea-alumbrado-publico.html">Alumbrado público</a></li>
-					<li><a href="/tubos.html">Tubos Led</a></li>
+					<button type="button" class="btn btn-secondary btn-sm m-5 " id="solar-ancla">Línea Solar</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5" id="industrial-ancla">Línea Industrial</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5 color-blanco" href="/linea-alumbrado-publico.html">Alumbrado público</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5 color-blanco" href="/tubos.html">Tubos Led</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5" id="industrial-ancla">Panel led</button>
 				</ul>
 			</div>
 			<div class="row lineas-internas solar" id="solar">
 				<div class="elemento justify-content-center">
 					<div class="it">
 						<a href="/polux.html">
-							<img class="img-on" src="/assets/menu-polux-1.svg" alt="">
-							<img class="img-off" src="/assets/menu-polux.svg" alt=""><br>
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt=""><br>
 							<a href="/polux.html" class="name color-blanco">Polúx</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/alfa.html">
-							<img class="img-on" src="/assets/menu-alfa-1-1.svg" alt="">
-                            <img class="img-off" src="/assets/menu-alfa-1.svg" alt="">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+                            <img class="img-off" src="/assets/SVG/polux-20-off.svg" alt="">
 							 <br>
 							<a href="/alfa.html" class="name color-blanco">Alfa</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/centauri.html">
-							<img class="img-on" src="/assets/menu-centauri-1-1.svg" alt="">
-							<img class="img-off" src="/assets/menu-centauri-1.svg   " alt="">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg  " alt="">
 						 <br>
 							<a href="/centauri.html" class="name color-blanco">Centauri</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/titan.html">
-							<img class="img-on" src="/assets/Menu-titan-1-1.svg" alt="">
-                        	<img class="img-off" src="/assets/Menu-titan-1.svg" alt="">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+                        	<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt="">
 							 <br>
 							<a href="/centauri.html" class="name color-blanco">Titán</a>
 						</a>
@@ -104,9 +109,9 @@
 	</nav>
     <div id="main">
         <section>
-            <div class="banner" style="background-image: url('/assets/bannerTubos2.png');">
+            <div class="banner" style="background-image: url('/assets/BANNER\ TUBOS\ LED.png');">
                 <div class="container">
-                    <h2 class="color-blanco">Luminaria Solar</h2>
+                    <h2 class="color-blanco">Tubos LED</h2>
                     <h6 class="color-blanco">Luminaria solar vanguardista de alta eficiencia diseñada para proyectos de alumbrado
                         público moderno en vías principales o secundarias con o sin acceso a red eléctrica
                         convencional
@@ -116,14 +121,7 @@
         </section>
         <section class="linea">
             <div class="container pt-5">
-                <div class="row">
-                    <h3 class="color-negro-1">Tubos LED</h3>
-                    <p class="texto color-gris pt-3">Tubo Led diseñados con materiales de calidad para brindar solución efectiva y 
-                        estable al reemplazo del T5 fluorescente de 54w superando su flujo luminico cuando 
-                        se requiera mejores resultaods generando ahorros del 73% y 59.5% con una eficiencia 
-                        de 200Lm/w entrega 3200 Lm y 4800 Lm de flujo Lumínico en un ángulo de salida de 
-                        120°. 100.000 Horas base de vida Útil y 7 años de garantía.</p>
-                </div>
+                
                 <div class="row d-flex">
                     <div class="item">
                         <div class="box w-100 bg-oscuro" style="text-align: center;" >
@@ -345,35 +343,45 @@
             </div>
         </section>
     
-        <footer class="w-100 bg-claro pt-5">
+        <footer class="w-100 bg-oscuro pt-3">
             <div class="container">
-                <div class="row w-100 pt-5">
-                    <div class="col-sm-3">
-                        <img src="/assets/logo.png" alt="">
+                <div class="row w-100 pt-2 ">
+                    <div class="mb-auto p-2 bd-highlight">
+                        <img src="/assets/logo.png" alt="200px" width="200px">
+                        <p class="color-blanco">______________________________________________________________________________________________________________________________________________________________________</p>
                     </div>
-                    <div class="col-sm-3">
-                        <h6 class="color-azul">Empresa</h6>
-                        <ul>
-                            <li>Carrera 54 # 72a-272</li>
-                            <li>Itaguí, Antioquia, Colombia</li>
-                            <li>302 3309417</li>
-                            <li>info@lirvan.com</li>
+                    <div class="col">
+                        <h6 class="color-blanco">Empresa</h6>
+                        <ul class="color-blanco">
+                            <li style="margin-left: -30px;">Carrera 54 # 72a-272</li>
+                            <li style="margin-left: -30px;">Itaguí, Antioquia, Colombia</li>
+                            <li style="margin-left: -30px;">302 3309417</li>
+                            <li style="margin-left: -30px;">info@lirvan.com</li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
-                        <h6 class="color-azul">Legal</h6>
-                        <ul>
-                            <li>Términos de Uso</li>
-                            <li>Políticas de Privacidad</li>
-                            <li>Política de Datos</li>
+                    <div class="col">
+                        <h6 class="color-blanco">Legal</h6>
+                        <ul class="color-blanco">
+                            <li style="margin-left: -30px;">Términos de Uso</li>
+                            <li style="margin-left: -30px;">Políticas de Privacidad</li>
+                            <li style="margin-left: -30px;">Política de Datos</li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
-                        <h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
-                        <i class="icon-facebook"></i>
-                        <i class="icon-instagram"></i>
-                        <i class="icon-wpp"></i>
+                    <div class="col">
+                        <h5 class="color-blanco">Síguenos en <br> Redes Sociales</h5>
                     </div>
+                    <div class="col">
+                        <i class="icon-facebook color-blanco"></i>
+                        <i class="icon-instagram color-blanco"></i>
+                        <i class="icon-wpp color-blanco"></i>
+                    </div>
+                    <div class="col">
+                        <ul class="color-blanco">
+                            <li>(+57)30055555</li>
+
+                        </ul>
+                    </div>
+                    <p class="color-blanco" style="text-align: center;">2021 Lirvan| Todos los derechos reservados</p>
                 </div>
             </div>
         </footer>

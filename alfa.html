@@ -11,56 +11,61 @@
 </head>
 <body>
 	<nav class="w-100" id="navbar">
-		<div class="nav d-flex justify-content-between align-items-center" id="nav">
+		<div class="nav d-flex justify-content-between align-items-center" id="nav"style="background-image: url('/assets/BACKGROUND.png');">
 			<img class="logo" src="/assets/LOGOF.svg" alt="">
 			<ul class="d-flex" id="nav-link">
 				<li class="nav-link"><a href="/">Inicio</a></li>
 				<li class="nav-link"><a id="toggle-menu">Productos</a>	
 				</li>
-				<li class="nav-link"><a href="/contact.html">Donde-Comprar</a></li>
+				<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	
+				</li>
+				<li class="nav-link"><a href="/contact.html">Donde Comprar</a></li>
+				<li class="nav-link"><a id="toggle-menu">Idioma >></a>	
+				</li>
 			</ul>	
 		</div>
-		<div class="ele" id="lineas">
+		<div class="ele" id="lineas" style="background-image: url('/assets/BACKGROUND.png');">
 			<div class="row w-100">
 				<div class="cerrar" id="close-menu">
 					<img src="/assets/cancel.png" alt="">
 				</div>
 				<ul class="subtitle d-flex justify-content-center color-blanco">
-					<li id="solar-ancla">Línea Solar</li>
-					<li id="industrial-ancla">Línea Industrial</li>
-					<li><a href="/linea-alumbrado-publico.html">Alumbrado público</a></li>
-					<li><a href="/tubos.html">Tubos Led</a></li>
+					<button type="button" class="btn btn-secondary btn-sm m-5 " id="solar-ancla">Línea Solar</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5" id="industrial-ancla">Línea Industrial</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5 color-blanco" href="/linea-alumbrado-publico.html">Alumbrado público</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5 color-blanco" href="/tubos.html">Tubos Led</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5" id="industrial-ancla">Panel led</button>
 				</ul>
 			</div>
 			<div class="row lineas-internas solar" id="solar">
 				<div class="elemento justify-content-center">
 					<div class="it">
 						<a href="/polux.html">
-							<img class="img-on" src="/assets/menu-polux-1.svg" alt="">
-							<img class="img-off" src="/assets/menu-polux.svg" alt=""><br>
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt=""><br>
 							<a href="/polux.html" class="name color-blanco">Polúx</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/alfa.html">
-							<img class="img-on" src="/assets/menu-alfa-1-1.svg" alt="">
-                            <img class="img-off" src="/assets/menu-alfa-1.svg" alt="">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+                            <img class="img-off" src="/assets/SVG/polux-20-off.svg" alt="">
 							 <br>
 							<a href="/alfa.html" class="name color-blanco">Alfa</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/centauri.html">
-							<img class="img-on" src="/assets/menu-centauri-1-1.svg" alt="">
-							<img class="img-off" src="/assets/menu-centauri-1.svg   " alt="">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg  " alt="">
 						 <br>
 							<a href="/centauri.html" class="name color-blanco">Centauri</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/titan.html">
-							<img class="img-on" src="/assets/Menu-titan-1-1.svg" alt="">
-                        	<img class="img-off" src="/assets/Menu-titan-1.svg" alt="">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+                        	<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt="">
 							 <br>
 							<a href="/centauri.html" class="name color-blanco">Titán</a>
 						</a>
@@ -104,10 +109,10 @@
 	</nav>
     <div id="main">
         <section>
-            <div class="banner" style="background-image: url('/assets/banerTitan.png');">
+            <div class="banner" style="background-image: url('/assets/SVG-ALFA/BANNER-ALfa.png');">
                 <div class="container">
-                    <h2 class="color-blanco">Luminaria Solar</h2>
-                    <h6 class="color-blanco">Luminaria solar vanguardista de alta eficiencia diseñada para proyectos de alumbrado
+                    <h2 class="color-blanco"style="margin-left: 4vw">Alfa</h2>
+                    <h6 class="color-blanco"style="margin-left: 4vw">Luminaria solar vanguardista de alta eficiencia diseñada para proyectos de alumbrado
                         público moderno en vías principales o secundarias con o sin acceso a red eléctrica
                         convencional
                     </h6>
@@ -117,18 +122,20 @@
         <section class="linea">
             <div class="container pt-5">
                 <div class="row">
-                    <h3 class="color-negro-1">ALFA</h3>
-                    <p class="texto color-gris pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
+                   
                 </div>
                 <div class="row d-flex">
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                            <img class="img-on" src="/assets/AlfaP20-1-1.svg" alt="">
-                            <img class="img-off" src="/assets/AlfaP20-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA20</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa20L.png" alt="">
+								<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa20.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA20</h6>
                             <h5 class="color-blanco">3.600 Lumens</h5>
-                            <!-- <button type="button" class="btn btn-secondary btn-sm" onclick="alfa20()">Ver más</button> -->
-                            <div class="v btn-sm color-blanco" onclick="alfa20()">Ficha Técnica <i class="icon-next"></i><i class="icon-right-arrow"></i></div>
+
+                            <button type="button" class="ver btn btn-secondary btn-sm" onclick="alfa20()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
+                            
+
+                            
                         </div>
                         <div class="card-info" id="alfa-20">
                             <div class="card card-body">
@@ -146,12 +153,13 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                            <img class="img-on" src="/assets/AlfaP20-1-1.svg" alt="">
-                            <img class="img-off" src="/assets/AlfaP20-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA30</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa30L.png" alt="">
+							<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa30.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA30</h6>
                             <h5 class="color-blanco">5.400 Lumens</h5>
-                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa30()">Ver más</button>
+                            <button type="button" class=" ver btn btn-secondary btn-sm" onclick="alfa30()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
+                            
                         </div>
                         <div class="card-info" id="alfa-30">
                             <div class="card card-body">
@@ -171,12 +179,12 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                            <img class="img-on" src="/assets/AlfaP40-1-1.svg" alt="">
-                            <img class="img-off" src="/assets/AlfaP40-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA40</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa40L.png" alt="">
+							<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa40.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA40</h6>
                             <h5 class="color-blanco">7.200 Lumens</h5>
-                        <button type="button" class="btn btn-secondary btn-sm" onclick="alfa40()">Ver más</button>
+                            <button type="button" class="ver btn btn-secondary btn-sm" onclick="alfa40()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
                         </div>
                         <div class="card-info" id="alfa-40">
                             <div class="card card-body">
@@ -196,12 +204,13 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                            <img class="img-off" src="/assets/AlfaP50-1.svg" alt="">
-                            <img class="img-on" src="/assets/AlfaP50-1-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA50</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa50L.png" alt="">
+							<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa50.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA50</h6>
                             <h5 class="color-blanco">9.000 Lumens</h5>
-                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa50()">Ver más</button>
+                            <button type="button" class="ver btn btn-secondary btn-sm" onclick="alfa50()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
+                            
                         </div>
                         <div class="card-info" id="alfa-50">
                             <div class="card card-body">
@@ -221,12 +230,12 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                            <img class="img-off" src="/assets/AlfaP50-1.svg" alt="">
-                            <img class="img-on" src="/assets/AlfaP50-1-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA60</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa60L.png" alt="">
+							<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa60.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA60</h6>
                             <h5 class="color-blanco">10.800 Lumens</h5>
-                        <button type="button" class="btn btn-secondary btn-sm" onclick="alfa60()">Ver más</button>
+                        <button type="button" class="ver btn btn-secondary btn-sm" onclick="alfa60()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
                         </div>
                         <div class="card-info" id="alfa-60">
                             <div class="card card-body">
@@ -247,12 +256,12 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;" >
-                            <img class="img-off" src="/assets/AlfaP80-1.svg" alt="">
-                            <img class="img-on" src="/assets/AlfaP80-1-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA80</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa80L.png" alt="">
+							<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa80.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA80</h6>
                             <h5 class="color-blanco">14.400 Lumens</h5>
-                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa80()">Ver más</button>
+                            <button type="button" class="ver btn btn-secondary btn-sm" onclick="alfa80()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
                         </div>
                         <div class="card-info" id="alfa-80">
                             <div class="card card-body">
@@ -273,12 +282,12 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;">
-                            <img class="img-off" src="/assets/AlfaP100-1.svg" alt="">
-                            <img class="img-on" src="/assets/AlfaP100-1-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA100</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa100L.png" alt="">
+							<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa100.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA100</h6>
                             <h5 class="color-blanco">18.000 Lumens</h5>
-                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa100()">Ver más</button>
+                            <button type="button" class="ver btn btn-secondary btn-sm" onclick="alfa100()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
                         </div>
                         <div class="card-info" id="alfa-100">
                             <div class="card card-body">
@@ -298,12 +307,12 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="box w-100 bg-oscuro" style="text-align: center;">
-                            <img class="img-off" src="/assets/AlfaP120-1.svg" alt="">
-                            <img class="img-on" src="/assets/AlfaP120-1-1.svg" alt="">
-                            <h6 class="color-blanco">ALFA120</h6>
+                        <div class="box w-100 " style="text-align: center;" >
+                            <img class="img-fluid img-on  " src="/assets/SVG-ALFA/Alfa120L.png" alt="">
+							<img class="img-fluid img-off" src="/assets/SVG-ALFA/Alfa120.png" alt="">
+                            <h6 class="color-blanco"style="margin-top: -7rem;">ALFA120</h6>
                             <h5 class="color-blanco">21.600 Lumens</h5>
-                            <button type="button" class="btn btn-secondary btn-sm" onclick="alfa120()">Ver más</button>
+                            <button type="button" class="ver btn btn-secondary btn-sm" onclick="alfa120()">Ver más<i class="icon-next"style="color:#1d6eb9; "></i><i class="icon-next"style="color:#1d6eb9;"></i><i class="icon-right-arrow"></i></button>
                         </div>
                         <div class="card-info" id="alfa-120">
                             <div class="card card-body">
@@ -325,35 +334,45 @@
                 </div>
             </div>
         </section>
-        <footer class="w-100 bg-claro pt-5">
+        <footer class="w-100 bg-oscuro pt-3">
             <div class="container">
-                <div class="row w-100 pt-5">
-                    <div class="col-sm-3">
-                        <img src="/assets/logo.png" alt="">
+                <div class="row w-100 pt-2 ">
+                    <div class="mb-auto p-2 bd-highlight">
+                        <img src="/assets/logo.png" alt="200px" width="200px">
+                        <p class="color-blanco">______________________________________________________________________________________________________________________________________________________________________</p>
                     </div>
-                    <div class="col-sm-3">
-                        <h6 class="color-azul">Empresa</h6>
-                        <ul>
-                            <li>Carrera 54 # 72a-272</li>
-                            <li>Itaguí, Antioquia, Colombia</li>
-                            <li>302 3309417</li>
-                            <li>info@lirvan.com</li>
+                    <div class="col">
+                        <h6 class="color-blanco">Empresa</h6>
+                        <ul class="color-blanco">
+                            <li style="margin-left: -30px;">Carrera 54 # 72a-272</li>
+                            <li style="margin-left: -30px;">Itaguí, Antioquia, Colombia</li>
+                            <li style="margin-left: -30px;">302 3309417</li>
+                            <li style="margin-left: -30px;">info@lirvan.com</li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
-                        <h6 class="color-azul">Legal</h6>
-                        <ul>
-                            <li>Términos de Uso</li>
-                            <li>Políticas de Privacidad</li>
-                            <li>Política de Datos</li>
+                    <div class="col">
+                        <h6 class="color-blanco">Legal</h6>
+                        <ul class="color-blanco">
+                            <li style="margin-left: -30px;">Términos de Uso</li>
+                            <li style="margin-left: -30px;">Políticas de Privacidad</li>
+                            <li style="margin-left: -30px;">Política de Datos</li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
-                        <h6 class="color-azul">Síguenos en <br> Redes Sociales</h6>
-                        <i class="icon-facebook"></i>
-                        <i class="icon-instagram"></i>
-                        <i class="icon-wpp"></i>
+                    <div class="col">
+                        <h5 class="color-blanco">Síguenos en <br> Redes Sociales</h5>
                     </div>
+                    <div class="col">
+                        <i class="icon-facebook color-blanco"></i>
+                        <i class="icon-instagram color-blanco"></i>
+                        <i class="icon-wpp color-blanco"></i>
+                    </div>
+                    <div class="col">
+                        <ul class="color-blanco">
+                            <li>(+57)30055555</li>
+
+                        </ul>
+                    </div>
+                    <p class="color-blanco" style="text-align: center;">2021 Lirvan| Todos los derechos reservados</p>
                 </div>
             </div>
         </footer>

@@ -1,7 +1,7 @@
 .banner{
 	background-size: cover;
 	background-position: center;
-	height: 45vw;
+	height: 35vw;
 	overflow-y: auto;
 	.container{
 		margin-left:5%;
@@ -23,8 +23,8 @@
 		.box{
 			padding-bottom: 0.8vw;
 			img{
-				width: 36vw;
-				margin-left: 0.35vw;
+				width: 36vw
+				margin-left 0.10vw;
 			}
 			.img-off{
 				display: block;
@@ -40,8 +40,9 @@
 					display: none;
 				}
 			}
-			.v{
-				cursor: pointer;
+
+			.ver{
+
 				font-family: $titulo;
 				display: flex;
 				justify-content: center;
@@ -53,6 +54,9 @@
 				}
 				.icon-right-arrow{ display: none;}
 				&:hover{
+
+					color: $azul;
+
 					.icon-right-arrow{ 
 						display: block;
 				
@@ -85,9 +89,10 @@
 						display: none; }
 				}
 			}
+			
 		}
 	}
-}
+
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 1024px) { 
@@ -147,3 +152,5 @@
 	}
 
  }  
+
+}
