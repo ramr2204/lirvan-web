@@ -10,32 +10,99 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100">
-		<div class="nav d-flex justify-content-between align-items-center">
-			<img class="logo" src="/assets/SVG/logo-blanco.svg" alt="">
-			<ul class="d-flex">
-				<li class="nav-link"><a href="/" class="color-blanco">Inicio</a></li>
-				<li class="nav-link"><a class="color-blanco" id="toggle-menu">Productos</a>	
+	<nav class="w-100" id="navbar">
+		<div class="nav d-flex justify-content-between align-items-center" id="nav"style="background-image: url('/assets/BACKGROUND.png');">
+			<img class="logo" src="/assets/LOGOF.svg" alt="">
+			<ul class="d-flex" id="nav-link">
+				<li class="nav-link"><a href="/">Inicio</a></li>
+				<li class="nav-link"><a id="toggle-menu">Productos</a>	
 				</li>
-				<li class="nav-link"><a href="#" class="color-blanco">Contacto</a></li>
+				<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	
+				</li>
+				<li class="nav-link"><a href="/contact.html">Donde Comprar</a></li>
+				<li class="nav-link"><a id="toggle-menu">Idioma >></a>	
+				</li>
 			</ul>	
 		</div>
-		<div class="ele" id="lineas">
-			<div class="elemento bg-gris justify-content-center">
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice-off.svg" alt="">
-					<img class="img-on" src="/assets/SVG/indice-on.svg" alt="">
-					 <br>
-					<a href="/linea-solar.html" class="color-blanco">Luminaria Solar</a>
+		<div class="ele" id="lineas" style="background-image: url('/assets/BACKGROUND.png');">
+			<div class="row w-100">
+				<div class="cerrar" id="close-menu">
+					<img src="/assets/cancel.png" alt="">
 				</div>
-				<div class="it" id="item">
-					<img class="img-off" src="/assets/SVG/indice2-off.svg" alt=""> 	
-					<img class="img-on pe" src="/assets/SVG/indice2-on.svg" alt=""><br>
-					<a href="/linea-industrial.htm" class="color-blanco">Luminaria Industrial</a>
+				<ul class="subtitle d-flex justify-content-center color-blanco">
+					<button type="button" class="btn btn-secondary btn-sm m-5 " id="solar-ancla">Línea Solar</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5" id="industrial-ancla">Línea Industrial</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5 color-blanco" href="/linea-alumbrado-publico.html">Alumbrado público</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5 color-blanco" href="/tubos.html">Tubos Led</button>
+					<button type="button" class="btn btn-secondary btn-sm m-5" id="industrial-ancla">Panel led</button>
+				</ul>
+			</div>
+			<div class="row lineas-internas solar" id="solar">
+				<div class="elemento justify-content-center">
+					<div class="it">
+						<a href="/polux.html">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt=""><br>
+							<a href="/polux.html" class="name color-blanco">Polúx</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/alfa.html">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+                            <img class="img-off" src="/assets/SVG/polux-20-off.svg" alt="">
+							 <br>
+							<a href="/alfa.html" class="name color-blanco">Alfa</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/centauri.html">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+							<img class="img-off" src="/assets/SVG/polux-20-off.svg  " alt="">
+						 <br>
+							<a href="/centauri.html" class="name color-blanco">Centauri</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/titan.html">
+							<img class="img-on" src="/assets/SVG/polux-20-off.svg" alt="">
+                        	<img class="img-off" src="/assets/SVG/polux-20-off.svg" alt="">
+							 <br>
+							<a href="/centauri.html" class="name color-blanco">Titán</a>
+						</a>
+					</div>
 				</div>
-				<div class="it item-3" id="item">
-					<img src="/assets/SVG/item-4.svg" alt=""> <br>
-					<a href="/linea-alumbrado-publico.html" class="color-blanco">Alumbrado público</a>
+			</div>
+			<div class="row" id="industrial">
+				<div class="elemento justify-content-center">
+					<div class="it" id="item">
+						<a href="/sirius.html">
+							<img class="img-off" src="/assets/siriusF1.svg" alt="">
+					        <img class="img-on" src="/assets/siriusF1-1.svg" alt="">
+							 <br>
+							<a href="/sirius.html" class="name color-blanco">Sirius</a>
+						</a>
+					</div>
+					<div class="it" id="item">
+						<a href="/siriusb.html">
+							<img class="img-off" src="/assets/Menu-sirius-1.svg" alt=""> 	
+							<img class="img-on pe" src="/assets/Menu-sirius-1-1.svg" alt=""><br>
+							<a href="/siriusb.html" class="name color-blanco">Sirius B</a>
+						</a>
+					</div>
+					<div class="it item-3" id="item">
+						<a href="/siriusx.html">
+							<img class="img-on" src="/assets/Menu-siriusx-1-1.svg" alt="">
+                            <img class="img-off" src="/assets/Menu-siriusx-1.svg" alt=""><br>
+							<a href="/siriusx.html" class="name color-blanco">Sirius X</a>
+						</a>
+					</div>
+					<div class="it item-3" id="item">
+						<a href="/siriusxp.html">
+							<img class="img-on" src="/assets/Menu-siriusxp-1-1.svg" alt="">
+                            <img class="img-off" src="/assets/Menu-siriusxp-1.svg" alt=""><br>
+							<a href="/siriusxp.html" class="name color-blanco">Sirius XP</a>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

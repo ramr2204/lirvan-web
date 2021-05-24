@@ -10,6 +10,7 @@ $rojo: #ff3945;
 $oscuro: #2c2a2f;
 
 
+
 //Color de fuentes
 .color-azul{
 	color: $azul;
@@ -33,6 +34,8 @@ $oscuro: #2c2a2f;
 	color:$oscuro;
 }
 
+
+
 //Background Color
 .bg-azul{
 	background-color: $azul;
@@ -52,6 +55,9 @@ $oscuro: #2c2a2f;
 
 .bg-blanco{
 	background-color: white;
+}
+.bg-fondo{
+	background-color: $fondo;
 }
 
 //Color de bordes
