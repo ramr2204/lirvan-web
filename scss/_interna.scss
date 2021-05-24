@@ -23,8 +23,8 @@
 		.box{
 			padding-bottom: 0.8vw;
 			img{
-				/*width: 36vw;*/
-				/*margin-left: 0.35vw;*/
+				width: 36vw
+				margin-left 0.10vw;
 			}
 			.img-off{
 				display: block;
@@ -88,7 +88,7 @@
 			
 		}
 	}
-}
+
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 1024px) { 
@@ -149,3 +149,4 @@
 
  }  
 
+}
