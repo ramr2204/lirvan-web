@@ -40,7 +40,9 @@
 					display: none;
 				}
 			}
+
 			.ver{
+
 				font-family: $titulo;
 				display: flex;
 				justify-content: center;
@@ -52,7 +54,9 @@
 				}
 				.icon-right-arrow{ display: none;}
 				&:hover{
+
 					color: $azul;
+
 					.icon-right-arrow{ 
 						display: block;
 				
