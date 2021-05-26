@@ -41,6 +41,7 @@
 				}
 			}
 			.ver{
+
 				font-family: $titulo;
 				display: flex;
 				justify-content: center;
@@ -52,7 +53,9 @@
 				}
 				.icon-right-arrow{ display: none;}
 				&:hover{
+ linea-industrial
 					color: $azul;
+
 					.icon-right-arrow{ 
 						display: block;
 				

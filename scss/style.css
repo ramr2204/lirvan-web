@@ -364,6 +364,7 @@ footer {
 
 .linea .item {
   width: 18vw;
+
   margin: 1vw 0vw; }
   .linea .item .box {
     padding-bottom: 0.8vw; }
@@ -414,6 +415,7 @@ footer {
           display: block; }
         .linea .item .card-info .ficha:hover .icon-next {
           display: none; }
+
 
 @media (max-width: 1024px) {
   .linea .item {
