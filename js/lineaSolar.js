@@ -400,6 +400,8 @@ function alfa120(){
             bar.style.display = "none";
         }
     }
+    
+    /*FUNCIONES TUBOS*/
     function optimus24(){
         var bar = document.getElementById("optimus-24");
         if (bar.style.display === "none") {
@@ -407,4 +409,90 @@ function alfa120(){
         } else {
             bar.style.display = "none";
         }
+    }function profecional18(){
+        var bar = document.getElementById("profecional-18");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function profecional25(){
+        var bar = document.getElementById("profecional-25");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    
+    }function profecional60(){
+        var bar = document.getElementById("profecional-60");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    } function basico14(){
+        var bar = document.getElementById("basico-14");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
     }
+    function basico22(){
+        var bar = document.getElementById("basico-22");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function radar14(){
+        var bar = document.getElementById("radar-14");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function nanoled14(){
+        var bar = document.getElementById("nanoled-14");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    function nanoled22(){
+        var bar = document.getElementById("nanoled-22");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
+    }
+    /*alumbrado publico*/
+    function vialux50(){
+		var bar = document.getElementById("vialux-50");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function vialux90(){
+		var bar = document.getElementById("vialux-90");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+	function vialux140(){
+		var bar = document.getElementById("vialux-140");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
