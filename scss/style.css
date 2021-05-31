@@ -159,16 +159,19 @@ nav {
         nav .ele .elemento .it img {
           width: 22vw; }
         nav .ele .elemento .it .name {
-          position: absolute;
+          
           bottom: 0.5vw;
-          left: 0;
-          right: 0;
+          
           margin: auto;
-          font-family: "Roboto-Medium"; }
+          position: absolute;
+          top: 35%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-family: "Roboto-Light"; }
         nav .ele .elemento .it .img-on {
           display: none; }
-        nav .ele .elemento .it:hover .name {
-          bottom: 2.3vw; }
+        /*nav .ele .elemento .it:hover .name {
+          bottom: 2.3vw; }*/
         nav .ele .elemento .it:hover .img-on {
           display: block; }
         nav .ele .elemento .it:hover .img-off {

@@ -23,11 +23,55 @@ $('#close-menu').click(function(){
 $('#solar-ancla').hover(function(){
     document.getElementById("solar").style.display="block";
     document.getElementById("industrial").style.display="none";
+    document.getElementById("alumbrado").style.display="none";
+    document.getElementById("tubos").style.display="none";
+    document.getElementById("panel").style.display="none";
+    document.getElementById("postes").style.display="none";
 })
 
 $('#industrial-ancla').hover(function(){
     document.getElementById("solar").style.display="none";
     document.getElementById("industrial").style.display="block";
+    document.getElementById("alumbrado").style.display="none";
+    document.getElementById("tubos").style.display="none";
+    document.getElementById("panel").style.display="none";
+    document.getElementById("postes").style.display="none";
+})
+$('#alumbrado-ancla').hover(function(){
+    document.getElementById("alumbrado").style.display="block";
+    document.getElementById("solar").style.display="none";
+    document.getElementById("industrial").style.display="none";
+    document.getElementById("tubos").style.display="none";
+    document.getElementById("panel").style.display="none";
+    document.getElementById("postes").style.display="none";
+    
+})
+$('#tubos-ancla').hover(function(){
+    document.getElementById("tubos").style.display="block";
+    document.getElementById("alumbrado").style.display="none";
+    document.getElementById("solar").style.display="none";
+    document.getElementById("industrial").style.display="none";
+    document.getElementById("panel").style.display="none";
+    document.getElementById("postes").style.display="none";
+    
+})
+$('#panel-ancla').hover(function(){
+    document.getElementById("panel").style.display="block";
+    document.getElementById("tubos").style.display="none";
+    document.getElementById("alumbrado").style.display="none";
+    document.getElementById("solar").style.display="none";
+    document.getElementById("industrial").style.display="none";
+    document.getElementById("postes").style.display="none";
+    
+})
+$('#postes-ancla').hover(function(){
+    document.getElementById("postes").style.display="block";
+    document.getElementById("panel").style.display="none";
+    document.getElementById("tubos").style.display="none";
+    document.getElementById("alumbrado").style.display="none";
+    document.getElementById("solar").style.display="none";
+    document.getElementById("industrial").style.display="none";
+    
 })
 
 $(document).ready(function(){
