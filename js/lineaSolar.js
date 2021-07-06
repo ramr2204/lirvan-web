@@ -62,6 +62,14 @@ function polux120(){
         bar.style.display = "none";
     }
 }
+function polux150(){
+    var bar = document.getElementById("polux-150");
+    if (bar.style.display === "none") {
+        bar.style.display = "block";
+    } else {
+        bar.style.display = "none";
+    }
+}
 function centauri20(){
     var bar = document.getElementById("centauri-20");
     if (bar.style.display === "none") {
