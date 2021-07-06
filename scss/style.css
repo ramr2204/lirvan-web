@@ -128,7 +128,7 @@ nav {
           color: inherit; }
   nav .ele {
     display: none;
-    background: #312f2e; }
+    /*background: #312f2e;*/ }
     nav .ele .cerrar {
       text-align: right; }
     nav .ele ul {
@@ -154,7 +154,7 @@ nav {
         display: inline-block;
         margin: 1vw;
         text-align: center;
-        width: 10vw;
+        width: 15vw;
         position: relative; }
         nav .ele .elemento .it img {
           width: 22vw; }
@@ -280,7 +280,8 @@ footer {
   margin: 0 auto;
   text-align: center; }
   .item img {
-    width: 5vw; }
+    width: 16.5vw;
+    height: 25vw; }
 
 .box img {
   width: 18vw; }
@@ -575,8 +576,9 @@ li {
   border-radius: 0.8vw;
   background: transparent;
  
-  font-size: 1.2vw;
+  font-size: 0.9vw;
   border-color:#3c3c3b ;
   padding: 0 1vw; }
+  
 
   
