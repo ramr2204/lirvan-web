@@ -189,6 +189,13 @@ function alfa120(){
         } else {
             bar.style.display = "none";
         }
+    }function titan50(){
+        var bar = document.getElementById("titan-50");
+        if (bar.style.display === "none") {
+            bar.style.display = "block";
+        } else {
+            bar.style.display = "none";
+        }
     }
     /*funciones liena Industrial*/
     function sirius60(){
