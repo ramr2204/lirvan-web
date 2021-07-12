@@ -1,4 +1,4 @@
-/* function menu(){
+function menu(){
     var bar = document.getElementById("lineas");
     var ele = document.getElementById("item");
     if (bar.style.display === "none") {
@@ -6,7 +6,7 @@
     } else {
         bar.style.display = "none";
     }
-} */
+} 
 
 $('#toggle-menu').hover(function(){
     document.getElementById("lineas").style.display="block";
@@ -79,7 +79,7 @@ $(document).ready(function(){
     var previousScroll = 0;
     $(window).scroll(function(event){
        var scroll = $(this).scrollTop();
-       if (scroll > previousScroll && scroll > 100){
+       if (scroll > previousScroll && scroll > 120){
            $cabecera.addClass('nav-scroll');
    
        } else {
