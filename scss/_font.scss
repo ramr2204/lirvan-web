@@ -1,12 +1,12 @@
 @font-face {
-	font-family: 'Roboto-Bold';
+	font-family: 'lirvan-L';
 	src: url('../fonts/Roboto-BoldCondensed.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Roboto-Medium';
-	src: url('../fonts/Roboto-Medium_1.woff') format('woff');
+	font-family: 'lirvan-L';
+	src: url('../fonts/lirvan-L.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -17,6 +17,6 @@
 	font-style: normal;
 }
 
-$titulo: 'Roboto-Bold';
+$titulo: 'lirvan-L';
 $subtitulo:'Roboto-Medium';
 $texto: 'Roboto-Light';

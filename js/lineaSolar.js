@@ -168,6 +168,22 @@ function alfa120(){
         bar.style.display = "none";
     }
 }
+function blanco(){
+    var bar = document.getElementById("blanco-1");
+    if (bar.style.display === "none") {
+        bar.style.display = "block";
+    } else {
+        bar.style.display = "none";
+    }
+}
+function negro(){
+    var bar = document.getElementById("negro-1");
+    if (bar.style.display === "none") {
+        bar.style.display = "block";
+    } else {
+        bar.style.display = "none";
+    }
+}
     function titan20(){
         var bar = document.getElementById("titan-20");
         if (bar.style.display === "none") {

@@ -22,6 +22,10 @@
 		margin:1vw 0vw;
 		.box{
 			padding-bottom: 0.8vw;
+			h6{
+			 margin-top: -6rem;
+			}
+			}
 			img{
 				width: 36vw
 				margin-left 0.10vw;
@@ -64,6 +68,9 @@
 						display: none; }
 				}
 			}
+		}
+		.card-informacion{
+			display: none;
 		}
 		.card-info{
 			display: none;
@@ -153,4 +160,3 @@
 
  }  
 
-}
