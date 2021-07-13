@@ -349,7 +349,8 @@ footer {
     .contenedor .info.fst-in {
       bottom: 0; }
     .contenedor .info.sec-in {
-      top: 0; }
+      top: 0;
+      margin-left: 20vw; }
 
 .item-repr {
   padding-bottom: 5vw;
