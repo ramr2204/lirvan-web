@@ -283,9 +283,39 @@ footer {
     font-size: 3vw !important; }
   .btn-secondary {
     font-size: 3.2vw !important; } }
+  .icono {
+      width: 18.5vw;
+      height: 15vw;
+      width: 80%;
+      height: 80%;
+      text-align: center; }
+  .caja{
+    position: relative;
+    display: inline-block;
+  }
+  .columna1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
 
+  }
+  .columna2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+  .columna3{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+  }
+  .columna4{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+  }
 .carousel-item {
-  height: 50vw; }
+  height: 40vw; }
   .carousel-item img {
     width: 100%;
     height: 100%;
@@ -371,6 +401,11 @@ footer {
   background-position: center;
   height: 24.43vw;
   overflow-y: auto; }
+  .banner-1 {
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+    overflow-y: auto; }
   .banner .container {
     margin-left: 5%;
     margin-top: 20%;
