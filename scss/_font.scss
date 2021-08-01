@@ -1,22 +1,22 @@
 @font-face {
-	font-family: 'lirvan-L';
-	src: url('../fonts/Roboto-BoldCondensed.woff') format('woff');
+	font-family: 'SF-Pro';
+	src: url('../fonts/SF-Pro-Display-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'lirvan-L';
-	src: url('../fonts/lirvan-L.woff') format('woff');
+	font-family: 'SF-Compact';
+	src: url('../fonts/SF-Compact-Display-Heavy.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Roboto-Light';
-	src: url('../fonts/Roboto-Light_1.woff') format('woff');
+	font-family: 'SF-UI';
+	src: url('../fonts/SF-UI-Display-Light-_1_.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
-$titulo: 'lirvan-L';
-$subtitulo:'Roboto-Medium';
-$texto: 'Roboto-Light';
+$titulo: 'SF-Compact';
+$subtitulo:'SF-UI';
+$texto: 'SF-Pro';

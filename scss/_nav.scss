@@ -27,6 +27,7 @@ nav{
 	.ele{
 		display: none;
 		background: #312f2e;
+		min-width:140px; 
 		.cerrar{
 			text-align:right;
 		}
@@ -43,7 +44,7 @@ nav{
 					font-size: 1.2vw;
 				}
 				&:hover{ 
-					text-decoration: underline;
+					text-decoration: #000;
 				}
 			}
 		}

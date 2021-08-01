@@ -527,3 +527,60 @@ function negro(){
 			bar.style.display = "none";
 		}
 	}
+
+    function AddOnKit15(){
+		var bar = document.getElementById("Add-On-Kit15");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+    function AddOnKit20(){
+		var bar = document.getElementById("Add-On-Kit20");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+    function AddOnKit30(){
+		var bar = document.getElementById("Add-On-Kit30");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+    function AddOnKit40(){
+		var bar = document.getElementById("Add-On-Kit40");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+    function AddOnKit50(){
+		var bar = document.getElementById("Add-On-Kit50");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+    function AddOnKit60(){
+		var bar = document.getElementById("Add-On-Kit60");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}
+    function AddOnKit90(){
+		var bar = document.getElementById("Add-On-Kit90");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}

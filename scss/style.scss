@@ -51,7 +51,7 @@ p{
 }
 a{
 	font-size: 1vw;
-	font-family: $texto;
+	font-family: $subtitulo;
 	text-decoration: none;
 }
 li{
@@ -61,7 +61,7 @@ li{
 
 .btn-secondary{ 
 	border-radius: 0.5vw;
-	background: #494f54;
+	background: transparent;
 	border: #494f54;
 	font-size: 1.2vw;
 	padding:0 1vw;

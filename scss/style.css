@@ -132,7 +132,8 @@ nav {
           color: inherit; }
   nav .ele {
     display: none;
-    background: #312f2e; }
+    background: #312f2e;
+    height: 29vw; }
     nav .ele .cerrar {
       text-align: right; }
     nav .ele ul {
@@ -153,10 +154,11 @@ nav {
     nav .ele .elemento {
       display: flex;
       transition: .5s;
-      width: 100%; }
+      width: 100%;
+      margin-top: 2.25vw; }
       nav .ele .elemento .it {
         display: inline-block;
-        margin: 1vw;
+        margin: 0.1vw;
         text-align: center;
         width: 15vw;
         position: relative; }
@@ -164,12 +166,12 @@ nav {
           width: 22vw; }
         nav .ele .elemento .it .name {
           
-          bottom: 0.5vw;
+          bottom: 2.7vw;
           
           margin: auto;
           position: absolute;
           top: 35%;
-          left: 50%;
+          left: 45%;
           transform: translate(-50%, -50%);
           font-family: "Roboto-Light"; }
         nav .ele .elemento .it .img-on {
@@ -191,6 +193,14 @@ nav {
             margin-left: 50%;
             margin-top: 5%;
           }
+
+.pro{
+  margin: 5vw;
+  position: absolute;
+  top: 75%;
+  left:45%;
+  transform: translate(-50%, -50%);
+}          
 
 @media (max-width: 576px) {
   nav .nav {
@@ -228,7 +238,7 @@ footer {
     font-size: 1.5vw;
     cursor: pointer; }
     footer .row .col-sm-3 i:hover {
-      color: #2534a3; }
+      color: #009FE3; }
   footer .row .col-sm-3 img {
     width: 17vw; }
   footer .row .col-sm-3 ul {
@@ -446,7 +456,7 @@ footer {
       .linea .item .box .ver .icon-right-arrow {
         display: none; }
       .linea .item .box .ver:hover {
-        color: #10195A; }
+        color: #009FE3; }
         .linea .item .box .ver:hover .icon-right-arrow {
           display: block; }
         .linea .item .box .ver:hover .icon-next {
@@ -465,7 +475,7 @@ footer {
       .linea .item .card-info .ficha .icon-right-arrow {
         display: none; }
       .linea .item .card-info .ficha:hover {
-        color: #10195A; }
+        color: #009FE3; }
         .linea .item .card-info .ficha:hover .icon-right-arrow {
           display: block; }
         .linea .item .card-info .ficha:hover .icon-next {
@@ -587,18 +597,18 @@ body {
 
 h2 {
   font-size: 2vw;
-  font-family: "Roboto-Bold"; }
+  font-family: "SF-Pro"; }
 
 h3 {
   font-size: 1.8vw;
-  font-family: "Roboto-Medium"; }
+  font-family: "SF-Compact"; }
 
 h5 {
   font-size: 1vw;
-  font-family: "Roboto-Light"; }
+  font-family: "SF-Pro"; }
 
 h6 {
-  font-family: "Roboto-Bold";
+  font-family: "SF-Pro";
   font-size: 1.3vw; }
 
 label {
@@ -611,11 +621,11 @@ span {
 
 p {
   font-size: 1vw;
-  font-family: "Roboto-Light"; }
+  font-family: "SF-Pro"; }
 
 a {
   font-size: 1vw;
-  font-family: "Roboto-Light";
+  font-family: "SF-UI";
   text-decoration: none; }
 
 li {
@@ -627,9 +637,35 @@ li {
   border-radius: 0.8vw;
   background: transparent;
  
-  font-size: 0.9vw;
+  font-size: 1vw;
   border-color:#3c3c3b ;
   padding: 0 1vw; }
   
-
+/*menu de prueba
+  .ele li:hover > ul { 
+    display: block; 
+  } 
   
+  .ele a + ul { 
+    display: none; 
+  } 
+  
+  .ele li:hover > a { 
+    text-decoration:none; 
+    background-color:#434343;
+  } 
+  
+  .ele a + ul > li{ 
+    display: block; 
+    min-width:140px; 
+  }
+  .ele a:hover + ul {
+    background-color:red;
+    display: block;
+}
+
+.ele ul{
+    display:block;
+    position:absolute;
+    min-width:140px;
+}   */
