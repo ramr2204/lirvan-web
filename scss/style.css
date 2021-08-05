@@ -120,7 +120,7 @@ nav {
   nav .nav {
     padding: 0.5vw; }
     nav .nav img {
-      width: 8vw;
+      width: 7.1vw;
       margin-left: 14vw; }
     nav .nav ul {
       position: relative;
@@ -201,7 +201,9 @@ nav {
   left:45%;
   transform: translate(-50%, -50%);
 }          
-
+.globo{
+  margin-left: 90%;
+}
 @media (max-width: 576px) {
   nav .nav {
     padding: 0.5vw; }
@@ -410,8 +412,9 @@ footer {
 .banner {
   background-size: cover;
   background-position: center;
-  height: 24.43vw;
-  overflow-y: auto; }
+  height: 24.50vw;
+  overflow-y: auto;
+  width: 1920px; }
   .banner-1 {
     background-size: cover;
     background-position: center;
