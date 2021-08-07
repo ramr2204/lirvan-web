@@ -374,6 +374,10 @@ footer {
 
 .proyectos {
   overflow-x: hidden; }
+ 
+.iconos:hover{
+  color: #009FE3;
+}  
 
 @media (max-width: 768px) {
   .info-ppal .row {
@@ -520,7 +524,7 @@ iframe {
 
 .formulario {
   padding: 1vw;
-  background: white; }
+  background: #1c2b4b; }
   .formulario .item {
     width: 50%;
     margin: 0 auto;
