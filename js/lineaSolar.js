@@ -584,3 +584,78 @@ function negro(){
 			bar.style.display = "none";
 		}
 	}
+
+
+    /*postes card*/
+    
+	function poste3(){
+		var bar = document.getElementById("poste-3");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste4(){
+		var bar = document.getElementById("poste-4");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste5(){
+		var bar = document.getElementById("poste-5");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste6(){
+		var bar = document.getElementById("poste-6");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste7(){
+		var bar = document.getElementById("poste-7");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste8(){
+		var bar = document.getElementById("poste-8");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste9(){
+		var bar = document.getElementById("poste-9");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste10(){
+		var bar = document.getElementById("poste-10");
+		if (bar.style.display === "none") {
+			bar.style.display = "block";
+		} else {
+			bar.style.display = "none";
+		}
+	}function poste11(){
+			var bar = document.getElementById("poste-11");
+			if (bar.style.display === "none") {
+				bar.style.display = "block";
+			} else {
+				bar.style.display = "none";
+			}
+		}function poste12(){
+			var bar = document.getElementById("poste-12");
+			if (bar.style.display === "none") {
+				bar.style.display = "block";
+			} else {
+				bar.style.display = "none";
+			}
+		}
