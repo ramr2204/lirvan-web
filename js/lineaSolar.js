@@ -168,7 +168,7 @@ function alfa120(){
         bar.style.display = "none";
     }
 }
-function blanco(){
+/* function blanco(){
     var bar = document.getElementById("blanco-1");
     if (bar.style.display === "none") {
         bar.style.display = "block";
@@ -183,7 +183,16 @@ function negro(){
     } else {
         bar.style.display = "none";
     }
-}
+} */
+
+$('.negro-btn').click(function(){
+    $('.linea-negro').css('display', 'block');
+    $('.linea-blanco').css('display', 'none');
+});
+$('.blanco-btn').click(function(){
+    $('.linea-negro').css('display', 'none');
+    $('.linea-blanco').css('display', 'block');
+});
     function titan20(){
         var bar = document.getElementById("titan-20");
         if (bar.style.display === "none") {

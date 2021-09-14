@@ -109,11 +109,19 @@
 .border-negro {
   border: 1px solid black; }
 
+  .only-desk{
+    display: block;
+  }
+  .only-mobile{
+    display: none;
+  }
+
 nav {
   position: fixed;
   top: 0;
   z-index: 1000;
   width: 100%;
+
  }
  .nav-scroll{
   background-image: url('/assets/BACKGROUND.png');
@@ -131,6 +139,10 @@ nav {
         cursor: pointer; }
         nav .nav ul .nav-link a {
           color: inherit; }
+  .menu-opciones{
+    display: flex;
+  }
+
   nav .ele {
     display: none;
     background: #312f2e;
@@ -187,7 +199,7 @@ nav {
             margin-left: 50%;
             margin-top: 3%;
           }
-          .blanco{
+          .linea-blanco{
             display: none;
           }
           .color-1{
@@ -202,9 +214,9 @@ nav {
   left:45%;
   transform: translate(-50%, -50%);
 }          
-.globo{
+/* .globo{
   margin-left: 90%;
-}
+} */
 @media (max-width: 576px) {
   nav .nav {
     padding: 0.5vw; }
@@ -434,7 +446,15 @@ footer {
   background-position: center;
   height: 24.50vw;
   overflow-y: auto;
-  width: 1920px; }
+}
+
+.linea .postes-1 {
+  width: 40vw !important;
+  margin: 4.5vw 0vw !important;
+}
+.linea .postes-1 .box img{
+  width: 35vw;
+}
   .banner-1 {
     background-size: cover;
     background-position: center;
@@ -632,8 +652,29 @@ footer {
         width: 48vw; } }
 
 @media (max-width: 576px) {
+  nav .ele{
+    height: 100vw;
+    overflow-y: auto;
+  }
+  nav .menu-icon{
+    width: 10vw !important;
+    margin-right: 1rem;
+  }
+  .menu-opciones{
+    display: none;
+  }
+  .ham{
+    width: 100%;
+  }
+  .only-desk{
+    display: none;
+  }
+  .only-mobile{
+    display: block;
+  }
   .banner {
-    height: 70vw; }
+    height: 50vw;
+  }
     .banner .container {
       margin-left: 5%;
       margin-top: 15%;
@@ -641,10 +682,18 @@ footer {
       .banner .container.container-right {
         margin-left: 50%; }
   .linea .item {
-    width: 26vw;
-    margin: 3vw 0; }
+    width: 50vw;
+    margin: 7vw 0; }
     .linea .item .box img {
-      width: 43vw; } }
+      width: 43vw; } 
+  .item img{
+    height: 70vw;
+  }
+  .card-img{
+    width: 100% !important;
+    height: 90vw !important;
+  }
+}
 
 iframe {
   width: 50vw;

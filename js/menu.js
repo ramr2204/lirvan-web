@@ -7,7 +7,10 @@ function menu(){
         bar.style.display = "none";
     }
 } 
-
+$('.menu-icon').click(function(){
+    $('.menu-opciones').toggle();
+    $('nav').addClass('nav-scroll');
+});
 $('#toggle-menu').hover(function(){
     document.getElementById("lineas").style.display="block";
     document.getElementById("nav").style.backgroundColor="#312f2e";
@@ -82,9 +85,9 @@ $(document).ready(function(){
        if (scroll > previousScroll && scroll > 120){
            $cabecera.addClass('nav-scroll');
    
-       } else {
+       }/* else {
            $cabecera.removeClass('nav-scroll');
-       }
+       } */
        previousScroll = scroll;    });
        
   });

@@ -11,30 +11,35 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100" id="navbar">
-		<div class="nav d-flex justify-content-between align-items-center" id="nav">
-			<img class="logo" src="/assets/LOGOF.png" alt="">
-			<ul class="d-flex" id="nav-link">
-				<li class="nav-link"><a href="/">Inicio</a></li> <li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Productos</a></li><li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Accesorios y Repuestos</a></li><li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	</li><li class="nav-link">|</li>
-				<li class="nav-link"><a href="/contact.html">Contactenos</a></li>
-				
-			</ul>	
+  <nav class="w-100" id="navbar">
+		<div class="nav d-flex justify-content-between" id="nav">
+			<div class="d-flex ham justify-content-between align-items-center">
+				<img class="logo" src="/assets/LOGOF.png" alt="">
+				<img class="menu-icon only-mobile" src="/assets/SVG/menu-blanco.svg" alt="">
+			</div>
+			<div>
+				<ul class="menu-opciones" id="nav-link">
+					<li class="nav-link"><a href="/">Inicio</a></li> <li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Productos</a></li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Accesorios y Repuestos</a></li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	</li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a href="/contact.html">Contactenos</a></li>
+					
+				</ul>	
+			</div>
 		</div>
 		<div class="ele" id="lineas" style="background-image: url('/assets/BACKGROUND-1.png');">
 			<div class="row w-100">
 				<div class="cerrar" id="close-menu">
 					<img src="/assets/cancel.png" alt="">
 				</div>
-				<ul class="subtitle d-flex justify-content-center color-blanco">
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 " id="solar-ancla">Línea Solar</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="industrial-ancla">Línea Industrial</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 "id="alumbrado-ancla">Alumbrado Público</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 "id="tubos-ancla">Tubos LED</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="panel-ancla">Panel LED</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="postes-ancla">Postes</button>
+				<ul class="subtitle d-flex flex-wrap justify-content-center color-blanco">
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="solar-ancla">Línea Solar</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="industrial-ancla">Línea Industrial</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2"id="alumbrado-ancla">Alumbrado Público</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2"id="tubos-ancla">Tubos LED</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="panel-ancla">Panel LED</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="postes-ancla">Postes</button>
 				</ul>
 			</div>
 			<div class="row lineas-internas solar" id="solar">
@@ -250,10 +255,10 @@
 			</div>
 		</section>
     <div class="iconos container color-azul pt-5"style=" text-align: center;">
-      <a style="font-size:1.5vw"href="linea-solar.html">Pagina siguiente <i class="icon-next color-azul-claro" style=" font-size: 10px;line-height: 20px;"></i><i class="icon-next color-azul-claro"style=" font-size: 10px;line-height: 20px"></i></a>
+      <a style="font-size:1.5vw" href="linea-solar.html">Pagina siguiente <i class="icon-next color-azul-claro" style=" font-size: 10px;line-height: 20px;"></i><i class="icon-next color-azul-claro"style=" font-size: 10px;line-height: 20px"></i></a>
     </div>
 		<section class="linea ">
-			<div class="container pt-5 ">
+			<div class="container py-5 ">
 				<div class="row ">
                     <h3 class="color-azul completas">Poste en Acero Circular</h3>
                     <p class="texto color-gris pt-3 completas">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias rerum minus suscipit dolorem non saepe magni! Omnis voluptatibus sapiente magni aliquam dicta. Inventore ut aut maiores sunt provident laborum.</p>
@@ -654,15 +659,15 @@
         </div>
         <footer class="w-100 bg-oscuro pt-3">
           <div class="container">
-            <div class="row w-100 pt-2 ">
-              <div class="col mb-auto p-2 bd-highlight">
+            <div class="d-flex justify-content-between w-100 pt-2 ">
+              <div class="mb-auto p-2 bd-highlight">
                 <img src="/assets/LOGOF.svg" alt="150px" width="130px">  
-                <p style="color: #3c3c3b;">__________________________________________________________________________________________________________________________________________________</p>
               </div>
-              <div class=" col mb-auto p-2 bd-highlight">
-                <img class="globo justify-content-end" src="/assets/GLOBO_1.png" alt="" width="">
+              <div class="mb-auto p-2 bd-highlight">
+                <img class="globo justify-content-end" src="/assets/GLOBO_1.png" alt="">
               </div>
             </div>
+            <hr style="color: #5a5a5a; width: 90%;">
             <div class="row w-100 pt-2 ">
               <div class="col">
                 <h6 class="color-blanco">Empresa</h6>

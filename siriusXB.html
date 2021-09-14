@@ -11,30 +11,35 @@
     <title>Lirvan</title>
 </head>
 <body>
-	<nav class="w-100" id="navbar">
-		<div class="nav d-flex justify-content-between align-items-center" id="nav">
-			<img class="logo" src="/assets/LOGOF.png" alt="">
-			<ul class="d-flex" id="nav-link">
-				<li class="nav-link"><a href="/">Inicio</a></li> <li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Productos</a></li><li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Accesorios y Repuestos</a></li><li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	</li><li class="nav-link">|</li>
-				<li class="nav-link"><a href="/contact.html">Contactenos</a></li>
-				
-			</ul>	
+  <nav class="w-100" id="navbar">
+		<div class="nav d-flex justify-content-between" id="nav">
+			<div class="d-flex ham justify-content-between align-items-center">
+				<img class="logo" src="/assets/LOGOF.png" alt="">
+				<img class="menu-icon only-mobile" src="/assets/SVG/menu-blanco.svg" alt="">
+			</div>
+			<div>
+				<ul class="menu-opciones" id="nav-link">
+					<li class="nav-link"><a href="/">Inicio</a></li> <li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Productos</a></li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Accesorios y Repuestos</a></li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	</li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a href="/contact.html">Contactenos</a></li>
+					
+				</ul>	
+			</div>
 		</div>
 		<div class="ele" id="lineas" style="background-image: url('/assets/BACKGROUND-1.png');">
 			<div class="row w-100">
 				<div class="cerrar" id="close-menu">
 					<img src="/assets/cancel.png" alt="">
 				</div>
-				<ul class="subtitle d-flex justify-content-center color-blanco">
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 " id="solar-ancla">Línea Solar</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="industrial-ancla">Línea Industrial</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 "id="alumbrado-ancla">Alumbrado Público</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 "id="tubos-ancla">Tubos LED</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="panel-ancla">Panel LED</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="postes-ancla">Postes</button>
+				<ul class="subtitle d-flex flex-wrap justify-content-center color-blanco">
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="solar-ancla">Línea Solar</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="industrial-ancla">Línea Industrial</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2"id="alumbrado-ancla">Alumbrado Público</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2"id="tubos-ancla">Tubos LED</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="panel-ancla">Panel LED</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="postes-ancla">Postes</button>
 				</ul>
 			</div>
 			<div class="row lineas-internas solar" id="solar">
@@ -252,15 +257,15 @@
             </div>
         </section>
         <div class="color" >
-          <button class="btn btn-light"onclick="blanco()" value="blanco"><svg   xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+          <button class="btn btn-light blanco-btn" value="blanco"><svg   xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
           </svg></button>
-          <button class="btn btn-light"onclick="negro()"value="negro"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+          <button class="btn btn-light negro-btn" value="negro"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
             <circle cx="8" cy="8" r="8"/>
           </svg></button>
         </div>
-    <section class="linea "id="negro-1">
-      <div class="container pt-5">
+    <section class="linea linea-negro">
+      <div class="container py-5">
         
         <div class="row justify-content-center d-flex">
             <div class="item">
@@ -423,7 +428,7 @@
     </div>  
         
     </section>
-    <section class="linea blanco"id="blanco-1">
+    <section class="linea linea-blanco">
       <div class="container pt-5">
         
         <div class="row justify-content-center d-flex">
@@ -588,64 +593,64 @@
         
     </section>
     <footer class="w-100 bg-oscuro pt-3">
-				<div class="container">
-					<div class="row w-100 pt-2 ">
-						<div class="col mb-auto p-2 bd-highlight">
-							<img src="/assets/LOGOF.svg" alt="150px" width="130px">  
-							<p style="color: #3c3c3b;">__________________________________________________________________________________________________________________________________________________</p>
-						</div>
-						<div class=" col mb-auto p-2 bd-highlight">
-							<img class="globo justify-content-end" src="/assets/GLOBO_1.png" alt="" width="">
-						</div>
-					</div>
-					<div class="row w-100 pt-2 ">
-						<div class="col">
-							<h6 class="color-blanco">Empresa</h6>
-							<ul class="color-blanco">
-								<li style=" margin-left: -32px;">Carrera 54 # 72a-272</li>
-								<li style="margin-left: -32px;">Itaguí, Antioquia</li>
-								<li style="margin-left: -32px;">3007256089</li>
-								<li class="color-azul-claro "style="margin-left: -32px;">info@lirvan.com</li>
-							</ul>
-						</div>
-						<div class="col">
-							<h6 class="color-blanco">Legal</h6>
-							<ul class="color-blanco">
-								<li style="margin-left: -32px;">Términos de Uso</li>
-								<li style="margin-left: -32px;">Políticas de Privacidad</li>
-								<li style="margin-left: -32px;">Política de Datos</li>
-							</ul>
-						</div>
-						<div class="col d-flex align-items-start justify-content-center mt-5">
-							<h5 class="color-blanco ">Síguenos en <br> Redes Sociales</h5>
-						</div>
-						<div class="col-lg-3 d-flex align-items-start justify-content-center mt-5">
-						<div class="  col  ms-4 ">
-							<ul class="color-blanco" >
-							<a class="iconos color color-blanco fab fa-facebook-square fa-lg"style="margin: .3vw;"href="https://www.facebook.com/lirvan.ligthing/?ref=py_c"></a> 
-							<a class="iconos fab  color-blanco fa-instagram fa-lg"style="margin: .3vw;"href="https://www.instagram.com/lirvan.ligthing/"></a>
-							<a class="iconos fab color-blanco fa-twitter fa-lg"style="margin: .3vw;"href="https://twitter.com/LirvanCo"></a>
-							<a class="iconos fab color-blanco fa-linkedin-in fa-lg"style="margin: .3vw;"href="https://www.linkedin.com/in/lirvan-co-913193213/"></a>
-							<a class="iconos color-blanco fab fa-youtube fa-lg"style="margin: .3vw;"href="https://www.youtube.com/channel/UCNIfE0g0JiQmA6Yb3t14B5g"></a>
-							 
-							
-							</ul>
-						</div>
-					</div>
-						<div class="col position-relative">
-							<ul class="color-blanco position-absolute mt-5 start-50 translate-middle">
-								<li>(034)3229200</li>
-								<p>lunes a viernes</p>
-							</ul>
-						</div>
-						<div class="col">
-							
-							
-						</div>
-						<p class="color-blanco" style="text-align: center;">2021 Lirvan | Todos los derechos reservados</p>
-					</div>
-				</div>
-			</footer>
+      <div class="container">
+        <div class="d-flex justify-content-between w-100 pt-2 ">
+          <div class="mb-auto p-2 bd-highlight">
+            <img src="/assets/LOGOF.svg" alt="150px" width="130px">  
+          </div>
+          <div class="mb-auto p-2 bd-highlight">
+            <img class="globo justify-content-end" src="/assets/GLOBO_1.png" alt="">
+          </div>
+        </div>
+        <hr style="color: #5a5a5a; width: 90%;">
+        <div class="row w-100 pt-2 ">
+          <div class="col">
+            <h6 class="color-blanco">Empresa</h6>
+            <ul class="color-blanco">
+              <li style=" margin-left: -32px;">Carrera 54 # 72a-272</li>
+              <li style="margin-left: -32px;">Itaguí, Antioquia</li>
+              <li style="margin-left: -32px;">3007256089</li>
+              <li class="color-azul-claro "style="margin-left: -32px;">info@lirvan.com</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6 class="color-blanco">Legal</h6>
+            <ul class="color-blanco">
+              <li style="margin-left: -32px;">Términos de Uso</li>
+              <li style="margin-left: -32px;">Políticas de Privacidad</li>
+              <li style="margin-left: -32px;">Política de Datos</li>
+            </ul>
+          </div>
+          <div class="col d-flex align-items-start justify-content-center mt-5">
+            <h5 class="color-blanco ">Síguenos en <br> Redes Sociales</h5>
+          </div>
+          <div class="col-lg-3 d-flex align-items-start justify-content-center mt-5">
+          <div class="  col  ms-4 ">
+            <ul class="color-blanco" >
+            <a class="iconos color color-blanco fab fa-facebook-square fa-lg"style="margin: .3vw;"href="https://www.facebook.com/lirvan.ligthing/?ref=py_c"></a> 
+            <a class="iconos fab  color-blanco fa-instagram fa-lg"style="margin: .3vw;"href="https://www.instagram.com/lirvan.ligthing/"></a>
+            <a class="iconos fab color-blanco fa-twitter fa-lg"style="margin: .3vw;"href="https://twitter.com/LirvanCo"></a>
+            <a class="iconos fab color-blanco fa-linkedin-in fa-lg"style="margin: .3vw;"href="https://www.linkedin.com/in/lirvan-co-913193213/"></a>
+            <a class="iconos color-blanco fab fa-youtube fa-lg"style="margin: .3vw;"href="https://www.youtube.com/channel/UCNIfE0g0JiQmA6Yb3t14B5g"></a>
+             
+            
+            </ul>
+          </div>
+        </div>
+          <div class="col position-relative">
+            <ul class="color-blanco position-absolute mt-5 start-50 translate-middle">
+              <li>(034)3229200</li>
+              <p>lunes a viernes</p>
+            </ul>
+          </div>
+          <div class="col">
+            
+            
+          </div>
+          <p class="color-blanco" style="text-align: center;">2021 Lirvan | Todos los derechos reservados</p>
+        </div>
+      </div>
+    </footer>
     </div>
 
 </body>

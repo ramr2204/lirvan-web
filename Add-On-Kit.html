@@ -12,36 +12,41 @@
 </head>
 <body>
 	<nav class="w-100" id="navbar">
-		<div class="nav d-flex justify-content-between align-items-center" id="nav">
-			<img class="logo" src="/assets/LOGOF.png" alt="">
-			<ul class="d-flex" id="nav-link">
-				<li class="nav-link"><a href="/">Inicio</a></li> <li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Productos</a></li><li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Accesorios y Repuestos</a></li><li class="nav-link">|</li>
-				<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	</li><li class="nav-link">|</li>
-				<li class="nav-link"><a href="/contact.html">Contactenos</a></li>
-				
-			</ul>	
+		<div class="nav d-flex justify-content-between" id="nav">
+			<div class="d-flex ham justify-content-between align-items-center">
+				<img class="logo" src="/assets/LOGOF.png" alt="">
+				<img class="menu-icon only-mobile" src="/assets/SVG/menu-blanco.svg" alt="">
+			</div>
+			<div>
+				<ul class="menu-opciones" id="nav-link">
+					<li class="nav-link"><a href="/">Inicio</a></li> <li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Productos</a></li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Accesorios y Repuestos</a></li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a id="toggle-menu">Acerca de Nosotros</a>	</li><li class="nav-link only-desk">|</li>
+					<li class="nav-link"><a href="/contact.html">Contactenos</a></li>
+					
+				</ul>	
+			</div>
 		</div>
 		<div class="ele" id="lineas" style="background-image: url('/assets/BACKGROUND-1.png');">
 			<div class="row w-100">
 				<div class="cerrar" id="close-menu">
 					<img src="/assets/cancel.png" alt="">
 				</div>
-				<ul class="subtitle d-flex justify-content-center color-blanco">
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 " id="solar-ancla">Línea Solar</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="industrial-ancla">Línea Industrial</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 "id="alumbrado-ancla">Alumbrado Público</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4 "id="tubos-ancla">Tubos LED</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="panel-ancla">Panel LED</button>
-					<button type="button" class="iconos btn btn-secondary btn-sm m-4" id="postes-ancla">Postes</button>
+				<ul class="subtitle d-flex flex-wrap justify-content-center color-blanco">
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="solar-ancla">Línea Solar</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="industrial-ancla">Línea Industrial</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2"id="alumbrado-ancla">Alumbrado Público</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2"id="tubos-ancla">Tubos LED</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="panel-ancla">Panel LED</button>
+					<button type="button" class="iconos btn btn-secondary btn-sm m-sm-4 m-2" id="postes-ancla">Postes</button>
 				</ul>
 			</div>
 			<div class="row lineas-internas solar" id="solar">
 				<div class="elemento justify-content-center">
 					<div class="it">
 						<a href="/polux.html">
-							<a href="/polux.html" class=" iconos  name color-blanco">Pólux</a>
+							<a href="/polux.html" class="name color-blanco">Pólux</a>
 							<img class="img-fluid img-on  " src="/assets/menun-imagenes/1.png" alt="">
 								<img class="img-fluid img-off" src="/assets/menun-imagenes/1a.png" alt="">
 								
@@ -49,7 +54,7 @@
 					</div>
 					<div class="it" >
 						<a href="/alfa.html">
-							<a href="/alfa.html" class="iconos name color-blanco">Alfa</a>
+							<a href="/alfa.html" class="name color-blanco ">Alfa</a>
 							<img class="img-fluid img-on  " src="/assets/menun-imagenes/2.png ">
 								<img class="img-fluid img-off" src="/assets/menun-imagenes/2a.png " alt="">
 								
@@ -58,7 +63,7 @@
 					</div>
 					<div class="it" id="item">
 						<a href="/centauri.html">
-							<a href="/centauri.html" class="iconos name color-blanco">Centauri</a>
+							<a href="/centauri.html" class="name color-blanco">Centauri</a>
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/3.png">
                         <img class="img-fluid img-off" src="/assets/menun-imagenes/3a.png">
 						
@@ -67,7 +72,7 @@
 					</div>
 					<div class="it" id="item">
 						<a href="/titan.html">
-							<a href="/titan.html" class="iconos name color-blanco">Titán</a>
+							<a href="/titan.html" class="name color-blanco">Titán</a>
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/4.png" alt="">
                         	<img class="img-fluid img-off" src="/assets/menun-imagenes/4a.png" alt="">
 								 
@@ -75,8 +80,8 @@
 						</a>
 					</div>
                     <div class="it" id="item">
-						<a href="/Add-On Kit.html">
-							<a href="/Add-On Kit.html" class="iconos name color-blanco">Add-On Kit</a>
+						<a href="/Add-On-Kit.html">
+							<a href="/Add-On-Kit.html" class="name color-blanco">Add-on kit</a>
 							<img class="img-fluid img-on" src="/assets/PNG-Add On Kit/menu.png" alt="">
                         	<img class="img-fluid img-off" src="/assets/PNG-Add On Kit/menu.png" alt="">
 								 
@@ -85,7 +90,7 @@
 					</div>
 					<div class="it" id="item">
 						<a href="/sirius-solarB.html">
-							<a href="/sirius-solarB.html" class="iconos name color-blanco">Solar-SiriusB</a>
+							<a href="/sirius-solarB.html" class="name color-blanco">Solar-SiriusB</a>
 							<img class="img-fluid img-on" src="/assets/PNG-SOLAR-SIRIUSB/menu.png" alt="">
                         	<img class="img-fluid img-off" src="/assets/PNG-SOLAR-SIRIUSB/menu.png" alt="">
 								 
@@ -105,14 +110,14 @@
 						<a href="/sirius.html">
 							<img class="img-fluid img-off" src="/assets/menun-imagenes/sirius2.png" alt="">
 					        <img class="img-fluid img-on" src="/assets/menun-imagenes/sirius1.png" alt="">
-							<a href="/sirius.html" class="iconos name color-blanco">Sirius</a>
+							<a href="/sirius.html" class="name color-blanco">Sirius</a>
 						</a>
 					</div>
 					<div class="it" id="item">
 						<a href="/siriusb.html">
 							<img class="img-fluid img-off" src="/assets/menun-imagenes/SiriusB2.png" alt=""> 	
 							<img class="img-fluid img-on pe" src="/assets/menun-imagenes/SiriusB1.png" alt="">
-							<a href="/siriusb.html" class="iconos name color-blanco">SiriusB</a>
+							<a href="/siriusb.html" class="name color-blanco">SiriusB</a>
 							
 						</a>
 					</div>
@@ -120,7 +125,7 @@
 						<a href="/siriusx.html">
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/SiriusX1.png" alt="">
                             <img class="img-fluid img-off" src="/assets/menun-imagenes/SiriusX2.png" alt="">
-							<a href="/siriusx.html" class="iconos name color-blanco">SiriusX</a>
+							<a href="/siriusx.html" class="name color-blanco">SiriusX</a>
 							
 						</a>
 					</div>
@@ -128,14 +133,14 @@
 						<a href="/siriusXB.html">
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/SiriusX1.png" alt="">
                             <img class="img-fluid img-off" src="/assets/menun-imagenes/SiriusX2.png" alt="">
-							<a href="/siriusXB.html" class="iconos name color-blanco">SiriusXB</a>
+							<a href="/siriusXB.html" class="name color-blanco">SiriusXB</a>
 						</a>
 					</div>
 					<div class="it item-3" id="item">
 						<a href="/siriusxp.html">
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/SiriusXPB1.png" alt="">
                             <img class="img-fluid img-off" src="/assets/menun-imagenes/SiriusXPB2.png" alt="">
-							<a href="/siriusxp.html" class="iconos name color-blanco">SiriusXP</a>
+							<a href="/siriusxp.html" class="name color-blanco">SiriusXP</a>
 							
 						</a>
 					</div>
@@ -143,7 +148,7 @@
 						<a href="/siriusXBP.html">
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/SiriusXPB1.png" alt="">
                             <img class="img-fluid img-off" src="/assets/menun-imagenes/SiriusXPB2.png" alt="">
-							<a href="/siriusXBP.html" class="iconos name color-blanco">SiriusXBP</a>
+							<a href="/siriusXBP.html" class="name color-blanco">SiriusXBP</a>
 							
 						</a>
 					</div>
@@ -156,7 +161,7 @@
 				<div class="elemento justify-content-center">
 					<div class="it"id="item">
 						<a href="/vialux.html">
-							<a href="/vialux.html" class="iconos iconos name color-blanco">Vialux</a>
+							<a href="/vialux.html" class="name color-blanco ">Vialux</a>
 							<img class="img-fluid img-on  " src="/assets/menun-imagenes/vialux1.png" alt="">
 								<img class="img-fluid img-off" src="/assets/menun-imagenes/vialux2.png" alt="">
 								
@@ -172,7 +177,7 @@
 				<div class="elemento justify-content-center">
 					<div class="it">
 						<a href="/tubos.html">
-							<a href="/tubos.html" class="iconos iconos name color-blanco">T5 Ultra Eficiente</a>
+							<a href="/tubos.html" class="name color-blanco ">T5 Ultra Eficiente</a>
 							<img class="img-fluid img-on  " src="/assets/menun-imagenes/T51.png" alt="">
 								<img class="img-fluid img-off" src="/assets/menun-imagenes/T52.png" alt="">
 								
@@ -181,7 +186,7 @@
 					</div>
 					<div class="it" id="item">
 						<a href="/tubos-8.html">
-							<a href="/tubos-8.html" class="iconos name color-blanco">T8 Eficiente</a>
+							<a href="/tubos-8.html" class="name color-blanco">T8 Eficiente</a>
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/T81.png" alt="">
                         	<img class="img-fluid img-off" src="/assets/menun-imagenes/T82.png" alt="">
 							
@@ -197,7 +202,7 @@
 				<div class="elemento justify-content-center">
 					<div class="it">
 						<a href="/paneles.html">
-							<a href="/paneles.html" class="iconos name color-blanco Mt--5">Plenux-40</a>
+							<a href="/paneles.html" class="name color-blanco Mt--5">Plenux-40</a>
 							<img class="img-fluid img-on  " src="/assets/menun-imagenes/plenus40_1.png" alt="">
 								<img class="img-fluid img-off" src="/assets/menun-imagenes/plenus40_2.png" alt="">
 							
@@ -214,7 +219,7 @@
 				<div class="elemento justify-content-center">
 					<div class="it">
 						<a href="/postes.html">
-							<a href="/postes.html" class="iconos  name color-blanco Mt--5">Poste en Acero</a>
+							<a href="/postes.html" class="name color-blanco Mt--5">Poste en Acero</a>
 							<img class="img-fluid img-on  " src="/assets/menun-imagenes/poste1.png" alt="">
 								<img class="img-fluid img-off" src="/assets/menun-imagenes/poste1.png" alt="">
 							
@@ -222,7 +227,7 @@
 					</div>
 					<div class="it" id="item">
 						<a href="/brazos.html">
-							<a href="/brazos.html" class="iconos name color-blanco">Brazos</a>
+							<a href="/brazos.html" class="name color-blanco">Brazos</a>
 							<img class="img-fluid img-on" src="/assets/menun-imagenes/brazo1.png" alt="">
                         	<img class="img-fluid img-off" src="/assets/menun-imagenes/brazo1.png" alt="">
 							 
@@ -285,7 +290,7 @@
 			</div>
 		</section>
 			<section class="linea">
-				<div class="container pt-5  ">
+				<div class="container py-5  ">
 					
 					<div class="row justify-content-center  d-flex">
 						<div class="item">
@@ -626,15 +631,15 @@
 			</section>
 			<footer class="w-100 bg-oscuro pt-3">
 				<div class="container">
-					<div class="row w-100 pt-2 ">
-						<div class="col mb-auto p-2 bd-highlight">
+					<div class="d-flex justify-content-between w-100 pt-2 ">
+						<div class="mb-auto p-2 bd-highlight">
 							<img src="/assets/LOGOF.svg" alt="150px" width="130px">  
-							<p style="color: #3c3c3b;">__________________________________________________________________________________________________________________________________________________</p>
 						</div>
-						<div class=" col mb-auto p-2 bd-highlight">
-							<img class="globo justify-content-end" src="/assets/GLOBO_1.png" alt="" width="">
+						<div class="mb-auto p-2 bd-highlight">
+							<img class="globo justify-content-end" src="/assets/GLOBO_1.png" alt="">
 						</div>
 					</div>
+					<hr style="color: #5a5a5a; width: 90%;">
 					<div class="row w-100 pt-2 ">
 						<div class="col">
 							<h6 class="color-blanco">Empresa</h6>
